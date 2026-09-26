@@ -5,7 +5,7 @@
     {
       "id": "repertory",
       "name": "Repertory",
-      "total_seconds": 305214.792106,
+      "total_seconds": 421952.946858,
       "tracks": [
         "his-girl-friday",
         "royal-wedding",
@@ -63,7 +63,31 @@
         "the-amazing-adventure",
         "eternally-yours",
         "love-laughs-at-andy-hardy",
-        "at-war-with-the-army"
+        "at-war-with-the-army",
+        "the-duke-is-tops",
+        "happy-go-lovely",
+        "glorifying-the-american-girl",
+        "road-to-hollywood",
+        "swing-hostess",
+        "all-american-co-ed",
+        "breakfast-in-hollywood",
+        "minstrel-man",
+        "people-are-funny",
+        "the-milky-way",
+        "the-sin-of-harold-diddlebock",
+        "earthworm-tractors",
+        "pecks-bad-boy",
+        "speak-easily",
+        "hook-line-and-sinker",
+        "the-animal-kingdom",
+        "algiers",
+        "the-scarlet-letter",
+        "the-scarlet-pimpernel",
+        "return-of-the-scarlet-pimpernel",
+        "bird-of-paradise",
+        "the-snows-of-kilimanjaro",
+        "rain",
+        "abraham-lincoln"
       ]
     },
     {
@@ -97,7 +121,7 @@
     {
       "id": "comedy",
       "name": "Comedy",
-      "total_seconds": 63961.637208,
+      "total_seconds": 102392.80925,
       "tracks": [
         "his-girl-friday",
         "the-flying-deuces",
@@ -110,13 +134,21 @@
         "the-amazing-adventure",
         "eternally-yours",
         "love-laughs-at-andy-hardy",
-        "at-war-with-the-army"
+        "at-war-with-the-army",
+        "people-are-funny",
+        "the-milky-way",
+        "the-sin-of-harold-diddlebock",
+        "earthworm-tractors",
+        "pecks-bad-boy",
+        "speak-easily",
+        "hook-line-and-sinker",
+        "the-animal-kingdom"
       ]
     },
     {
       "id": "drama",
       "name": "Drama & Romance",
-      "total_seconds": 71325.66673,
+      "total_seconds": 113916.70748,
       "tracks": [
         "penny-serenade",
         "love-affair",
@@ -129,13 +161,21 @@
         "anna-christie",
         "a-star-is-born",
         "meet-john-doe",
-        "of-human-bondage"
+        "of-human-bondage",
+        "algiers",
+        "the-scarlet-letter",
+        "the-scarlet-pimpernel",
+        "return-of-the-scarlet-pimpernel",
+        "bird-of-paradise",
+        "the-snows-of-kilimanjaro",
+        "rain",
+        "abraham-lincoln"
       ]
     },
     {
       "id": "musicals",
       "name": "Musicals",
-      "total_seconds": 60782.743729,
+      "total_seconds": 96498.685689,
       "tracks": [
         "royal-wedding",
         "second-chorus",
@@ -148,16 +188,25 @@
         "reet-petite-and-gone",
         "hi-de-ho",
         "killer-diller",
-        "swing-high-swing-low"
+        "swing-high-swing-low",
+        "the-duke-is-tops",
+        "happy-go-lovely",
+        "glorifying-the-american-girl",
+        "road-to-hollywood",
+        "swing-hostess",
+        "all-american-co-ed",
+        "breakfast-in-hollywood",
+        "minstrel-man"
       ]
     },
     {
       "id": "doctor-who",
       "name": "Doctor Who",
       "tracks": [
-        "doctor-who-the-eleventh-hour"
+        "doctor-who-the-eleventh-hour",
+        "doctor-who-the-lodger"
       ],
-      "total_seconds": 3870.2145
+      "total_seconds": 6421.261
     }
   ]
 }

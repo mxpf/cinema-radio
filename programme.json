@@ -1,7 +1,7 @@
 {
   "updated": "2026-09-26",
   "epoch_utc": "2026-09-26T00:00:00Z",
-  "total_seconds": 309085.006606,
+  "total_seconds": 428374.207858,
   "tracks": [
     {
       "slug": "his-girl-friday",
@@ -408,6 +408,181 @@
       "year": "2010",
       "duration": 3870.2145,
       "file": "doctor-who-the-eleventh-hour.opus"
+    },
+    {
+      "slug": "the-duke-is-tops",
+      "title": "The Duke Is Tops",
+      "year": "1938",
+      "duration": 4512.945167,
+      "file": "the-duke-is-tops.opus"
+    },
+    {
+      "slug": "happy-go-lovely",
+      "title": "Happy Go Lovely",
+      "year": "1951",
+      "duration": 5817.255313,
+      "file": "happy-go-lovely.opus"
+    },
+    {
+      "slug": "glorifying-the-american-girl",
+      "title": "Glorifying the American Girl",
+      "year": "1929",
+      "duration": 5792.7425,
+      "file": "glorifying-the-american-girl.opus"
+    },
+    {
+      "slug": "road-to-hollywood",
+      "title": "Road to Hollywood",
+      "year": "1947",
+      "duration": 3200.807604,
+      "file": "road-to-hollywood.opus"
+    },
+    {
+      "slug": "swing-hostess",
+      "title": "Swing Hostess",
+      "year": "1944",
+      "duration": 4412.842792,
+      "file": "swing-hostess.opus"
+    },
+    {
+      "slug": "all-american-co-ed",
+      "title": "All-American Co-Ed",
+      "year": "1941",
+      "duration": 2914.435917,
+      "file": "all-american-co-ed.opus"
+    },
+    {
+      "slug": "breakfast-in-hollywood",
+      "title": "Breakfast in Hollywood",
+      "year": "1946",
+      "duration": 5249.4395,
+      "file": "breakfast-in-hollywood.opus"
+    },
+    {
+      "slug": "minstrel-man",
+      "title": "Minstrel Man",
+      "year": "1944",
+      "duration": 3815.473167,
+      "file": "minstrel-man.opus"
+    },
+    {
+      "slug": "people-are-funny",
+      "title": "People Are Funny",
+      "year": "1946",
+      "duration": 5211.469917,
+      "file": "people-are-funny.opus"
+    },
+    {
+      "slug": "the-milky-way",
+      "title": "The Milky Way",
+      "year": "1936",
+      "duration": 5246.939833,
+      "file": "the-milky-way.opus"
+    },
+    {
+      "slug": "the-sin-of-harold-diddlebock",
+      "title": "The Sin of Harold Diddlebock",
+      "year": "1947",
+      "duration": 5374.265021,
+      "file": "the-sin-of-harold-diddlebock.opus"
+    },
+    {
+      "slug": "earthworm-tractors",
+      "title": "Earthworm Tractors",
+      "year": "1936",
+      "duration": 4108.034458,
+      "file": "earthworm-tractors.opus"
+    },
+    {
+      "slug": "pecks-bad-boy",
+      "title": "Peck's Bad Boy",
+      "year": "1934",
+      "duration": 4076.059833,
+      "file": "pecks-bad-boy.opus"
+    },
+    {
+      "slug": "speak-easily",
+      "title": "Speak Easily",
+      "year": "1932",
+      "duration": 4858.5665,
+      "file": "speak-easily.opus"
+    },
+    {
+      "slug": "hook-line-and-sinker",
+      "title": "Hook Line and Sinker",
+      "year": "1930",
+      "duration": 4481.457167,
+      "file": "hook-line-and-sinker.opus"
+    },
+    {
+      "slug": "the-animal-kingdom",
+      "title": "The Animal Kingdom",
+      "year": "1932",
+      "duration": 5074.379313,
+      "file": "the-animal-kingdom.opus"
+    },
+    {
+      "slug": "algiers",
+      "title": "Algiers",
+      "year": "1938",
+      "duration": 5946.311833,
+      "file": "algiers.opus"
+    },
+    {
+      "slug": "the-scarlet-letter",
+      "title": "The Scarlet Letter",
+      "year": "1934",
+      "duration": 4175.209792,
+      "file": "the-scarlet-letter.opus"
+    },
+    {
+      "slug": "the-scarlet-pimpernel",
+      "title": "The Scarlet Pimpernel",
+      "year": "1934",
+      "duration": 5570.938042,
+      "file": "the-scarlet-pimpernel.opus"
+    },
+    {
+      "slug": "return-of-the-scarlet-pimpernel",
+      "title": "Return of the Scarlet Pimpernel",
+      "year": "1937",
+      "duration": 4585.947833,
+      "file": "return-of-the-scarlet-pimpernel.opus"
+    },
+    {
+      "slug": "bird-of-paradise",
+      "title": "Bird of Paradise",
+      "year": "1932",
+      "duration": 4832.032646,
+      "file": "bird-of-paradise.opus"
+    },
+    {
+      "slug": "the-snows-of-kilimanjaro",
+      "title": "The Snows of Kilimanjaro",
+      "year": "1952",
+      "duration": 6782.624938,
+      "file": "the-snows-of-kilimanjaro.opus"
+    },
+    {
+      "slug": "rain",
+      "title": "Rain",
+      "year": "1932",
+      "duration": 5618.203833,
+      "file": "rain.opus"
+    },
+    {
+      "slug": "abraham-lincoln",
+      "title": "Abraham Lincoln",
+      "year": "1930",
+      "duration": 5079.771833,
+      "file": "abraham-lincoln.opus"
+    },
+    {
+      "slug": "doctor-who-the-lodger",
+      "title": "The Lodger",
+      "year": "2010",
+      "duration": 2551.0465,
+      "file": "doctor-who-the-lodger.opus"
     }
   ],
   "mode": "multi-station",

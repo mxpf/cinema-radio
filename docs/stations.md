@@ -4,7 +4,7 @@ The side wheel selects six synchronized, repeating stations. Doctor Who is separ
 
 ## Repertory
 
-57 titles · 84.8 hours
+81 titles · 117.2 hours
 
 - His Girl Friday (1940)
 - Royal Wedding (1951)
@@ -63,6 +63,30 @@ The side wheel selects six synchronized, repeating stations. Doctor Who is separ
 - Eternally Yours (1939)
 - Love Laughs at Andy Hardy (1946)
 - At War with the Army (1950)
+- The Duke Is Tops (1938)
+- Happy Go Lovely (1951)
+- Glorifying the American Girl (1929)
+- Road to Hollywood (1947)
+- Swing Hostess (1944)
+- All-American Co-Ed (1941)
+- Breakfast in Hollywood (1946)
+- Minstrel Man (1944)
+- People Are Funny (1946)
+- The Milky Way (1936)
+- The Sin of Harold Diddlebock (1947)
+- Earthworm Tractors (1936)
+- Peck's Bad Boy (1934)
+- Speak Easily (1932)
+- Hook Line and Sinker (1930)
+- The Animal Kingdom (1932)
+- Algiers (1938)
+- The Scarlet Letter (1934)
+- The Scarlet Pimpernel (1934)
+- Return of the Scarlet Pimpernel (1937)
+- Bird of Paradise (1932)
+- The Snows of Kilimanjaro (1952)
+- Rain (1932)
+- Abraham Lincoln (1930)
 
 ## Noir & Mystery
 
@@ -92,7 +116,7 @@ The side wheel selects six synchronized, repeating stations. Doctor Who is separ
 
 ## Comedy
 
-12 titles · 17.8 hours
+20 titles · 28.4 hours
 
 - His Girl Friday (1940)
 - The Flying Deuces (1939)
@@ -106,10 +130,18 @@ The side wheel selects six synchronized, repeating stations. Doctor Who is separ
 - Eternally Yours (1939)
 - Love Laughs at Andy Hardy (1946)
 - At War with the Army (1950)
+- People Are Funny (1946)
+- The Milky Way (1936)
+- The Sin of Harold Diddlebock (1947)
+- Earthworm Tractors (1936)
+- Peck's Bad Boy (1934)
+- Speak Easily (1932)
+- Hook Line and Sinker (1930)
+- The Animal Kingdom (1932)
 
 ## Drama & Romance
 
-12 titles · 19.8 hours
+20 titles · 31.6 hours
 
 - Penny Serenade (1941)
 - Love Affair (1939)
@@ -123,10 +155,18 @@ The side wheel selects six synchronized, repeating stations. Doctor Who is separ
 - A Star Is Born (1937)
 - Meet John Doe (1941)
 - Of Human Bondage (1934)
+- Algiers (1938)
+- The Scarlet Letter (1934)
+- The Scarlet Pimpernel (1934)
+- Return of the Scarlet Pimpernel (1937)
+- Bird of Paradise (1932)
+- The Snows of Kilimanjaro (1952)
+- Rain (1932)
+- Abraham Lincoln (1930)
 
 ## Musicals
 
-12 titles · 16.9 hours
+20 titles · 26.8 hours
 
 - Royal Wedding (1951)
 - Second Chorus (1940)
@@ -140,9 +180,18 @@ The side wheel selects six synchronized, repeating stations. Doctor Who is separ
 - Hi De Ho (1947)
 - Killer Diller (1948)
 - Swing High Swing Low (1937)
+- The Duke Is Tops (1938)
+- Happy Go Lovely (1951)
+- Glorifying the American Girl (1929)
+- Road to Hollywood (1947)
+- Swing Hostess (1944)
+- All-American Co-Ed (1941)
+- Breakfast in Hollywood (1946)
+- Minstrel Man (1944)
 
 ## Doctor Who
 
-1 titles · 1.1 hours
+2 titles · 1.8 hours
 
 - The Eleventh Hour (2010)
+- The Lodger (2010)
