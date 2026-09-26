@@ -7,3 +7,5 @@ Click the radio icon in the menu bar to show or hide the radio. Closing the popo
 Build with `./macos/build.sh` on a Mac with Apple's command-line developer tools. This builds a universal app and applies an ad-hoc signature. This initial build is not Developer ID signed or notarized; downloaded copies may require approval in System Settings → Privacy & Security before first launch.
 
 The app loads https://radio.maxpfennig.haus and receives future radio interface/catalogue changes from that site. It does not download or bundle the soundtracks, start at login, or install a background service.
+
+The app icon is a miniature of the radio, with an ivory case, speaker grille, amber screen, and concentric dial. The build converts `assets/CinemaRadio.png` into all standard macOS icon sizes.
