@@ -45,3 +45,9 @@ A future deployment can use a static site host and object storage for audio. Sto
 Run `npm test` (Node.js required; no dependencies to install). The tests cover all station boundaries, tuning, rapid changes, power and sleep fades, keyboard/pointer input, and marquee behavior. These use a lightweight DOM/audio model; they do not replace browser playback or visual testing.
 
 IBM Plex is provided under the license in `assets/fonts/IBM-Plex-LICENSE.txt`. No license is granted here for other project code or media.
+
+## Keepinghaus page
+
+The interface is prepared for `/cinema-radio/` on Keepinghaus, with an unobtrusive inspiration credit and source link. Inspired by [Cinema Radio by Hiran Venugopalan and Arun Sajeev](https://hiran.in/projects/cinema-radio/). The source link points to this repository.
+
+Copy `index.html`, `config.js`, and `assets/` together into the site's `cinema-radio/` directory. Configure the media URL before publication; local audio symlinks are not a deployment. The Keepinghaus bounded release must explicitly admit this new page and its assets before deploying it.
