@@ -1,0 +1,37 @@
+name: Publish radio
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  publish:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm test
+      - name: Check media hosting is configured
+        run: node -e 'const fs=require("fs"); if(!/CINEMA_RADIO_MEDIA_BASE_URL\s*=\s*"https:\/\//.test(fs.readFileSync("config.js","utf8"))) throw new Error("Configure HTTPS audio hosting before publishing")'
+      - name: Package only public site files
+        run: |
+          mkdir _site
+          cp index.html config.js CNAME _site/
+          cp -R assets _site/
+          touch _site/.nojekyll
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
