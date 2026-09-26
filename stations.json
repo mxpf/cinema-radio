@@ -5,7 +5,7 @@
     {
       "id": "repertory",
       "name": "Repertory",
-      "total_seconds": 248046.500794,
+      "total_seconds": 305214.792106,
       "tracks": [
         "his-girl-friday",
         "royal-wedding",
@@ -51,7 +51,19 @@
         "borderline",
         "hitch-hiker",
         "guest-in-the-house",
-        "the-man-who-cheated-himself"
+        "the-man-who-cheated-himself",
+        "private-buckaroo",
+        "delightfully-dangerous",
+        "something-to-sing-about",
+        "the-fabulous-dorseys",
+        "reet-petite-and-gone",
+        "hi-de-ho",
+        "killer-diller",
+        "swing-high-swing-low",
+        "the-amazing-adventure",
+        "eternally-yours",
+        "love-laughs-at-andy-hardy",
+        "at-war-with-the-army"
       ]
     },
     {
@@ -85,7 +97,7 @@
     {
       "id": "comedy",
       "name": "Comedy",
-      "total_seconds": 43821.940104,
+      "total_seconds": 63961.637208,
       "tracks": [
         "his-girl-friday",
         "the-flying-deuces",
@@ -94,7 +106,11 @@
         "my-man-godfrey",
         "the-inspector-general",
         "nothing-sacred",
-        "beat-the-devil"
+        "beat-the-devil",
+        "the-amazing-adventure",
+        "eternally-yours",
+        "love-laughs-at-andy-hardy",
+        "at-war-with-the-army"
       ]
     },
     {
@@ -119,13 +135,29 @@
     {
       "id": "musicals",
       "name": "Musicals",
-      "total_seconds": 23754.149521,
+      "total_seconds": 60782.743729,
       "tracks": [
         "royal-wedding",
         "second-chorus",
         "till-the-clouds-roll-by",
-        "pot-o-gold"
+        "pot-o-gold",
+        "private-buckaroo",
+        "delightfully-dangerous",
+        "something-to-sing-about",
+        "the-fabulous-dorseys",
+        "reet-petite-and-gone",
+        "hi-de-ho",
+        "killer-diller",
+        "swing-high-swing-low"
       ]
+    },
+    {
+      "id": "doctor-who",
+      "name": "Doctor Who",
+      "tracks": [
+        "doctor-who-the-eleventh-hour"
+      ],
+      "total_seconds": 3870.2145
     }
   ]
 }

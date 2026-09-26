@@ -6,15 +6,16 @@ An ambient, always-on English-language cinema-as-radio service: film soundtracks
 
 Open `index.html` in a browser, or serve this folder with a static file server. There is no build step, database, or application server.
 
-The interface and metadata are included. **Audio is not stored in Git.** Place the 45 Opus files listed in `programme.json` into `audio/`, or set `CINEMA_RADIO_MEDIA_BASE_URL` in `config.js` to their object-storage URL prefix. Keep the exact filenames from the catalogue. A clone will display the radio without media, but playback needs those files.
+The interface and metadata are included. **Audio is not stored in Git.** Place the 58 Opus files listed in `programme.json` into `audio/`, or set `CINEMA_RADIO_MEDIA_BASE_URL` in `config.js` to their object-storage URL prefix. Keep the exact filenames from the catalogue. A clone will display the radio without media, but playback needs those files.
 
 ## Stations and controls
 
-- **Repertory** — all 45 films, about 68 hours 54 minutes.
+- **Repertory** — all 57 films.
 - **Noir & Mystery** — 21 films.
-- **Comedy** — 8 films.
+- **Comedy** — 12 films.
 - **Drama & Romance** — 12 films.
-- **Musicals** — 4 films.
+- **Musicals** — 12 films.
+- **Doctor Who** — 1 user-supplied episode, “The Eleventh Hour”.
 
 The right-hand wheel changes stations: drag up/down, scroll, tap for the next station, or use keyboard arrows. Each station has its own continuously repeating schedule anchored to 26 September 2026 at 00:00 UTC. Listeners join the current scheduled position. The selected station is remembered locally when browser storage is available.
 

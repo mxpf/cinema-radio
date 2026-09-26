@@ -1,7 +1,7 @@
 {
   "updated": "2026-09-26",
   "epoch_utc": "2026-09-26T00:00:00Z",
-  "total_seconds": 248046.500794,
+  "total_seconds": 309085.006606,
   "tracks": [
     {
       "slug": "his-girl-friday",
@@ -317,6 +317,97 @@
       "year": "1950",
       "duration": 4792.094313,
       "file": "the-man-who-cheated-himself.opus"
+    },
+    {
+      "slug": "private-buckaroo",
+      "title": "Private Buckaroo",
+      "year": "1942",
+      "duration": 4025.2225,
+      "file": "private-buckaroo.opus"
+    },
+    {
+      "slug": "delightfully-dangerous",
+      "title": "Delightfully Dangerous",
+      "year": "1945",
+      "duration": 5352.6465,
+      "file": "delightfully-dangerous.opus"
+    },
+    {
+      "slug": "something-to-sing-about",
+      "title": "Something to Sing About",
+      "year": "1937",
+      "duration": 5207.638625,
+      "file": "something-to-sing-about.opus"
+    },
+    {
+      "slug": "the-fabulous-dorseys",
+      "title": "The Fabulous Dorseys",
+      "year": "1947",
+      "duration": 5303.7905,
+      "file": "the-fabulous-dorseys.opus"
+    },
+    {
+      "slug": "reet-petite-and-gone",
+      "title": "Reet Petite and Gone",
+      "year": "1947",
+      "duration": 4009.581875,
+      "file": "reet-petite-and-gone.opus"
+    },
+    {
+      "slug": "hi-de-ho",
+      "title": "Hi De Ho",
+      "year": "1947",
+      "duration": 3808.896729,
+      "file": "hi-de-ho.opus"
+    },
+    {
+      "slug": "killer-diller",
+      "title": "Killer Diller",
+      "year": "1948",
+      "duration": 4373.141646,
+      "file": "killer-diller.opus"
+    },
+    {
+      "slug": "swing-high-swing-low",
+      "title": "Swing High Swing Low",
+      "year": "1937",
+      "duration": 4947.675833,
+      "file": "swing-high-swing-low.opus"
+    },
+    {
+      "slug": "the-amazing-adventure",
+      "title": "The Amazing Adventure",
+      "year": "1936",
+      "duration": 3712.7745,
+      "file": "the-amazing-adventure.opus"
+    },
+    {
+      "slug": "eternally-yours",
+      "title": "Eternally Yours",
+      "year": "1939",
+      "duration": 5446.084333,
+      "file": "eternally-yours.opus"
+    },
+    {
+      "slug": "love-laughs-at-andy-hardy",
+      "title": "Love Laughs at Andy Hardy",
+      "year": "1946",
+      "duration": 5549.3825,
+      "file": "love-laughs-at-andy-hardy.opus"
+    },
+    {
+      "slug": "at-war-with-the-army",
+      "title": "At War with the Army",
+      "year": "1950",
+      "duration": 5431.455771,
+      "file": "at-war-with-the-army.opus"
+    },
+    {
+      "slug": "doctor-who-the-eleventh-hour",
+      "title": "The Eleventh Hour",
+      "year": "2010",
+      "duration": 3870.2145,
+      "file": "doctor-who-the-eleventh-hour.opus"
     }
   ],
   "mode": "multi-station",
