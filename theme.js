@@ -1,6 +1,7 @@
 // Location stays in this browser. Solar calculations use the bundled SunCalc 2.0.2.
 (() => {
   const key = 'cinema-radio-solar-location';
+  const preview = typeof URLSearchParams !== 'undefined' ? new URLSearchParams(window.location?.search || '').get('appearance') : null;
   let location = null, button = null, status = null, messageTimer;
   try {
     const saved = JSON.parse(localStorage.getItem(key));
@@ -21,7 +22,7 @@
       }
       title += ' Click to turn off and forget this location.';
     }
-    document.documentElement.dataset.timeTheme = day ? 'day' : 'night';
+    document.documentElement.dataset.timeTheme = ['day','night'].includes(preview) ? preview : (day ? 'day' : 'night');
     if (button) {
       button.setAttribute('aria-pressed',String(Boolean(location)));
       button.setAttribute('aria-label',location?'Turn off location-based day and night mode':'Use my location for sunrise and sunset');
