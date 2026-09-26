@@ -55,3 +55,7 @@ Copy `index.html`, `config.js`, and `assets/` together into the site's `cinema-r
 ## Mac menu bar app
 
 See [macos/README.md](macos/README.md). The universal Mac app loads the live radio and keeps its player alive when the popover closes. Initial builds are ad-hoc signed, not notarized.
+
+## Local day and night appearance
+
+The radio uses the listener’s device time: daytime is 07:00–18:59, night is 19:00–06:59. It checks once per minute and when returning to the page. No location permission, location service, or clock data collection is needed. The station schedule still uses UTC.
