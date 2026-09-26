@@ -1,0 +1,15 @@
+# Local media stays outside Git; use object storage for hosted playback.
+audio/*
+!audio/.gitkeep
+*.opus
+*.mka
+*.mp3
+*.mp4
+*.wav
+*.ogg
+*.webm
+.DS_Store
+node_modules/
+.env
+.env.*
+!.env.example

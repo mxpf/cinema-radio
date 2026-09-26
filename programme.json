@@ -1,0 +1,326 @@
+{
+  "updated": "2026-09-26",
+  "epoch_utc": "2026-09-26T00:00:00Z",
+  "total_seconds": 248046.500794,
+  "tracks": [
+    {
+      "slug": "his-girl-friday",
+      "title": "His Girl Friday",
+      "year": "1940",
+      "duration": 5504.1665,
+      "file": "his-girl-friday.opus"
+    },
+    {
+      "slug": "royal-wedding",
+      "title": "Royal Wedding",
+      "year": "1951",
+      "duration": 5497.3825,
+      "file": "royal-wedding.opus"
+    },
+    {
+      "slug": "scarlet-street",
+      "title": "Scarlet Street",
+      "year": "1945",
+      "duration": 6086.280479,
+      "file": "scarlet-street.opus"
+    },
+    {
+      "slug": "penny-serenade",
+      "title": "Penny Serenade",
+      "year": "1941",
+      "duration": 7146.7585,
+      "file": "penny-serenade.opus"
+    },
+    {
+      "slug": "love-affair",
+      "title": "Love Affair",
+      "year": "1939",
+      "duration": 5210.363521,
+      "file": "love-affair.opus"
+    },
+    {
+      "slug": "the-kennel-murder-case",
+      "title": "The Kennel Murder Case",
+      "year": "1933",
+      "duration": 4383.089167,
+      "file": "the-kennel-murder-case.opus"
+    },
+    {
+      "slug": "kansas-city-confidential",
+      "title": "Kansas City Confidential",
+      "year": "1952",
+      "duration": 5956.0865,
+      "file": "kansas-city-confidential.opus"
+    },
+    {
+      "slug": "the-flying-deuces",
+      "title": "The Flying Deuces",
+      "year": "1939",
+      "duration": 4077.59025,
+      "file": "the-flying-deuces.opus"
+    },
+    {
+      "slug": "impact",
+      "title": "Impact",
+      "year": "1949",
+      "duration": 6577.9985,
+      "file": "impact.opus"
+    },
+    {
+      "slug": "life-with-father",
+      "title": "Life with Father",
+      "year": "1947",
+      "duration": 7056.830479,
+      "file": "life-with-father.opus"
+    },
+    {
+      "slug": "our-town",
+      "title": "Our Town",
+      "year": "1940",
+      "duration": 5219.817646,
+      "file": "our-town.opus"
+    },
+    {
+      "slug": "woman-on-the-run",
+      "title": "Woman on the Run",
+      "year": "1950",
+      "duration": 4612.2945,
+      "file": "woman-on-the-run.opus"
+    },
+    {
+      "slug": "the-stranger",
+      "title": "The Stranger",
+      "year": "1946",
+      "duration": 5472.883479,
+      "file": "the-stranger.opus"
+    },
+    {
+      "slug": "second-chorus",
+      "title": "Second Chorus",
+      "year": "1940",
+      "duration": 5017.5905,
+      "file": "second-chorus.opus"
+    },
+    {
+      "slug": "the-strange-woman",
+      "title": "The Strange Woman",
+      "year": "1946",
+      "duration": 5952.4385,
+      "file": "the-strange-woman.opus"
+    },
+    {
+      "slug": "animal-crackers",
+      "title": "Animal Crackers",
+      "year": "1930",
+      "duration": 5574.9825,
+      "file": "animal-crackers.opus"
+    },
+    {
+      "slug": "the-little-princess",
+      "title": "The Little Princess",
+      "year": "1939",
+      "duration": 5566.065167,
+      "file": "the-little-princess.opus"
+    },
+    {
+      "slug": "he-walked-by-night",
+      "title": "He Walked by Night",
+      "year": "1948",
+      "duration": 4733.906667,
+      "file": "he-walked-by-night.opus"
+    },
+    {
+      "slug": "last-time-i-saw-paris",
+      "title": "The Last Time I Saw Paris",
+      "year": "1954",
+      "duration": 6942.2465,
+      "file": "last-time-i-saw-paris.opus"
+    },
+    {
+      "slug": "made-for-each-other",
+      "title": "Made for Each Other",
+      "year": "1939",
+      "duration": 5429.5285,
+      "file": "made-for-each-other.opus"
+    },
+    {
+      "slug": "the-green-glove",
+      "title": "The Green Glove",
+      "year": "1952",
+      "duration": 5324.017042,
+      "file": "the-green-glove.opus"
+    },
+    {
+      "slug": "doa",
+      "title": "D.O.A.",
+      "year": "1950",
+      "duration": 5018.187021,
+      "file": "doa.opus"
+    },
+    {
+      "slug": "till-the-clouds-roll-by",
+      "title": "Till the Clouds Roll By",
+      "year": "1946",
+      "duration": 8108.3265,
+      "file": "till-the-clouds-roll-by.opus"
+    },
+    {
+      "slug": "quicksand",
+      "title": "Quicksand",
+      "year": "1950",
+      "duration": 4742.3105,
+      "file": "quicksand.opus"
+    },
+    {
+      "slug": "my-man-godfrey",
+      "title": "My Man Godfrey",
+      "year": "1936",
+      "duration": 5687.072521,
+      "file": "my-man-godfrey.opus"
+    },
+    {
+      "slug": "the-southerner",
+      "title": "The Southerner",
+      "year": "1945",
+      "duration": 5510.275521,
+      "file": "the-southerner.opus"
+    },
+    {
+      "slug": "lady-of-burlesque",
+      "title": "Lady of Burlesque",
+      "year": "1943",
+      "duration": 5414.171417,
+      "file": "lady-of-burlesque.opus"
+    },
+    {
+      "slug": "anna-christie",
+      "title": "Anna Christie",
+      "year": "1930",
+      "duration": 5366.478417,
+      "file": "anna-christie.opus"
+    },
+    {
+      "slug": "a-star-is-born",
+      "title": "A Star Is Born",
+      "year": "1937",
+      "duration": 6653.1065,
+      "file": "a-star-is-born.opus"
+    },
+    {
+      "slug": "trapped",
+      "title": "Trapped",
+      "year": "1949",
+      "duration": 4684.2575,
+      "file": "trapped.opus"
+    },
+    {
+      "slug": "suddenly",
+      "title": "Suddenly",
+      "year": "1954",
+      "duration": 4533.4865,
+      "file": "suddenly.opus"
+    },
+    {
+      "slug": "the-inspector-general",
+      "title": "The Inspector General",
+      "year": "1949",
+      "duration": 6114.7985,
+      "file": "the-inspector-general.opus"
+    },
+    {
+      "slug": "the-strange-love-of-martha-ivers",
+      "title": "The Strange Love of Martha Ivers",
+      "year": "1946",
+      "duration": 6952.7105,
+      "file": "the-strange-love-of-martha-ivers.opus"
+    },
+    {
+      "slug": "nothing-sacred",
+      "title": "Nothing Sacred",
+      "year": "1937",
+      "duration": 4449.692854,
+      "file": "nothing-sacred.opus"
+    },
+    {
+      "slug": "pot-o-gold",
+      "title": "Pot o' Gold",
+      "year": "1941",
+      "duration": 5130.850021,
+      "file": "pot-o-gold.opus"
+    },
+    {
+      "slug": "the-second-woman",
+      "title": "The Second Woman",
+      "year": "1950",
+      "duration": 5422.765521,
+      "file": "the-second-woman.opus"
+    },
+    {
+      "slug": "detour",
+      "title": "Detour",
+      "year": "1945",
+      "duration": 4058.204479,
+      "file": "detour.opus"
+    },
+    {
+      "slug": "beat-the-devil",
+      "title": "Beat the Devil",
+      "year": "1953",
+      "duration": 5356.8065,
+      "file": "beat-the-devil.opus"
+    },
+    {
+      "slug": "whistle-stop",
+      "title": "Whistle Stop",
+      "year": "1946",
+      "duration": 5055.8495,
+      "file": "whistle-stop.opus"
+    },
+    {
+      "slug": "meet-john-doe",
+      "title": "Meet John Doe",
+      "year": "1941",
+      "duration": 7371.2225,
+      "file": "meet-john-doe.opus"
+    },
+    {
+      "slug": "of-human-bondage",
+      "title": "Of Human Bondage",
+      "year": "1934",
+      "duration": 4957.365458,
+      "file": "of-human-bondage.opus"
+    },
+    {
+      "slug": "borderline",
+      "title": "Borderline",
+      "year": "1950",
+      "duration": 5268.155479,
+      "file": "borderline.opus"
+    },
+    {
+      "slug": "hitch-hiker",
+      "title": "The Hitch-Hiker",
+      "year": "1953",
+      "duration": 4258.0545,
+      "file": "hitch-hiker.opus"
+    },
+    {
+      "slug": "guest-in-the-house",
+      "title": "Guest in the House",
+      "year": "1944",
+      "duration": 5797.940875,
+      "file": "guest-in-the-house.opus"
+    },
+    {
+      "slug": "the-man-who-cheated-himself",
+      "title": "The Man Who Cheated Himself",
+      "year": "1950",
+      "duration": 4792.094313,
+      "file": "the-man-who-cheated-himself.opus"
+    }
+  ],
+  "mode": "multi-station",
+  "default_station": "repertory",
+  "stations_file": "stations.json",
+  "tracks_describe": "Shared catalogue and Repertory order; stations.json supplies each station sequence."
+}

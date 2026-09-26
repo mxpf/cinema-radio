@@ -1,0 +1,131 @@
+{
+  "epoch_utc": "2026-09-26T00:00:00Z",
+  "default_station": "repertory",
+  "stations": [
+    {
+      "id": "repertory",
+      "name": "Repertory",
+      "total_seconds": 248046.500794,
+      "tracks": [
+        "his-girl-friday",
+        "royal-wedding",
+        "scarlet-street",
+        "penny-serenade",
+        "love-affair",
+        "the-kennel-murder-case",
+        "kansas-city-confidential",
+        "the-flying-deuces",
+        "impact",
+        "life-with-father",
+        "our-town",
+        "woman-on-the-run",
+        "the-stranger",
+        "second-chorus",
+        "the-strange-woman",
+        "animal-crackers",
+        "the-little-princess",
+        "he-walked-by-night",
+        "last-time-i-saw-paris",
+        "made-for-each-other",
+        "the-green-glove",
+        "doa",
+        "till-the-clouds-roll-by",
+        "quicksand",
+        "my-man-godfrey",
+        "the-southerner",
+        "lady-of-burlesque",
+        "anna-christie",
+        "a-star-is-born",
+        "trapped",
+        "suddenly",
+        "the-inspector-general",
+        "the-strange-love-of-martha-ivers",
+        "nothing-sacred",
+        "pot-o-gold",
+        "the-second-woman",
+        "detour",
+        "beat-the-devil",
+        "whistle-stop",
+        "meet-john-doe",
+        "of-human-bondage",
+        "borderline",
+        "hitch-hiker",
+        "guest-in-the-house",
+        "the-man-who-cheated-himself"
+      ]
+    },
+    {
+      "id": "noir",
+      "name": "Noir & Mystery",
+      "total_seconds": 109144.744439,
+      "tracks": [
+        "scarlet-street",
+        "the-kennel-murder-case",
+        "kansas-city-confidential",
+        "impact",
+        "woman-on-the-run",
+        "the-stranger",
+        "he-walked-by-night",
+        "the-green-glove",
+        "doa",
+        "quicksand",
+        "lady-of-burlesque",
+        "trapped",
+        "suddenly",
+        "the-strange-love-of-martha-ivers",
+        "the-second-woman",
+        "detour",
+        "whistle-stop",
+        "borderline",
+        "hitch-hiker",
+        "guest-in-the-house",
+        "the-man-who-cheated-himself"
+      ]
+    },
+    {
+      "id": "comedy",
+      "name": "Comedy",
+      "total_seconds": 43821.940104,
+      "tracks": [
+        "his-girl-friday",
+        "the-flying-deuces",
+        "life-with-father",
+        "animal-crackers",
+        "my-man-godfrey",
+        "the-inspector-general",
+        "nothing-sacred",
+        "beat-the-devil"
+      ]
+    },
+    {
+      "id": "drama",
+      "name": "Drama & Romance",
+      "total_seconds": 71325.66673,
+      "tracks": [
+        "penny-serenade",
+        "love-affair",
+        "our-town",
+        "the-strange-woman",
+        "the-little-princess",
+        "last-time-i-saw-paris",
+        "made-for-each-other",
+        "the-southerner",
+        "anna-christie",
+        "a-star-is-born",
+        "meet-john-doe",
+        "of-human-bondage"
+      ]
+    },
+    {
+      "id": "musicals",
+      "name": "Musicals",
+      "total_seconds": 23754.149521,
+      "tracks": [
+        "royal-wedding",
+        "second-chorus",
+        "till-the-clouds-roll-by",
+        "pot-o-gold"
+      ]
+    }
+  ]
+}
