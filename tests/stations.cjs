@@ -14,7 +14,7 @@ let noiseStarts=0,noiseStops=0;
 class Node {constructor(){this.gain={setValueAtTime(){},linearRampToValueAtTime(){}};this.frequency={};this.Q={}}connect(){}disconnect(){}start(){noiseStarts++}stop(){noiseStops++}}
 class AudioContext {constructor(){this.sampleRate=8000;this.currentTime=0;this.state='running';this.destination={}}createBuffer(ch,n){return {getChannelData:()=>new Float32Array(n)}}createBufferSource(){return new Node()}createBiquadFilter(){return new Node()}createGain(){return new Node()}}
 const storage={};
-const ctx=vm.createContext({document:doc,navigator:{},window:{addEventListener(){},AudioContext},localStorage:{getItem:k=>storage[k],setItem:(k,v)=>storage[k]=v},Date:Clock,performance,setTimeout,clearTimeout,setInterval:()=>{},console});
+const ctx=vm.createContext({document:doc,navigator:{},window:{addEventListener(){},AudioContext},localStorage:{getItem:k=>storage[k],setItem:(k,v)=>storage[k]=v},Date:Clock,performance,setTimeout,clearTimeout,setInterval:()=>{},requestAnimationFrame:()=>{},console});
 const html=fs.readFileSync('index.html','utf8');const script=html.match(/<script>([\s\S]*)<\/script>/)[1];vm.runInContext(script,ctx);
 const run=s=>vm.runInContext(s,ctx);const results=[];function check(name,fn){fn();results.push(name)}
 const wait=ms=>new Promise(r=>setTimeout(r,ms));

@@ -10,7 +10,7 @@ class El {
 }
 const els={};const get=k=>els[k]??=new El();const doc={getElementById:get,querySelector:get,createElement:()=>new El(),addEventListener:()=>{},body:get('body'),hidden:false};
 let now=Date.UTC(2026,8,26,1);class Clock extends Date{static now(){return now}}
-const ctx=vm.createContext({document:doc,navigator:{},window:{addEventListener(){}},Date:Clock,performance,setTimeout,clearTimeout,setInterval:()=>{},console});
+const ctx=vm.createContext({document:doc,navigator:{},window:{addEventListener(){}},Date:Clock,performance,setTimeout,clearTimeout,setInterval:()=>{},requestAnimationFrame:()=>{},console});
 const html=fs.readFileSync('index.html','utf8');const script=html.match(/<script>([\s\S]*)<\/script>/)[1];vm.runInContext(script,ctx);
 const run=s=>vm.runInContext(s,ctx);const results=[];function check(name,fn){fn();results.push(name)}
 const wait=ms=>new Promise(r=>setTimeout(r,ms));

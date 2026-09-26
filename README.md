@@ -38,7 +38,7 @@ Schedules and track metadata are embedded in the HTML so local file playback doe
 
 Soundtracks use Opus at 96 kbps VBR with static gain toward −23 LUFS and a −2 dBFS sample limiter. Silence is preserved. The complete selected transfers were decoded and duration-checked. Sources have working public-domain listing evidence; this is not a worldwide rights-clearance determination. Full perceptual auditions and scene-by-scene completeness reviews have not been performed.
 
-A future deployment can use a static site host and object storage for audio. Storage should serve the Opus files with the correct content type and support byte-range requests. The current prototype uses device clocks and can have short loading gaps; it is not sample-accurate or guaranteed gapless. No public site is deployed by this repository.
+The deployment uses GitHub Pages and Cloudflare R2 through a read-only streaming Worker. Storage should serve the Opus files with the correct content type and support byte-range requests. The current prototype uses device clocks and can have short loading gaps; it is not sample-accurate or guaranteed gapless. The public destination is https://radio.maxpfennig.haus; the manual GitHub Pages workflow publishes the interface.
 
 ## Checks
 
@@ -51,3 +51,7 @@ IBM Plex is provided under the license in `assets/fonts/IBM-Plex-LICENSE.txt`. N
 The interface is prepared for `/cinema-radio/` on Keepinghaus, with an unobtrusive inspiration credit and source link. Inspired by [Cinema Radio by Hiran Venugopalan and Arun Sajeev](https://hiran.in/projects/cinema-radio/). The source link points to this repository.
 
 Copy `index.html`, `config.js`, and `assets/` together into the site's `cinema-radio/` directory. Configure the media URL before publication; local audio symlinks are not a deployment. The Keepinghaus bounded release must explicitly admit this new page and its assets before deploying it.
+
+## Mac menu bar app
+
+See [macos/README.md](macos/README.md). The universal Mac app loads the live radio and keeps its player alive when the popover closes. Initial builds are ad-hoc signed, not notarized.

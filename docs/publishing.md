@@ -14,3 +14,14 @@ GitHub Pages serves the interface. The 45 Opus soundtracks remain outside Git an
 6. Confirm DNS and TLS, enforce HTTPS, and test live playback and controls.
 
 The Keepinghaus credit remains on the page. This is an independent subdomain deployment, not a release of the Keepinghaus site.
+
+## Current deployment
+
+- DNS: `radio.maxpfennig.haus` CNAME → `mxpf.github.io` (Porkbun).
+- Media bucket: `cinema-radio-audio` (45 Opus files).
+- Read-only media Worker: `https://cinema-radio-media.maxpfennighaus.workers.dev/`.
+- Deploy the media Worker with `npx wrangler deploy --config media-worker/wrangler.jsonc`.
+- The Worker streams byte ranges from R2 and supports cross-origin audio requests. No public upload or listing endpoint exists.
+- Mac app source: `macos/`; downloadable builds live in GitHub Releases.
+
+The original source audio and canonical research remain in kDrive. No audio is committed to this repository.

@@ -15,3 +15,9 @@ node_modules/
 !.env.example
 
 _site/
+
+.wrangler/
+*.app/
+*.zip
+macos/build/
+media-worker/worker-configuration.d.ts
