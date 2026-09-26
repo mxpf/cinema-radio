@@ -59,3 +59,7 @@ See [macos/README.md](macos/README.md). The universal Mac app loads the live rad
 ## Local day and night appearance
 
 The radio uses the listener’s device time: daytime is 07:00–18:59, night is 19:00–06:59. It checks once per minute and when returning to the page. No location permission, location service, or clock data collection is needed. The station schedule still uses UTC.
+
+The sunrise button beside GitHub optionally requests browser location permission. Only a coarse location (rounded to 0.1°) is saved in local storage, and SunCalc 2.0.2 calculates daylight locally. No coordinates are sent to an application server or third-party solar API. Click again to forget the location and restore fixed clock hours. Saved coordinates remain until disabled; turn off and re-enable after travelling to refresh them. Polar daylight/night is supported. Permission denial, timeout and unavailable location preserve the clock-based fallback.
+
+SunCalc is bundled under its BSD-2-Clause license in `assets/vendor/suncalc/LICENSE`; upstream: https://github.com/mourner/suncalc.
