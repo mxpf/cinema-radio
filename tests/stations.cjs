@@ -32,7 +32,7 @@ check('audited primary genres are applied',()=>{for(const [slug,id] of [['pecks-
 check('every station follows UTC offsets and wraps its own schedule',()=>{
  for(let j=0;j<run('stations.length');j++){
   let offset=0;const indices=run(`stations[${j}].indices`);
-  for(const i of indices){assert.equal(run(`programme(epoch+${(offset+.1)*1000},${j}).index`),i);offset+=run(`tracks[${i}].broadcastDuration`)}
+  for(const i of indices){assert.equal(run(`programme(epoch+${(offset+.1)*1000},${j}).index`),i);offset+=run(`tracks[${i}].slotDuration`)}
   assert.equal(run(`programme(epoch+${(offset+.1)*1000},${j}).index`),indices[0]);
   assert.equal(run(`programme(epoch-1000,${j}).index`),indices.at(-1));
  }

@@ -5,7 +5,7 @@
     {
       "id": "repertory",
       "name": "Repertory",
-      "total_seconds": 595544.796277,
+      "total_seconds": 595208.796277,
       "tracks": [
         "scarlet-street",
         "his-girl-friday",
@@ -124,7 +124,7 @@
     {
       "id": "noir",
       "name": "Noir & Mystery",
-      "total_seconds": 126492.041772,
+      "total_seconds": 126420.041772,
       "tracks": [
         "scarlet-street",
         "the-kennel-murder-case",
@@ -155,7 +155,7 @@
     {
       "id": "comedy",
       "name": "Comedy",
-      "total_seconds": 93105.2795,
+      "total_seconds": 93051.2795,
       "tracks": [
         "his-girl-friday",
         "the-flying-deuces",
@@ -180,7 +180,7 @@
     {
       "id": "drama",
       "name": "Drama & Romance",
-      "total_seconds": 106094.01698,
+      "total_seconds": 106037.01698,
       "tracks": [
         "penny-serenade",
         "love-affair",
@@ -206,7 +206,7 @@
     {
       "id": "musicals",
       "name": "Musicals",
-      "total_seconds": 96460.716106,
+      "total_seconds": 96400.716106,
       "tracks": [
         "royal-wedding",
         "second-chorus",
@@ -261,7 +261,7 @@
         "war-of-the-robots",
         "jungle-book"
       ],
-      "total_seconds": 148937.88269
+      "total_seconds": 148859.88269
     },
     {
       "id": "westerns",
@@ -273,7 +273,7 @@
         "tulsa",
         "they-rode-west"
       ],
-      "total_seconds": 24454.859229
+      "total_seconds": 24439.859229
     }
   ]
 }

@@ -25,7 +25,7 @@ await wait(310);check('power-down finishes silent and paused',()=>{assert.equal(
 run('startListening()');await wait(400);run('stop()');await wait(80);run('startListening()');await wait(420);
 check('rapid off/on cancels stale pause',()=>{assert.equal(get('audio').paused,false);assert.ok(Math.abs(get('audio').volume-.65)<.001)});
 run('setRing(volumeControl,.3)');check('volume remains responsive',()=>assert.equal(get('audio').volume,.3));
-run('sleepDeadline=Date.now()+15000;updateSleep()');check('sleep and power gains compose',()=>assert.equal(get('audio').volume,.15));
+run('sleepDeadline=Date.now()+5000;updateSleep()');check('sleep and power gains compose',()=>assert.equal(get('audio').volume,.15));
 run('stop()');check('stopping during sleep fade does not increase level',()=>assert.ok(get('audio').volume<=.15));await wait(400);
 check('sleep fade powers down silently',()=>{assert.equal(get('audio').volume,0);assert.equal(get('audio').paused,true)});
 console.log(JSON.stringify({passed:results.length,checks:results},null,2));

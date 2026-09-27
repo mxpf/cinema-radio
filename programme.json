@@ -9,7 +9,8 @@
       "year": "1940",
       "duration": 5504.1665,
       "file": "his-girl-friday.opus",
-      "broadcastDuration": 5504.1665
+      "broadcastDuration": 5504.1665,
+      "slotDuration": 5501.1665
     },
     {
       "slug": "royal-wedding",
@@ -17,7 +18,8 @@
       "year": "1951",
       "duration": 5497.3825,
       "file": "royal-wedding.opus",
-      "broadcastDuration": 5497.3825
+      "broadcastDuration": 5497.3825,
+      "slotDuration": 5494.3825
     },
     {
       "slug": "scarlet-street",
@@ -25,7 +27,8 @@
       "year": "1945",
       "duration": 6086.280479,
       "file": "scarlet-street.opus",
-      "broadcastDuration": 6086.280479
+      "broadcastDuration": 6086.280479,
+      "slotDuration": 6083.280479
     },
     {
       "slug": "penny-serenade",
@@ -33,7 +36,8 @@
       "year": "1941",
       "duration": 7146.7585,
       "file": "penny-serenade.opus",
-      "broadcastDuration": 7146.7585
+      "broadcastDuration": 7146.7585,
+      "slotDuration": 7143.7585
     },
     {
       "slug": "love-affair",
@@ -41,7 +45,8 @@
       "year": "1939",
       "duration": 5210.363521,
       "file": "love-affair.opus",
-      "broadcastDuration": 5210.363521
+      "broadcastDuration": 5210.363521,
+      "slotDuration": 5207.363521
     },
     {
       "slug": "the-kennel-murder-case",
@@ -49,7 +54,8 @@
       "year": "1933",
       "duration": 4383.089167,
       "file": "the-kennel-murder-case.opus",
-      "broadcastDuration": 4383.089167
+      "broadcastDuration": 4383.089167,
+      "slotDuration": 4380.089167
     },
     {
       "slug": "kansas-city-confidential",
@@ -57,7 +63,8 @@
       "year": "1952",
       "duration": 5956.0865,
       "file": "kansas-city-confidential.opus",
-      "broadcastDuration": 5956.0865
+      "broadcastDuration": 5956.0865,
+      "slotDuration": 5953.0865
     },
     {
       "slug": "the-flying-deuces",
@@ -65,7 +72,8 @@
       "year": "1939",
       "duration": 4077.59025,
       "file": "the-flying-deuces.opus",
-      "broadcastDuration": 4077.59025
+      "broadcastDuration": 4077.59025,
+      "slotDuration": 4074.59025
     },
     {
       "slug": "impact",
@@ -73,7 +81,8 @@
       "year": "1949",
       "duration": 6577.9985,
       "file": "impact.opus",
-      "broadcastDuration": 6577.9985
+      "broadcastDuration": 6577.9985,
+      "slotDuration": 6574.9985
     },
     {
       "slug": "life-with-father",
@@ -81,7 +90,8 @@
       "year": "1947",
       "duration": 7056.830479,
       "file": "life-with-father.opus",
-      "broadcastDuration": 7056.830479
+      "broadcastDuration": 7056.830479,
+      "slotDuration": 7053.830479
     },
     {
       "slug": "our-town",
@@ -89,7 +99,8 @@
       "year": "1940",
       "duration": 5219.817646,
       "file": "our-town.opus",
-      "broadcastDuration": 5219.817646
+      "broadcastDuration": 5219.817646,
+      "slotDuration": 5216.817646
     },
     {
       "slug": "woman-on-the-run",
@@ -97,7 +108,8 @@
       "year": "1950",
       "duration": 4612.2945,
       "file": "woman-on-the-run.opus",
-      "broadcastDuration": 4612.2945
+      "broadcastDuration": 4612.2945,
+      "slotDuration": 4609.2945
     },
     {
       "slug": "the-stranger",
@@ -105,7 +117,8 @@
       "year": "1946",
       "duration": 5472.883479,
       "file": "the-stranger.opus",
-      "broadcastDuration": 5472.883479
+      "broadcastDuration": 5472.883479,
+      "slotDuration": 5469.883479
     },
     {
       "slug": "second-chorus",
@@ -113,7 +126,8 @@
       "year": "1940",
       "duration": 5017.5905,
       "file": "second-chorus.opus",
-      "broadcastDuration": 5017.5905
+      "broadcastDuration": 5017.5905,
+      "slotDuration": 5014.5905
     },
     {
       "slug": "the-strange-woman",
@@ -121,7 +135,8 @@
       "year": "1946",
       "duration": 5952.4385,
       "file": "the-strange-woman.opus",
-      "broadcastDuration": 5952.4385
+      "broadcastDuration": 5952.4385,
+      "slotDuration": 5949.4385
     },
     {
       "slug": "animal-crackers",
@@ -129,7 +144,8 @@
       "year": "1930",
       "duration": 5574.9825,
       "file": "animal-crackers.opus",
-      "broadcastDuration": 5574.9825
+      "broadcastDuration": 5574.9825,
+      "slotDuration": 5571.9825
     },
     {
       "slug": "the-little-princess",
@@ -137,7 +153,8 @@
       "year": "1939",
       "duration": 5566.065167,
       "file": "the-little-princess.opus",
-      "broadcastDuration": 5566.065167
+      "broadcastDuration": 5566.065167,
+      "slotDuration": 5563.065167
     },
     {
       "slug": "he-walked-by-night",
@@ -145,7 +162,8 @@
       "year": "1948",
       "duration": 4733.906667,
       "file": "he-walked-by-night.opus",
-      "broadcastDuration": 4733.906667
+      "broadcastDuration": 4733.906667,
+      "slotDuration": 4730.906667
     },
     {
       "slug": "last-time-i-saw-paris",
@@ -153,7 +171,8 @@
       "year": "1954",
       "duration": 6942.2465,
       "file": "last-time-i-saw-paris.opus",
-      "broadcastDuration": 6942.2465
+      "broadcastDuration": 6942.2465,
+      "slotDuration": 6939.2465
     },
     {
       "slug": "made-for-each-other",
@@ -161,7 +180,8 @@
       "year": "1939",
       "duration": 5429.5285,
       "file": "made-for-each-other.opus",
-      "broadcastDuration": 5429.5285
+      "broadcastDuration": 5429.5285,
+      "slotDuration": 5426.5285
     },
     {
       "slug": "the-green-glove",
@@ -169,7 +189,8 @@
       "year": "1952",
       "duration": 5324.017042,
       "file": "the-green-glove.opus",
-      "broadcastDuration": 5324.017042
+      "broadcastDuration": 5324.017042,
+      "slotDuration": 5321.017042
     },
     {
       "slug": "doa",
@@ -177,7 +198,8 @@
       "year": "1950",
       "duration": 5018.187021,
       "file": "doa.opus",
-      "broadcastDuration": 5018.187021
+      "broadcastDuration": 5018.187021,
+      "slotDuration": 5015.187021
     },
     {
       "slug": "till-the-clouds-roll-by",
@@ -185,7 +207,8 @@
       "year": "1946",
       "duration": 8108.3265,
       "file": "till-the-clouds-roll-by.opus",
-      "broadcastDuration": 8108.3265
+      "broadcastDuration": 8108.3265,
+      "slotDuration": 8105.3265
     },
     {
       "slug": "quicksand",
@@ -193,7 +216,8 @@
       "year": "1950",
       "duration": 4742.3105,
       "file": "quicksand.opus",
-      "broadcastDuration": 4742.3105
+      "broadcastDuration": 4742.3105,
+      "slotDuration": 4739.3105
     },
     {
       "slug": "my-man-godfrey",
@@ -201,7 +225,8 @@
       "year": "1936",
       "duration": 5687.072521,
       "file": "my-man-godfrey.opus",
-      "broadcastDuration": 5687.072521
+      "broadcastDuration": 5687.072521,
+      "slotDuration": 5684.072521
     },
     {
       "slug": "the-southerner",
@@ -209,7 +234,8 @@
       "year": "1945",
       "duration": 5510.275521,
       "file": "the-southerner.opus",
-      "broadcastDuration": 5510.275521
+      "broadcastDuration": 5510.275521,
+      "slotDuration": 5507.275521
     },
     {
       "slug": "lady-of-burlesque",
@@ -217,7 +243,8 @@
       "year": "1943",
       "duration": 5414.171417,
       "file": "lady-of-burlesque.opus",
-      "broadcastDuration": 5414.171417
+      "broadcastDuration": 5414.171417,
+      "slotDuration": 5411.171417
     },
     {
       "slug": "anna-christie",
@@ -225,7 +252,8 @@
       "year": "1930",
       "duration": 5366.478417,
       "file": "anna-christie.opus",
-      "broadcastDuration": 5366.478417
+      "broadcastDuration": 5366.478417,
+      "slotDuration": 5363.478417
     },
     {
       "slug": "a-star-is-born",
@@ -233,7 +261,8 @@
       "year": "1937",
       "duration": 6653.1065,
       "file": "a-star-is-born.opus",
-      "broadcastDuration": 6653.1065
+      "broadcastDuration": 6653.1065,
+      "slotDuration": 6650.1065
     },
     {
       "slug": "trapped",
@@ -241,7 +270,8 @@
       "year": "1949",
       "duration": 4684.2575,
       "file": "trapped.opus",
-      "broadcastDuration": 4684.2575
+      "broadcastDuration": 4684.2575,
+      "slotDuration": 4681.2575
     },
     {
       "slug": "suddenly",
@@ -249,7 +279,8 @@
       "year": "1954",
       "duration": 4533.4865,
       "file": "suddenly.opus",
-      "broadcastDuration": 4533.4865
+      "broadcastDuration": 4533.4865,
+      "slotDuration": 4530.4865
     },
     {
       "slug": "the-inspector-general",
@@ -257,7 +288,8 @@
       "year": "1949",
       "duration": 6114.7985,
       "file": "the-inspector-general.opus",
-      "broadcastDuration": 6114.7985
+      "broadcastDuration": 6114.7985,
+      "slotDuration": 6111.7985
     },
     {
       "slug": "the-strange-love-of-martha-ivers",
@@ -265,7 +297,8 @@
       "year": "1946",
       "duration": 6952.7105,
       "file": "the-strange-love-of-martha-ivers.opus",
-      "broadcastDuration": 6952.7105
+      "broadcastDuration": 6952.7105,
+      "slotDuration": 6949.7105
     },
     {
       "slug": "nothing-sacred",
@@ -273,7 +306,8 @@
       "year": "1937",
       "duration": 4449.692854,
       "file": "nothing-sacred.opus",
-      "broadcastDuration": 4449.692854
+      "broadcastDuration": 4449.692854,
+      "slotDuration": 4446.692854
     },
     {
       "slug": "pot-o-gold",
@@ -281,7 +315,8 @@
       "year": "1941",
       "duration": 5130.850021,
       "file": "pot-o-gold.opus",
-      "broadcastDuration": 5130.850021
+      "broadcastDuration": 5130.850021,
+      "slotDuration": 5127.850021
     },
     {
       "slug": "the-second-woman",
@@ -289,7 +324,8 @@
       "year": "1950",
       "duration": 5422.765521,
       "file": "the-second-woman.opus",
-      "broadcastDuration": 5422.765521
+      "broadcastDuration": 5422.765521,
+      "slotDuration": 5419.765521
     },
     {
       "slug": "detour",
@@ -297,7 +333,8 @@
       "year": "1945",
       "duration": 4058.204479,
       "file": "detour.opus",
-      "broadcastDuration": 4058.204479
+      "broadcastDuration": 4058.204479,
+      "slotDuration": 4055.204479
     },
     {
       "slug": "beat-the-devil",
@@ -305,7 +342,8 @@
       "year": "1953",
       "duration": 5356.8065,
       "file": "beat-the-devil.opus",
-      "broadcastDuration": 5356.8065
+      "broadcastDuration": 5356.8065,
+      "slotDuration": 5353.8065
     },
     {
       "slug": "whistle-stop",
@@ -313,7 +351,8 @@
       "year": "1946",
       "duration": 5055.8495,
       "file": "whistle-stop.opus",
-      "broadcastDuration": 5055.8495
+      "broadcastDuration": 5055.8495,
+      "slotDuration": 5052.8495
     },
     {
       "slug": "meet-john-doe",
@@ -321,7 +360,8 @@
       "year": "1941",
       "duration": 7371.2225,
       "file": "meet-john-doe.opus",
-      "broadcastDuration": 7371.2225
+      "broadcastDuration": 7371.2225,
+      "slotDuration": 7368.2225
     },
     {
       "slug": "of-human-bondage",
@@ -329,7 +369,8 @@
       "year": "1934",
       "duration": 4957.365458,
       "file": "of-human-bondage.opus",
-      "broadcastDuration": 4957.365458
+      "broadcastDuration": 4957.365458,
+      "slotDuration": 4954.365458
     },
     {
       "slug": "borderline",
@@ -337,7 +378,8 @@
       "year": "1950",
       "duration": 5268.155479,
       "file": "borderline.opus",
-      "broadcastDuration": 5268.155479
+      "broadcastDuration": 5268.155479,
+      "slotDuration": 5265.155479
     },
     {
       "slug": "hitch-hiker",
@@ -345,7 +387,8 @@
       "year": "1953",
       "duration": 4258.0545,
       "file": "hitch-hiker.opus",
-      "broadcastDuration": 4258.0545
+      "broadcastDuration": 4258.0545,
+      "slotDuration": 4255.0545
     },
     {
       "slug": "guest-in-the-house",
@@ -353,7 +396,8 @@
       "year": "1944",
       "duration": 5797.940875,
       "file": "guest-in-the-house.opus",
-      "broadcastDuration": 5797.940875
+      "broadcastDuration": 5797.940875,
+      "slotDuration": 5794.940875
     },
     {
       "slug": "the-man-who-cheated-himself",
@@ -361,7 +405,8 @@
       "year": "1950",
       "duration": 4792.094313,
       "file": "the-man-who-cheated-himself.opus",
-      "broadcastDuration": 4792.094313
+      "broadcastDuration": 4792.094313,
+      "slotDuration": 4789.094313
     },
     {
       "slug": "private-buckaroo",
@@ -369,7 +414,8 @@
       "year": "1942",
       "duration": 4025.2225,
       "file": "private-buckaroo.opus",
-      "broadcastDuration": 4025.2225
+      "broadcastDuration": 4025.2225,
+      "slotDuration": 4022.2225
     },
     {
       "slug": "delightfully-dangerous",
@@ -377,7 +423,8 @@
       "year": "1945",
       "duration": 5352.6465,
       "file": "delightfully-dangerous.opus",
-      "broadcastDuration": 5352.6465
+      "broadcastDuration": 5352.6465,
+      "slotDuration": 5349.6465
     },
     {
       "slug": "something-to-sing-about",
@@ -385,7 +432,8 @@
       "year": "1937",
       "duration": 5207.638625,
       "file": "something-to-sing-about.opus",
-      "broadcastDuration": 5207.638625
+      "broadcastDuration": 5207.638625,
+      "slotDuration": 5204.638625
     },
     {
       "slug": "the-fabulous-dorseys",
@@ -393,7 +441,8 @@
       "year": "1947",
       "duration": 5303.7905,
       "file": "the-fabulous-dorseys.opus",
-      "broadcastDuration": 5303.7905
+      "broadcastDuration": 5303.7905,
+      "slotDuration": 5300.7905
     },
     {
       "slug": "reet-petite-and-gone",
@@ -401,7 +450,8 @@
       "year": "1947",
       "duration": 4009.581875,
       "file": "reet-petite-and-gone.opus",
-      "broadcastDuration": 4009.581875
+      "broadcastDuration": 4009.581875,
+      "slotDuration": 4006.581875
     },
     {
       "slug": "hi-de-ho",
@@ -409,7 +459,8 @@
       "year": "1947",
       "duration": 3808.896729,
       "file": "hi-de-ho.opus",
-      "broadcastDuration": 3808.896729
+      "broadcastDuration": 3808.896729,
+      "slotDuration": 3805.896729
     },
     {
       "slug": "killer-diller",
@@ -417,7 +468,8 @@
       "year": "1948",
       "duration": 4373.141646,
       "file": "killer-diller.opus",
-      "broadcastDuration": 4373.141646
+      "broadcastDuration": 4373.141646,
+      "slotDuration": 4370.141646
     },
     {
       "slug": "swing-high-swing-low",
@@ -425,7 +477,8 @@
       "year": "1937",
       "duration": 4947.675833,
       "file": "swing-high-swing-low.opus",
-      "broadcastDuration": 4947.675833
+      "broadcastDuration": 4947.675833,
+      "slotDuration": 4944.675833
     },
     {
       "slug": "the-amazing-adventure",
@@ -433,7 +486,8 @@
       "year": "1936",
       "duration": 3712.7745,
       "file": "the-amazing-adventure.opus",
-      "broadcastDuration": 3712.7745
+      "broadcastDuration": 3712.7745,
+      "slotDuration": 3709.7745
     },
     {
       "slug": "eternally-yours",
@@ -441,7 +495,8 @@
       "year": "1939",
       "duration": 5446.084333,
       "file": "eternally-yours.opus",
-      "broadcastDuration": 5446.084333
+      "broadcastDuration": 5446.084333,
+      "slotDuration": 5443.084333
     },
     {
       "slug": "love-laughs-at-andy-hardy",
@@ -449,7 +504,8 @@
       "year": "1946",
       "duration": 5549.3825,
       "file": "love-laughs-at-andy-hardy.opus",
-      "broadcastDuration": 5549.3825
+      "broadcastDuration": 5549.3825,
+      "slotDuration": 5546.3825
     },
     {
       "slug": "at-war-with-the-army",
@@ -457,7 +513,8 @@
       "year": "1950",
       "duration": 5431.455771,
       "file": "at-war-with-the-army.opus",
-      "broadcastDuration": 5431.455771
+      "broadcastDuration": 5431.455771,
+      "slotDuration": 5428.455771
     },
     {
       "slug": "the-duke-is-tops",
@@ -465,7 +522,8 @@
       "year": "1938",
       "duration": 4512.945167,
       "file": "the-duke-is-tops.opus",
-      "broadcastDuration": 4512.945167
+      "broadcastDuration": 4512.945167,
+      "slotDuration": 4509.945167
     },
     {
       "slug": "happy-go-lovely",
@@ -473,7 +531,8 @@
       "year": "1951",
       "duration": 5817.255313,
       "file": "happy-go-lovely.opus",
-      "broadcastDuration": 5817.255313
+      "broadcastDuration": 5817.255313,
+      "slotDuration": 5814.255313
     },
     {
       "slug": "glorifying-the-american-girl",
@@ -481,7 +540,8 @@
       "year": "1929",
       "duration": 5792.7425,
       "file": "glorifying-the-american-girl.opus",
-      "broadcastDuration": 5792.7425
+      "broadcastDuration": 5792.7425,
+      "slotDuration": 5789.7425
     },
     {
       "slug": "road-to-hollywood",
@@ -489,7 +549,8 @@
       "year": "1947",
       "duration": 3200.807604,
       "file": "road-to-hollywood.opus",
-      "broadcastDuration": 3200.807604
+      "broadcastDuration": 3200.807604,
+      "slotDuration": 3197.807604
     },
     {
       "slug": "swing-hostess",
@@ -497,7 +558,8 @@
       "year": "1944",
       "duration": 4412.842792,
       "file": "swing-hostess.opus",
-      "broadcastDuration": 4412.842792
+      "broadcastDuration": 4412.842792,
+      "slotDuration": 4409.842792
     },
     {
       "slug": "all-american-co-ed",
@@ -505,7 +567,8 @@
       "year": "1941",
       "duration": 2914.435917,
       "file": "all-american-co-ed.opus",
-      "broadcastDuration": 2914.435917
+      "broadcastDuration": 2914.435917,
+      "slotDuration": 2911.435917
     },
     {
       "slug": "minstrel-man",
@@ -513,7 +576,8 @@
       "year": "1944",
       "duration": 3815.473167,
       "file": "minstrel-man.opus",
-      "broadcastDuration": 3815.473167
+      "broadcastDuration": 3815.473167,
+      "slotDuration": 3812.473167
     },
     {
       "slug": "people-are-funny",
@@ -521,7 +585,8 @@
       "year": "1946",
       "duration": 5211.469917,
       "file": "people-are-funny.opus",
-      "broadcastDuration": 5211.469917
+      "broadcastDuration": 5211.469917,
+      "slotDuration": 5208.469917
     },
     {
       "slug": "the-milky-way",
@@ -529,7 +594,8 @@
       "year": "1936",
       "duration": 5246.939833,
       "file": "the-milky-way.opus",
-      "broadcastDuration": 5246.939833
+      "broadcastDuration": 5246.939833,
+      "slotDuration": 5243.939833
     },
     {
       "slug": "the-sin-of-harold-diddlebock",
@@ -537,7 +603,8 @@
       "year": "1947",
       "duration": 5374.265021,
       "file": "the-sin-of-harold-diddlebock.opus",
-      "broadcastDuration": 5374.265021
+      "broadcastDuration": 5374.265021,
+      "slotDuration": 5371.265021
     },
     {
       "slug": "earthworm-tractors",
@@ -545,7 +612,8 @@
       "year": "1936",
       "duration": 4108.034458,
       "file": "earthworm-tractors.opus",
-      "broadcastDuration": 4108.034458
+      "broadcastDuration": 4108.034458,
+      "slotDuration": 4105.034458
     },
     {
       "slug": "pecks-bad-boy",
@@ -553,7 +621,8 @@
       "year": "1934",
       "duration": 4076.059833,
       "file": "pecks-bad-boy.opus",
-      "broadcastDuration": 4076.059833
+      "broadcastDuration": 4076.059833,
+      "slotDuration": 4073.059833
     },
     {
       "slug": "speak-easily",
@@ -561,7 +630,8 @@
       "year": "1932",
       "duration": 4858.5665,
       "file": "speak-easily.opus",
-      "broadcastDuration": 4858.5665
+      "broadcastDuration": 4858.5665,
+      "slotDuration": 4855.5665
     },
     {
       "slug": "hook-line-and-sinker",
@@ -569,7 +639,8 @@
       "year": "1930",
       "duration": 4481.457167,
       "file": "hook-line-and-sinker.opus",
-      "broadcastDuration": 4481.457167
+      "broadcastDuration": 4481.457167,
+      "slotDuration": 4478.457167
     },
     {
       "slug": "the-animal-kingdom",
@@ -577,7 +648,8 @@
       "year": "1932",
       "duration": 5074.379313,
       "file": "the-animal-kingdom.opus",
-      "broadcastDuration": 5074.379313
+      "broadcastDuration": 5074.379313,
+      "slotDuration": 5071.379313
     },
     {
       "slug": "algiers",
@@ -585,7 +657,8 @@
       "year": "1938",
       "duration": 5946.311833,
       "file": "algiers.opus",
-      "broadcastDuration": 5946.311833
+      "broadcastDuration": 5946.311833,
+      "slotDuration": 5943.311833
     },
     {
       "slug": "the-scarlet-letter",
@@ -593,7 +666,8 @@
       "year": "1934",
       "duration": 4175.209792,
       "file": "the-scarlet-letter.opus",
-      "broadcastDuration": 4175.209792
+      "broadcastDuration": 4175.209792,
+      "slotDuration": 4172.209792
     },
     {
       "slug": "the-scarlet-pimpernel",
@@ -601,7 +675,8 @@
       "year": "1934",
       "duration": 5570.938042,
       "file": "the-scarlet-pimpernel.opus",
-      "broadcastDuration": 5570.938042
+      "broadcastDuration": 5570.938042,
+      "slotDuration": 5567.938042
     },
     {
       "slug": "return-of-the-scarlet-pimpernel",
@@ -609,7 +684,8 @@
       "year": "1937",
       "duration": 4585.947833,
       "file": "return-of-the-scarlet-pimpernel.opus",
-      "broadcastDuration": 4585.947833
+      "broadcastDuration": 4585.947833,
+      "slotDuration": 4582.947833
     },
     {
       "slug": "bird-of-paradise",
@@ -617,7 +693,8 @@
       "year": "1932",
       "duration": 4832.032646,
       "file": "bird-of-paradise.opus",
-      "broadcastDuration": 4832.032646
+      "broadcastDuration": 4832.032646,
+      "slotDuration": 4829.032646
     },
     {
       "slug": "the-snows-of-kilimanjaro",
@@ -625,7 +702,8 @@
       "year": "1952",
       "duration": 6782.624938,
       "file": "the-snows-of-kilimanjaro.opus",
-      "broadcastDuration": 6782.624938
+      "broadcastDuration": 6782.624938,
+      "slotDuration": 6779.624938
     },
     {
       "slug": "rain",
@@ -633,7 +711,8 @@
       "year": "1932",
       "duration": 5618.203833,
       "file": "rain.opus",
-      "broadcastDuration": 5618.203833
+      "broadcastDuration": 5618.203833,
+      "slotDuration": 5615.203833
     },
     {
       "slug": "abraham-lincoln",
@@ -641,7 +720,8 @@
       "year": "1930",
       "duration": 5079.771833,
       "file": "abraham-lincoln.opus",
-      "broadcastDuration": 5079.771833
+      "broadcastDuration": 5079.771833,
+      "slotDuration": 5076.771833
     },
     {
       "slug": "the-empire-strikes-back",
@@ -649,7 +729,8 @@
       "year": "1980",
       "duration": 7492.1985,
       "file": "the-empire-strikes-back.opus",
-      "broadcastDuration": 7492.1985
+      "broadcastDuration": 7492.1985,
+      "slotDuration": 7489.1985
     },
     {
       "slug": "return-of-the-jedi",
@@ -657,7 +738,8 @@
       "year": "1983",
       "duration": 7902.8865,
       "file": "return-of-the-jedi.opus",
-      "broadcastDuration": 7902.8865
+      "broadcastDuration": 7902.8865,
+      "slotDuration": 7899.8865
     },
     {
       "slug": "prisoners-of-the-lost-universe",
@@ -665,7 +747,8 @@
       "year": "1983",
       "duration": 5664.455479,
       "file": "prisoners-of-the-lost-universe.opus",
-      "broadcastDuration": 5664.455479
+      "broadcastDuration": 5664.455479,
+      "slotDuration": 5661.455479
     },
     {
       "slug": "star-wars-1977",
@@ -673,7 +756,8 @@
       "year": "1977",
       "duration": 7267.3345,
       "file": "star-wars-1977.opus",
-      "broadcastDuration": 7267.3345
+      "broadcastDuration": 7267.3345,
+      "slotDuration": 7264.3345
     },
     {
       "slug": "destination-moon",
@@ -681,7 +765,8 @@
       "year": "1950",
       "duration": 5468.944375,
       "file": "destination-moon.opus",
-      "broadcastDuration": 5468.944375
+      "broadcastDuration": 5468.944375,
+      "slotDuration": 5465.944375
     },
     {
       "slug": "the-phantom-planet",
@@ -689,7 +774,8 @@
       "year": "1961",
       "duration": 4939.691958,
       "file": "the-phantom-planet.opus",
-      "broadcastDuration": 4939.691958
+      "broadcastDuration": 4939.691958,
+      "slotDuration": 4936.691958
     },
     {
       "slug": "hundra",
@@ -697,7 +783,8 @@
       "year": "1983",
       "duration": 5752.320708,
       "file": "hundra.opus",
-      "broadcastDuration": 5752.320708
+      "broadcastDuration": 5752.320708,
+      "slotDuration": 5749.320708
     },
     {
       "slug": "atomic-rulers",
@@ -705,7 +792,8 @@
       "year": "1965",
       "duration": 4456.496313,
       "file": "atomic-rulers.opus",
-      "broadcastDuration": 4456.496313
+      "broadcastDuration": 4456.496313,
+      "slotDuration": 4453.496313
     },
     {
       "slug": "destroy-all-planets",
@@ -713,7 +801,8 @@
       "year": "1968",
       "duration": 4876.069271,
       "file": "destroy-all-planets.opus",
-      "broadcastDuration": 4876.069271
+      "broadcastDuration": 4876.069271,
+      "slotDuration": 4873.069271
     },
     {
       "slug": "this-island-earth",
@@ -721,7 +810,8 @@
       "year": "1955",
       "duration": 4300.133125,
       "file": "this-island-earth.opus",
-      "broadcastDuration": 4300.133125
+      "broadcastDuration": 4300.133125,
+      "slotDuration": 4297.133125
     },
     {
       "slug": "lost-continent",
@@ -729,7 +819,8 @@
       "year": "1951",
       "duration": 5022.9825,
       "file": "lost-continent.opus",
-      "broadcastDuration": 5022.9825
+      "broadcastDuration": 5022.9825,
+      "slotDuration": 5019.9825
     },
     {
       "slug": "ator-the-fighting-eagle",
@@ -737,7 +828,8 @@
       "year": "1982",
       "duration": 5515.80225,
       "file": "ator-the-fighting-eagle.opus",
-      "broadcastDuration": 5515.80225
+      "broadcastDuration": 5515.80225,
+      "slotDuration": 5512.80225
     },
     {
       "slug": "cat-women-of-the-moon",
@@ -745,7 +837,8 @@
       "year": "1953",
       "duration": 3818.388729,
       "file": "cat-women-of-the-moon.opus",
-      "broadcastDuration": 3818.388729
+      "broadcastDuration": 3818.388729,
+      "slotDuration": 3815.388729
     },
     {
       "slug": "conan-the-destroyer",
@@ -753,7 +846,8 @@
       "year": "1984",
       "duration": 6076.053313,
       "file": "conan-the-destroyer.opus",
-      "broadcastDuration": 6076.053313
+      "broadcastDuration": 6076.053313,
+      "slotDuration": 6073.053313
     },
     {
       "slug": "nevada-smith",
@@ -761,7 +855,8 @@
       "year": "1975",
       "duration": 4217.725521,
       "file": "nevada-smith.opus",
-      "broadcastDuration": 4217.725521
+      "broadcastDuration": 4217.725521,
+      "slotDuration": 4214.725521
     },
     {
       "slug": "red-sonja",
@@ -769,7 +864,8 @@
       "year": "1985",
       "duration": 5345.820563,
       "file": "red-sonja.opus",
-      "broadcastDuration": 5345.820563
+      "broadcastDuration": 5345.820563,
+      "slotDuration": 5342.820563
     },
     {
       "slug": "unknown-world",
@@ -777,7 +873,8 @@
       "year": "1951",
       "duration": 4437.850688,
       "file": "unknown-world.opus",
-      "broadcastDuration": 4437.850688
+      "broadcastDuration": 4437.850688,
+      "slotDuration": 4434.850688
     },
     {
       "slug": "siege-at-red-river",
@@ -785,7 +882,8 @@
       "year": "1954",
       "duration": 6809.536854,
       "file": "siege-at-red-river.opus",
-      "broadcastDuration": 6809.536854
+      "broadcastDuration": 6809.536854,
+      "slotDuration": 6806.536854
     },
     {
       "slug": "hercules",
@@ -793,7 +891,8 @@
       "year": "1958",
       "duration": 5559.74,
       "file": "hercules.opus",
-      "broadcastDuration": 5559.74
+      "broadcastDuration": 5559.74,
+      "slotDuration": 5556.74
     },
     {
       "slug": "the-golden-voyage-of-sinbad",
@@ -801,7 +900,8 @@
       "year": "1973",
       "duration": 6299.4525,
       "file": "the-golden-voyage-of-sinbad.opus",
-      "broadcastDuration": 6299.4525
+      "broadcastDuration": 6299.4525,
+      "slotDuration": 6296.4525
     },
     {
       "slug": "the-beastmaster",
@@ -809,7 +909,8 @@
       "year": "1982",
       "duration": 7108.01775,
       "file": "the-beastmaster.opus",
-      "broadcastDuration": 7108.01775
+      "broadcastDuration": 7108.01775,
+      "slotDuration": 7105.01775
     },
     {
       "slug": "springtime-in-the-rockies",
@@ -817,7 +918,8 @@
       "year": "1937",
       "duration": 3319.984021,
       "file": "springtime-in-the-rockies.opus",
-      "broadcastDuration": 3319.984021
+      "broadcastDuration": 3319.984021,
+      "slotDuration": 3316.984021
     },
     {
       "slug": "tulsa",
@@ -825,7 +927,8 @@
       "year": "1949",
       "duration": 5259.988,
       "file": "tulsa.opus",
-      "broadcastDuration": 5259.988
+      "broadcastDuration": 5259.988,
+      "slotDuration": 5256.988
     },
     {
       "slug": "they-rode-west",
@@ -833,7 +936,8 @@
       "year": "1954",
       "duration": 4847.624833,
       "file": "they-rode-west.opus",
-      "broadcastDuration": 4847.624833
+      "broadcastDuration": 4847.624833,
+      "slotDuration": 4844.624833
     },
     {
       "slug": "the-sword-and-the-sorcerer",
@@ -841,7 +945,8 @@
       "year": "1982",
       "duration": 5968.475271,
       "file": "the-sword-and-the-sorcerer.opus",
-      "broadcastDuration": 5968.475271
+      "broadcastDuration": 5968.475271,
+      "slotDuration": 5965.475271
     },
     {
       "slug": "the-day-the-earth-stood-still",
@@ -849,7 +954,8 @@
       "year": "1951",
       "duration": 5538.164146,
       "file": "the-day-the-earth-stood-still.opus",
-      "broadcastDuration": 5538.164146
+      "broadcastDuration": 5538.164146,
+      "slotDuration": 5535.164146
     },
     {
       "slug": "20000-leagues-under-the-sea",
@@ -857,7 +963,8 @@
       "year": "1954",
       "duration": 7622.095938,
       "file": "20000-leagues-under-the-sea.opus",
-      "broadcastDuration": 7622.095938
+      "broadcastDuration": 7622.095938,
+      "slotDuration": 7619.095938
     },
     {
       "slug": "the-magic-sword",
@@ -865,7 +972,8 @@
       "year": "1962",
       "duration": 4818.704375,
       "file": "the-magic-sword.opus",
-      "broadcastDuration": 4818.704375
+      "broadcastDuration": 4818.704375,
+      "slotDuration": 4815.704375
     },
     {
       "slug": "gor",
@@ -873,7 +981,8 @@
       "year": "1987",
       "duration": 5391.451854,
       "file": "gor.opus",
-      "broadcastDuration": 5391.451854
+      "broadcastDuration": 5391.451854,
+      "slotDuration": 5388.451854
     },
     {
       "slug": "war-of-the-robots",
@@ -881,7 +990,8 @@
       "year": "1978",
       "duration": 5999.740938,
       "file": "war-of-the-robots.opus",
-      "broadcastDuration": 5999.740938
+      "broadcastDuration": 5999.740938,
+      "slotDuration": 5996.740938
     },
     {
       "slug": "thunderbolt",
@@ -889,7 +999,8 @@
       "year": "1929",
       "duration": 5448.547,
       "file": "thunderbolt.opus",
-      "broadcastDuration": 5448.547
+      "broadcastDuration": 5448.547,
+      "slotDuration": 5445.547
     },
     {
       "slug": "jungle-book",
@@ -897,7 +1008,8 @@
       "year": "1942",
       "duration": 6294.611146,
       "file": "jungle-book.opus",
-      "broadcastDuration": 6294.611146
+      "broadcastDuration": 6294.611146,
+      "slotDuration": 6291.611146
     }
   ],
   "mode": "multi-station",
