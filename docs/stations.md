@@ -191,7 +191,9 @@ The side wheel selects six synchronized, repeating stations. Doctor Who is separ
 
 ## Doctor Who
 
-2 titles · 1.8 hours
+4 titles · 3.8 hours
 
 - The Eleventh Hour (2010)
 - The Lodger (2010)
+- Voyage of the Damned (2007)
+- The Pandorica Opens (2010)

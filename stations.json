@@ -204,9 +204,11 @@
       "name": "Doctor Who",
       "tracks": [
         "doctor-who-the-eleventh-hour",
-        "doctor-who-the-lodger"
+        "doctor-who-the-lodger",
+        "doctor-who-voyage-of-the-damned",
+        "doctor-who-the-pandorica-opens"
       ],
-      "total_seconds": 6421.261
+      "total_seconds": 13655.631333
     }
   ]
 }

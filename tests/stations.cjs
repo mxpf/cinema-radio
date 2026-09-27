@@ -21,9 +21,9 @@ const wait=ms=>new Promise(r=>setTimeout(r,ms));
 
 (async()=>{
 check('all tracks have one category, film stations meet minimum, Doctor Who stays separate',()=>{
- const categories=run('stations.slice(1).flatMap(s=>s.indices)');assert.equal(categories.length,83);assert.equal(new Set(categories).size,83);assert.equal(run('stations[0].indices.length'),81);
+ const categories=run('stations.slice(1).flatMap(s=>s.indices)');assert.equal(categories.length,85);assert.equal(new Set(categories).size,85);assert.equal(run('stations[0].indices.length'),81);
  for(const station of run('stations.slice(1,5)')) assert.ok(station.indices.length>=20);
- assert.equal(run("stations.find(s=>s.id==='doctor-who').indices.length"),2);
+ assert.equal(run("stations.find(s=>s.id==='doctor-who').indices.length"),4);
 });
 check('every station follows UTC offsets and wraps its own schedule',()=>{
  for(let j=0;j<6;j++){

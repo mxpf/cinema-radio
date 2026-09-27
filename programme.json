@@ -1,7 +1,7 @@
 {
   "updated": "2026-09-26",
   "epoch_utc": "2026-09-26T00:00:00Z",
-  "total_seconds": 428374.207858,
+  "total_seconds": 435608.578191,
   "tracks": [
     {
       "slug": "his-girl-friday",
@@ -583,6 +583,20 @@
       "year": "2010",
       "duration": 2551.0465,
       "file": "doctor-who-the-lodger.opus"
+    },
+    {
+      "slug": "doctor-who-voyage-of-the-damned",
+      "title": "Voyage of the Damned",
+      "year": "2007",
+      "duration": 4313.307833,
+      "file": "doctor-who-voyage-of-the-damned.opus"
+    },
+    {
+      "slug": "doctor-who-the-pandorica-opens",
+      "title": "The Pandorica Opens",
+      "year": "2010",
+      "duration": 2921.0625,
+      "file": "doctor-who-the-pandorica-opens.opus"
     }
   ],
   "mode": "multi-station",

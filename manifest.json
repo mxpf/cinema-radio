@@ -6753,6 +6753,28 @@
       "rights_basis": "User-supplied episode; no public-domain or redistribution clearance established.",
       "source_integrated_lufs": -21.9,
       "output_integrated_lufs": -23.0
+    },
+    {
+      "slug": "doctor-who-voyage-of-the-damned",
+      "title": "Voyage of the Damned",
+      "year": "2007",
+      "duration": 4313.307833,
+      "file": "doctor-who-voyage-of-the-damned.opus",
+      "station": "doctor-who",
+      "rights_basis": "User-supplied episode; no public-domain or redistribution clearance established.",
+      "source_integrated_lufs": -22.7,
+      "output_integrated_lufs": -23.0
+    },
+    {
+      "slug": "doctor-who-the-pandorica-opens",
+      "title": "The Pandorica Opens",
+      "year": "2010",
+      "duration": 2921.0625,
+      "file": "doctor-who-the-pandorica-opens.opus",
+      "station": "doctor-who",
+      "rights_basis": "User-supplied episode; no public-domain or redistribution clearance established.",
+      "source_integrated_lufs": -22.0,
+      "output_integrated_lufs": -23.0
     }
   ],
   "programme_order": [
