@@ -1,9 +1,7 @@
 # Sci-Fi
 
-Combines the four existing Doctor Who episodes, two Star Wars films, and Prisoners of the Lost Universe (1983). Saved selections of either old channel now open Sci-Fi.
+Movies only: The Empire Strikes Back (1980), Return of the Jedi (1983), and Prisoners of the Lost Universe (1983). Doctor Who removed at user request.
 
-Source: https://archive.org/details/PrisonersOfTheLostUniverse1983_201511
+Prisoners source: https://archive.org/details/PrisonersOfTheLostUniverse1983_201511
 
-Internet Archive item explicitly marked public domain. Working selection basis, not independent worldwide clearance.
-
-Audio matched to approximately −23 LUFS, decoded end to end, and duration checked. No full perceptual audition.
+See manifest.json for per-title provenance, audio checks, and rights evidence.

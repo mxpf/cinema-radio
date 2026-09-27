@@ -1,8 +1,10 @@
 # Cinema Radio stations
 
+Movies only. TV and radio-series additions cancelled.
+
 ## Repertory
 
-80 titles · 115.8 hours
+80 films · 115.8 hours
 
 - His Girl Friday (1940)
 - Royal Wedding (1951)
@@ -87,7 +89,7 @@
 
 ## Noir & Mystery
 
-21 titles · 30.3 hours
+21 films · 30.3 hours
 
 - Scarlet Street (1945)
 - The Kennel Murder Case (1933)
@@ -113,7 +115,7 @@
 
 ## Comedy
 
-20 titles · 28.4 hours
+20 films · 28.4 hours
 
 - His Girl Friday (1940)
 - The Flying Deuces (1939)
@@ -138,7 +140,7 @@
 
 ## Drama & Romance
 
-20 titles · 31.6 hours
+20 films · 31.6 hours
 
 - Penny Serenade (1941)
 - Love Affair (1939)
@@ -163,7 +165,7 @@
 
 ## Musicals
 
-19 titles · 25.3 hours
+19 films · 25.3 hours
 
 - Royal Wedding (1951)
 - Second Chorus (1940)
@@ -187,12 +189,8 @@
 
 ## Sci-Fi
 
-7 titles · 9.6 hours
+3 films · 5.8 hours
 
-- The Eleventh Hour (2010)
-- The Lodger (2010)
-- Voyage of the Damned (2007)
-- The Pandorica Opens (2010)
 - The Empire Strikes Back (1980)
 - Return of the Jedi (1983)
 - Prisoners of the Lost Universe (1983)

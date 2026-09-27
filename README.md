@@ -1,12 +1,12 @@
 # Cinema Radio
 
-An ambient, always-on English-language cinema-as-radio service: film soundtracks, no visible video, and no seek, skip, or rewind. Quiet passages belong in the programme. Thrillers, noir, mystery and suspense are welcome; straight horror is excluded.
+An ambient, always-on English-language cinema-as-radio service: film soundtracks, no visible video, and no seek, skip, or rewind. Movies only; no television episodes or radio dramas. Quiet passages belong in the programme. Thrillers, noir, mystery and suspense are welcome; straight horror is excluded.
 
 ## Run locally
 
 Open `index.html` in a browser, or serve this folder with a static file server. There is no build step, database, or application server.
 
-The interface and metadata are included. **Audio is not stored in Git.** Place the 87 Opus files listed in `programme.json` into `audio/`, or set `CINEMA_RADIO_MEDIA_BASE_URL` in `config.js` to their object-storage URL prefix. Keep the exact filenames from the catalogue. A clone will display the radio without media, but playback needs those files.
+The interface and metadata are included. **Audio is not stored in Git.** Place the 83 Opus files listed in `programme.json` into `audio/`, or set `CINEMA_RADIO_MEDIA_BASE_URL` in `config.js` to their object-storage URL prefix. Keep the exact filenames from the catalogue. A clone will display the radio without media, but playback needs those files.
 
 ## Stations and controls
 
@@ -15,7 +15,7 @@ The interface and metadata are included. **Audio is not stored in Git.** Place t
 - **Comedy** — 20 films.
 - **Drama & Romance** — 20 films.
 - **Musicals** — 19 films.
-- **Sci-Fi** — 7 titles: four Doctor Who episodes, two Star Wars films, and Prisoners of the Lost Universe (1983).
+- **Sci-Fi** — 3 films: The Empire Strikes Back, Return of the Jedi, and Prisoners of the Lost Universe.
 
 The right-hand wheel changes stations: drag up/down, scroll, tap for the next station, or use keyboard arrows. Each station has its own continuously repeating schedule anchored to 26 September 2026 at 00:00 UTC. Listeners join the current scheduled position. The selected station is remembered locally when browser storage is available.
 

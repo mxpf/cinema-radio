@@ -1,6 +1,6 @@
 {
   "updated": "2026-09-26",
-  "scope": "Working catalogue with per-title source evidence, not independent worldwide clearance. Sci-Fi includes user-supplied Doctor Who and Star Wars recordings whose redistribution rights have not been established.",
+  "scope": "Movies-only catalogue. Per-title source evidence retained; no independent worldwide clearance asserted. User-supplied Star Wars films have no redistribution clearance established.",
   "encoding": "Opus, 96 kbps target VBR, source channels retained, gain aligned toward -23 LUFS with a -2 dBFS sample-peak limiter; no denoising or speed correction.",
   "files": [
     {
@@ -4869,7 +4869,8 @@
       "station": "sci-fi",
       "rights_basis": "User-supplied episode; no public-domain or redistribution clearance established.",
       "source_integrated_lufs": -23.9,
-      "output_integrated_lufs": -23.0
+      "output_integrated_lufs": -23.0,
+      "status": "Removed from playback at user request: movies-only programming. Existing backup retained."
     },
     {
       "slug": "the-duke-is-tops",
@@ -6753,7 +6754,8 @@
       "station": "sci-fi",
       "rights_basis": "User-supplied episode; no public-domain or redistribution clearance established.",
       "source_integrated_lufs": -21.9,
-      "output_integrated_lufs": -23.0
+      "output_integrated_lufs": -23.0,
+      "status": "Removed from playback at user request: movies-only programming. Existing backup retained."
     },
     {
       "slug": "doctor-who-voyage-of-the-damned",
@@ -6764,7 +6766,8 @@
       "station": "sci-fi",
       "rights_basis": "User-supplied episode; no public-domain or redistribution clearance established.",
       "source_integrated_lufs": -22.7,
-      "output_integrated_lufs": -23.0
+      "output_integrated_lufs": -23.0,
+      "status": "Removed from playback at user request: movies-only programming. Existing backup retained."
     },
     {
       "slug": "doctor-who-the-pandorica-opens",
@@ -6775,7 +6778,8 @@
       "station": "sci-fi",
       "rights_basis": "User-supplied episode; no public-domain or redistribution clearance established.",
       "source_integrated_lufs": -22.0,
-      "output_integrated_lufs": -23.0
+      "output_integrated_lufs": -23.0,
+      "status": "Removed from playback at user request: movies-only programming. Existing backup retained."
     },
     {
       "slug": "the-empire-strikes-back",

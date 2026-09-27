@@ -201,15 +201,11 @@
       "id": "sci-fi",
       "name": "Sci-Fi",
       "tracks": [
-        "doctor-who-the-eleventh-hour",
-        "doctor-who-the-lodger",
-        "doctor-who-voyage-of-the-damned",
-        "doctor-who-the-pandorica-opens",
         "the-empire-strikes-back",
         "return-of-the-jedi",
         "prisoners-of-the-lost-universe"
       ],
-      "total_seconds": 34715.171812
+      "total_seconds": 21059.540479
     }
   ]
 }
