@@ -1,6 +1,6 @@
 {
   "updated": "2026-09-26",
-  "scope": "Working public-domain film catalogue with source evidence, not an assertion of worldwide clearance. Doctor Who and Star Wars are separate user-supplied channels, with no public-domain or redistribution clearance established.",
+  "scope": "Working catalogue with per-title source evidence, not independent worldwide clearance. Sci-Fi includes user-supplied Doctor Who and Star Wars recordings whose redistribution rights have not been established.",
   "encoding": "Opus, 96 kbps target VBR, source channels retained, gain aligned toward -23 LUFS with a -2 dBFS sample-peak limiter; no denoising or speed correction.",
   "files": [
     {
@@ -4866,7 +4866,7 @@
       "year": "2010",
       "duration": 3870.2145,
       "file": "doctor-who-the-eleventh-hour.opus",
-      "station": "doctor-who",
+      "station": "sci-fi",
       "rights_basis": "User-supplied episode; no public-domain or redistribution clearance established.",
       "source_integrated_lufs": -23.9,
       "output_integrated_lufs": -23.0
@@ -6750,7 +6750,7 @@
       "year": "2010",
       "duration": 2551.0465,
       "file": "doctor-who-the-lodger.opus",
-      "station": "doctor-who",
+      "station": "sci-fi",
       "rights_basis": "User-supplied episode; no public-domain or redistribution clearance established.",
       "source_integrated_lufs": -21.9,
       "output_integrated_lufs": -23.0
@@ -6761,7 +6761,7 @@
       "year": "2007",
       "duration": 4313.307833,
       "file": "doctor-who-voyage-of-the-damned.opus",
-      "station": "doctor-who",
+      "station": "sci-fi",
       "rights_basis": "User-supplied episode; no public-domain or redistribution clearance established.",
       "source_integrated_lufs": -22.7,
       "output_integrated_lufs": -23.0
@@ -6772,7 +6772,7 @@
       "year": "2010",
       "duration": 2921.0625,
       "file": "doctor-who-the-pandorica-opens.opus",
-      "station": "doctor-who",
+      "station": "sci-fi",
       "rights_basis": "User-supplied episode; no public-domain or redistribution clearance established.",
       "source_integrated_lufs": -22.0,
       "output_integrated_lufs": -23.0
@@ -6783,7 +6783,7 @@
       "year": "1980",
       "duration": 7492.1985,
       "file": "the-empire-strikes-back.opus",
-      "station": "star-wars",
+      "station": "sci-fi",
       "rights_basis": "User-supplied film; no public-domain or redistribution clearance established.",
       "source_integrated_lufs": -17.3,
       "output_integrated_lufs": -23.0
@@ -6794,10 +6794,79 @@
       "year": "1983",
       "duration": 7902.8865,
       "file": "return-of-the-jedi.opus",
-      "station": "star-wars",
+      "station": "sci-fi",
       "rights_basis": "User-supplied film; no public-domain or redistribution clearance established.",
       "source_integrated_lufs": -16.9,
       "output_integrated_lufs": -23.0
+    },
+    {
+      "slug": "prisoners-of-the-lost-universe",
+      "title": "Prisoners of the Lost Universe",
+      "year": "1983",
+      "duration": 5664.455479,
+      "file": "prisoners-of-the-lost-universe.opus",
+      "source_url": "https://archive.org/download/PrisonersOfTheLostUniverse1983_201511/PrisonersOfTheLostUniverse1983.avi",
+      "source_page": "https://archive.org/details/PrisonersOfTheLostUniverse1983_201511",
+      "rights_basis": "Internet Archive item explicitly marked public domain. Working selection basis, not independent worldwide clearance.",
+      "license_url": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "source_kind": "original",
+      "source_upload": "2015-11-09 00:06:42",
+      "source_bytes": 729640904,
+      "source_sha256": "6c6c7928244a40387d93ed179e347a106a0ce14b6aae5f6044181a60f1a22462",
+      "source_audio_streams": [
+        {
+          "index": 1,
+          "codec_name": "mp3",
+          "codec_long_name": "MP3 (MPEG audio layer 3)",
+          "codec_type": "audio",
+          "codec_tag_string": "U[0][0][0]",
+          "codec_tag": "0x0055",
+          "mime_codec_string": "mp4a.40.34",
+          "sample_fmt": "fltp",
+          "sample_rate": "44100",
+          "channels": 2,
+          "channel_layout": "stereo",
+          "bits_per_sample": 0,
+          "initial_padding": 0,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/16000",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "bit_rate": "128000",
+          "nb_frames": "90630976",
+          "extradata_size": 12,
+          "disposition": {
+            "default": 0,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          }
+        }
+      ],
+      "source_integrated_lufs": -33.1,
+      "gain_db": 10.1,
+      "output_integrated_lufs": -23.0,
+      "verification": "Summary:\n\n  Integrated loudness:\n    I:         -23.0 LUFS\n    Threshold: -34.0 LUFS\n\n  Loudness range:\n    LRA:        13.3 LU\n    Threshold: -44.0 LUFS\n    LRA low:   -32.6 LUFS\n    LRA high:  -19.3 LUFS\n\n  Sample peak:\n    Peak:       -4.7 dBFS\n[out#0/null @ 0x7fe2f0304540] video:0KiB audio:1062083KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nsize=N/A time=01:34:24.44 bitrate=N/A speed= 290x elapsed=0:00:19.56    \n",
+      "output_bytes": 66587741,
+      "output_sha256": "778dfe689d71a18be64e012a4fe5f95580b4e697977ba930d89118f05a9ce688",
+      "station": "sci-fi",
+      "review": "Full decode and duration check passed. No full perceptual listening review."
     }
   ],
   "programme_order": [

@@ -20,11 +20,11 @@ const run=s=>vm.runInContext(s,ctx);const results=[];function check(name,fn){fn(
 const wait=ms=>new Promise(r=>setTimeout(r,ms));
 
 (async()=>{
-check('all tracks have one category, film stations meet minimum, Doctor Who stays separate',()=>{
+check('all tracks have one category, film stations meet minimum, Sci-Fi combines the former series channels',()=>{
  const categories=run('stations.slice(1).flatMap(s=>s.indices)');assert.equal(categories.length,run('tracks.length'));assert.equal(new Set(categories).size,run('tracks.length'));assert.equal(run('stations[0].indices.length'),80);
  for(const station of run('stations.slice(1,5)')) assert.ok(station.indices.length>=(station.id==='musicals'?19:20));
- assert.equal(run("stations.find(s=>s.id==='doctor-who').indices.length"),4);
- assert.equal(run("stations.find(s=>s.id==='star-wars').indices.length"),2);
+ assert.equal(run("stations.find(s=>s.id==='sci-fi').indices.length"),7);
+ assert.equal(run("stations.some(s=>['doctor-who','star-wars'].includes(s.id))"),false);
 });
 check('every station follows UTC offsets and wraps its own schedule',()=>{
  for(let j=0;j<run('stations.length');j++){

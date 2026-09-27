@@ -1,10 +1,8 @@
 # Cinema Radio stations
 
-The side wheel selects seven synchronized, repeating stations. Doctor Who and Star Wars are separate from the Repertory mix.
-
 ## Repertory
 
-80 titles · 117.2 hours
+80 titles · 115.8 hours
 
 - His Girl Friday (1940)
 - Royal Wedding (1951)
@@ -165,7 +163,7 @@ The side wheel selects seven synchronized, repeating stations. Doctor Who and St
 
 ## Musicals
 
-20 titles · 26.8 hours
+19 titles · 25.3 hours
 
 - Royal Wedding (1951)
 - Second Chorus (1940)
@@ -187,18 +185,14 @@ The side wheel selects seven synchronized, repeating stations. Doctor Who and St
 - All-American Co-Ed (1941)
 - Minstrel Man (1944)
 
-## Doctor Who
+## Sci-Fi
 
-4 titles · 3.8 hours
+7 titles · 9.6 hours
 
 - The Eleventh Hour (2010)
 - The Lodger (2010)
 - Voyage of the Damned (2007)
 - The Pandorica Opens (2010)
-
-## Star Wars
-
-2 titles · 4.3 hours
-
 - The Empire Strikes Back (1980)
 - Return of the Jedi (1983)
+- Prisoners of the Lost Universe (1983)

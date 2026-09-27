@@ -1,7 +1,7 @@
 {
   "updated": "2026-09-26",
   "epoch_utc": "2026-09-26T00:00:00Z",
-  "total_seconds": 445754.223691,
+  "total_seconds": 451418.67917,
   "tracks": [
     {
       "slug": "his-girl-friday",
@@ -604,6 +604,13 @@
       "year": "1983",
       "duration": 7902.8865,
       "file": "return-of-the-jedi.opus"
+    },
+    {
+      "slug": "prisoners-of-the-lost-universe",
+      "title": "Prisoners of the Lost Universe",
+      "year": "1983",
+      "duration": 5664.455479,
+      "file": "prisoners-of-the-lost-universe.opus"
     }
   ],
   "mode": "multi-station",
