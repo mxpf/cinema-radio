@@ -201,11 +201,12 @@
       "id": "sci-fi",
       "name": "Sci-Fi",
       "tracks": [
+        "star-wars-1977",
         "the-empire-strikes-back",
         "return-of-the-jedi",
         "prisoners-of-the-lost-universe"
       ],
-      "total_seconds": 21059.540479
+      "total_seconds": 28326.874979
     }
   ]
 }

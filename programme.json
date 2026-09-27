@@ -1,7 +1,7 @@
 {
   "updated": "2026-09-26",
   "epoch_utc": "2026-09-26T00:00:00Z",
-  "total_seconds": 437763.047837,
+  "total_seconds": 445030.382337,
   "tracks": [
     {
       "slug": "his-girl-friday",
@@ -583,6 +583,13 @@
       "year": "1983",
       "duration": 5664.455479,
       "file": "prisoners-of-the-lost-universe.opus"
+    },
+    {
+      "slug": "star-wars-1977",
+      "title": "Star Wars",
+      "year": "1977",
+      "duration": 7267.3345,
+      "file": "star-wars-1977.opus"
     }
   ],
   "mode": "multi-station",

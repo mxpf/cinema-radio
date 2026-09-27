@@ -1,6 +1,6 @@
 # Cinema Radio stations
 
-Movies only. TV and radio-series additions cancelled.
+Movies only.
 
 ## Repertory
 
@@ -189,8 +189,9 @@ Movies only. TV and radio-series additions cancelled.
 
 ## Sci-Fi
 
-3 films · 5.8 hours
+4 films · 7.9 hours
 
+- Star Wars (1977)
 - The Empire Strikes Back (1980)
 - Return of the Jedi (1983)
 - Prisoners of the Lost Universe (1983)

@@ -6871,6 +6871,26 @@
       "output_sha256": "778dfe689d71a18be64e012a4fe5f95580b4e697977ba930d89118f05a9ce688",
       "station": "sci-fi",
       "review": "Full decode and duration check passed. No full perceptual listening review."
+    },
+    {
+      "slug": "star-wars-1977",
+      "title": "Star Wars",
+      "year": "1977",
+      "duration": 7267.3345,
+      "file": "star-wars-1977.opus",
+      "station": "sci-fi",
+      "source_kind": "User-supplied mounted Blu-ray directory",
+      "source_audio_stream": 2,
+      "source_audio_language": "eng",
+      "source_audio_channels": 2,
+      "source_duration": 7267.328,
+      "rights_basis": "User-supplied film; no public-domain or redistribution clearance established.",
+      "source_integrated_lufs": -20.6,
+      "gain_db": -2.3999999999999986,
+      "output_integrated_lufs": -23.0,
+      "output_bytes": 83730104,
+      "output_sha256": "5a1189f8daecd1347b404e18d717cae0c8dd08fa2002b6963df24b7d3c03a5ce",
+      "review": "Full output decode and duration check passed; no full perceptual audition."
     }
   ],
   "programme_order": [
