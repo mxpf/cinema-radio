@@ -1,7 +1,7 @@
 {
   "updated": "2026-09-26",
   "epoch_utc": "2026-09-26T00:00:00Z",
-  "total_seconds": 443100.776691,
+  "total_seconds": 451003.663191,
   "tracks": [
     {
       "slug": "his-girl-friday",
@@ -604,6 +604,13 @@
       "year": "1980",
       "duration": 7492.1985,
       "file": "the-empire-strikes-back.opus"
+    },
+    {
+      "slug": "return-of-the-jedi",
+      "title": "Return of the Jedi",
+      "year": "1983",
+      "duration": 7902.8865,
+      "file": "return-of-the-jedi.opus"
     }
   ],
   "mode": "multi-station",

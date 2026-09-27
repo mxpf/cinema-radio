@@ -6786,6 +6786,17 @@
       "rights_basis": "User-supplied film; no public-domain or redistribution clearance established.",
       "source_integrated_lufs": -17.3,
       "output_integrated_lufs": -23.0
+    },
+    {
+      "slug": "return-of-the-jedi",
+      "title": "Return of the Jedi",
+      "year": "1983",
+      "duration": 7902.8865,
+      "file": "return-of-the-jedi.opus",
+      "station": "star-wars",
+      "rights_basis": "User-supplied film; no public-domain or redistribution clearance established.",
+      "source_integrated_lufs": -16.9,
+      "output_integrated_lufs": -23.0
     }
   ],
   "programme_order": [

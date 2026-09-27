@@ -200,6 +200,7 @@ The side wheel selects seven synchronized, repeating stations. Doctor Who and St
 
 ## Star Wars
 
-1 titles · 2.1 hours
+2 titles · 4.3 hours
 
 - The Empire Strikes Back (1980)
+- Return of the Jedi (1983)
