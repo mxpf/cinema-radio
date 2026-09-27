@@ -19,5 +19,12 @@
 - Hercules (1958)
 - The Golden Voyage of Sinbad (1973)
 - The Beastmaster (1982)
+- The Sword and the Sorcerer (1982)
+- The Day the Earth Stood Still (1951)
+- 20,000 Leagues Under the Sea (1954)
+- The Magic Sword (1962)
+- Gor (1987)
+- War of the Robots (1978)
+- Jungle Book (1942)
 
 Indestructible Man and Earth Star Voyager remain excluded at user request. See manifest.json for provenance and per-title rights status.

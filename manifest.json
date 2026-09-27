@@ -141,7 +141,8 @@
         "bytes": 91632607,
         "sha256": "0db7fdbf0b1b6c1df040e865c2aed6a35e0aa88daeac4825714a0e54c3201d0d",
         "processing": "Audio stream copied from selected source without re-encoding; no video."
-      }
+      },
+      "station": "comedy"
     },
     {
       "slug": "anna-christie",
@@ -281,7 +282,8 @@
         "bytes": 89583751,
         "sha256": "2dad1d352c59a5a3bf61c8dde08f339b6e25aca99093f83250d70fbadc12930d",
         "processing": "Audio stream copied from selected source without re-encoding; no video."
-      }
+      },
+      "station": "drama"
     },
     {
       "slug": "animal-crackers",
@@ -422,7 +424,8 @@
         "bytes": 135063734,
         "sha256": "14ce7341df78562b2d536d3d927cd3335c86ea0213ce411c49b218d0eef577a4",
         "processing": "Audio stream copied from selected source without re-encoding; no video."
-      }
+      },
+      "station": "comedy"
     },
     {
       "slug": "detour",
@@ -562,7 +565,8 @@
         "bytes": 67702214,
         "sha256": "0af89668a90e4c6ff416d744e52cc35abf4f1c01bb28c59a2aa9e67d18771986",
         "processing": "Audio stream copied from selected source without re-encoding; no video."
-      }
+      },
+      "station": "noir"
     },
     {
       "slug": "hitch-hiker",
@@ -708,7 +712,8 @@
         "bytes": 50437634,
         "sha256": "108e850b381c168712f05eeed09a8ebe1446d613e621c72e06b88e64e2c31b29",
         "processing": "Audio stream copied from selected source without re-encoding; no video."
-      }
+      },
+      "station": "noir"
     },
     {
       "slug": "meet-john-doe",
@@ -788,7 +793,8 @@
       "source_audio_file": "source-audio/meet-john-doe.mka",
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "output_duration_seconds": 7371.2225,
-      "encoding": "Opus 96 kbps VBR; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "drama"
     },
     {
       "slug": "my-man-godfrey",
@@ -868,7 +874,8 @@
       "source_audio_file": "source-audio/my-man-godfrey.mka",
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "output_duration_seconds": 5687.072521,
-      "encoding": "Opus 96 kbps VBR; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "comedy"
     },
     {
       "slug": "life-with-father",
@@ -948,7 +955,8 @@
       "source_audio_file": "source-audio/life-with-father.mka",
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "output_duration_seconds": 7056.830479,
-      "encoding": "Opus 96 kbps VBR; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "comedy"
     },
     {
       "slug": "penny-serenade",
@@ -1028,7 +1036,8 @@
       "source_audio_file": "source-audio/penny-serenade.mka",
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "output_duration_seconds": 7146.7585,
-      "encoding": "Opus 96 kbps VBR; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "drama"
     },
     {
       "slug": "nothing-sacred",
@@ -1109,7 +1118,8 @@
       "source_audio_file": "source-audio/nothing-sacred.mka",
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "output_duration_seconds": 4449.692854,
-      "encoding": "Opus 96 kbps VBR; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "comedy"
     },
     {
       "slug": "last-time-i-saw-paris",
@@ -1189,7 +1199,8 @@
       "source_audio_file": "source-audio/last-time-i-saw-paris.mka",
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "output_duration_seconds": 6942.2465,
-      "encoding": "Opus 96 kbps VBR; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "drama"
     },
     {
       "slug": "kansas-city-confidential",
@@ -1269,7 +1280,8 @@
       "source_audio_file": "source-audio/kansas-city-confidential.mka",
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "output_duration_seconds": 5956.0865,
-      "encoding": "Opus 96 kbps VBR; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "noir"
     },
     {
       "slug": "doa",
@@ -1350,7 +1362,8 @@
       "source_audio_file": "source-audio/doa.mka",
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "output_duration_seconds": 5018.187021,
-      "encoding": "Opus 96 kbps VBR; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "noir"
     },
     {
       "slug": "the-stranger",
@@ -1430,7 +1443,8 @@
       "source_audio_file": "source-audio/the-stranger.mka",
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "output_duration_seconds": 5472.883479,
-      "encoding": "Opus 96 kbps VBR; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "noir"
     },
     {
       "slug": "suddenly",
@@ -1510,7 +1524,8 @@
       "source_audio_file": "source-audio/suddenly.mka",
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "output_duration_seconds": 4533.4865,
-      "encoding": "Opus 96 kbps VBR; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "noir"
     },
     {
       "slug": "scarlet-street",
@@ -1590,7 +1605,8 @@
       "source_audio_file": "source-audio/scarlet-street.mka",
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "output_duration_seconds": 6086.280479,
-      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "noir"
     },
     {
       "slug": "he-walked-by-night",
@@ -1670,7 +1686,8 @@
       "source_audio_file": "source-audio/he-walked-by-night.mka",
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "output_duration_seconds": 4733.906667,
-      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "noir"
     },
     {
       "slug": "quicksand",
@@ -1750,7 +1767,8 @@
       "source_audio_file": "source-audio/quicksand.mka",
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "output_duration_seconds": 4742.3105,
-      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "noir"
     },
     {
       "slug": "the-strange-love-of-martha-ivers",
@@ -1830,7 +1848,8 @@
       "source_audio_file": "source-audio/the-strange-love-of-martha-ivers.mka",
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "output_duration_seconds": 6952.7105,
-      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "noir"
     },
     {
       "slug": "the-strange-woman",
@@ -1904,7 +1923,8 @@
       "source_audio_file": "source-audio/the-strange-woman.mka",
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "output_duration_seconds": 5952.4385,
-      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "noir"
     },
     {
       "slug": "whistle-stop",
@@ -1984,7 +2004,8 @@
       "source_audio_file": "source-audio/whistle-stop.mka",
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "output_duration_seconds": 5055.8495,
-      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "noir"
     },
     {
       "slug": "impact",
@@ -2064,7 +2085,8 @@
       "source_audio_file": "source-audio/impact.mka",
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "output_duration_seconds": 6577.9985,
-      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "noir"
     },
     {
       "slug": "woman-on-the-run",
@@ -2145,7 +2167,8 @@
       "source_audio_file": "source-audio/woman-on-the-run.mka",
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "output_duration_seconds": 4612.2945,
-      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "noir"
     },
     {
       "slug": "the-second-woman",
@@ -2225,7 +2248,8 @@
       "source_audio_file": "source-audio/the-second-woman.mka",
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "output_duration_seconds": 5422.765521,
-      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "noir"
     },
     {
       "slug": "guest-in-the-house",
@@ -2305,7 +2329,8 @@
       "source_audio_file": "source-audio/guest-in-the-house.mka",
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "output_duration_seconds": 5797.940875,
-      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "noir"
     },
     {
       "slug": "lady-of-burlesque",
@@ -2385,7 +2410,8 @@
       "source_audio_file": "source-audio/lady-of-burlesque.mka",
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "output_duration_seconds": 5414.171417,
-      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "noir"
     },
     {
       "slug": "royal-wedding",
@@ -2465,7 +2491,8 @@
       "source_audio_file": "source-audio/royal-wedding.mka",
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "output_duration_seconds": 5497.3825,
-      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "musicals"
     },
     {
       "slug": "till-the-clouds-roll-by",
@@ -2545,7 +2572,8 @@
       "source_audio_file": "source-audio/till-the-clouds-roll-by.mka",
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "output_duration_seconds": 8108.3265,
-      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "musicals"
     },
     {
       "slug": "second-chorus",
@@ -2625,7 +2653,8 @@
       "source_audio_file": "source-audio/second-chorus.mka",
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "output_duration_seconds": 5017.5905,
-      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "musicals"
     },
     {
       "slug": "pot-o-gold",
@@ -2706,7 +2735,8 @@
       "source_audio_file": "source-audio/pot-o-gold.mka",
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "output_duration_seconds": 5130.850021,
-      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "musicals"
     },
     {
       "slug": "the-flying-deuces",
@@ -2787,7 +2817,8 @@
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "timing_repair": "Rebuilt continuous audio timestamps from decoded sample count before encoding; no audio cuts or speed changes.",
       "output_duration_seconds": 4077.59025,
-      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "comedy"
     },
     {
       "slug": "the-inspector-general",
@@ -2867,7 +2898,8 @@
       "source_audio_file": "source-audio/the-inspector-general.mka",
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "output_duration_seconds": 6114.7985,
-      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "comedy"
     },
     {
       "slug": "a-star-is-born",
@@ -2947,7 +2979,8 @@
       "source_audio_file": "source-audio/a-star-is-born.mka",
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "output_duration_seconds": 6653.1065,
-      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "drama"
     },
     {
       "slug": "made-for-each-other",
@@ -3028,7 +3061,8 @@
       "source_audio_file": "source-audio/made-for-each-other.mka",
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "output_duration_seconds": 5429.5285,
-      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "drama"
     },
     {
       "slug": "love-affair",
@@ -3108,7 +3142,8 @@
       "source_audio_file": "source-audio/love-affair.mka",
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "output_duration_seconds": 5210.363521,
-      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "drama"
     },
     {
       "slug": "of-human-bondage",
@@ -3188,7 +3223,8 @@
       "source_audio_file": "source-audio/of-human-bondage.mka",
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "output_duration_seconds": 4957.365458,
-      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "drama"
     },
     {
       "slug": "the-little-princess",
@@ -3269,7 +3305,8 @@
       "source_audio_file": "source-audio/the-little-princess.mka",
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "output_duration_seconds": 5566.065167,
-      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "drama"
     },
     {
       "slug": "the-southerner",
@@ -3349,7 +3386,8 @@
       "source_audio_file": "source-audio/the-southerner.mka",
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "output_duration_seconds": 5510.275521,
-      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "drama"
     },
     {
       "slug": "our-town",
@@ -3429,7 +3467,8 @@
       "source_audio_file": "source-audio/our-town.mka",
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "output_duration_seconds": 5219.817646,
-      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "drama"
     },
     {
       "slug": "the-kennel-murder-case",
@@ -3510,7 +3549,8 @@
       "source_audio_file": "source-audio/the-kennel-murder-case.mka",
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "output_duration_seconds": 4383.089167,
-      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "noir"
     },
     {
       "slug": "the-green-glove",
@@ -3590,7 +3630,8 @@
       "source_audio_file": "source-audio/the-green-glove.mka",
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "output_duration_seconds": 5324.017042,
-      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "noir"
     },
     {
       "slug": "beat-the-devil",
@@ -3670,7 +3711,8 @@
       "source_audio_file": "source-audio/beat-the-devil.mka",
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "output_duration_seconds": 5356.8065,
-      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "comedy"
     },
     {
       "slug": "trapped",
@@ -3750,7 +3792,8 @@
       "source_audio_file": "source-audio/trapped.mka",
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "output_duration_seconds": 4684.2575,
-      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "noir"
     },
     {
       "slug": "borderline",
@@ -3830,7 +3873,8 @@
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "timing_repair": "Rebuilt continuous audio timestamps from decoded sample count before encoding; no audio cuts or speed changes.",
       "output_duration_seconds": 5268.155479,
-      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "noir"
     },
     {
       "slug": "the-man-who-cheated-himself",
@@ -3911,7 +3955,8 @@
       "source_audio_file": "source-audio/the-man-who-cheated-himself.mka",
       "review": "Full decode and duration check passed. No full perceptual listening review.",
       "output_duration_seconds": 4792.094313,
-      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment"
+      "encoding": "Opus 96 kbps VBR, complexity 5; static gain toward -23 LUFS; -2 dBFS sample limiter; no silence cuts or speed adjustment",
+      "station": "noir"
     },
     {
       "slug": "private-buckaroo",
@@ -5570,7 +5615,7 @@
       "verification": "Summary:\n\n  Integrated loudness:\n    I:         -23.0 LUFS\n    Threshold: -33.9 LUFS\n\n  Loudness range:\n    LRA:        10.9 LU\n    Threshold: -43.9 LUFS\n    LRA low:   -30.7 LUFS\n    LRA high:  -19.8 LUFS\n\n  Sample peak:\n    Peak:       -4.8 dBFS\n[out#0/null @ 0x7f78f4904ac0] video:0KiB audio:977145KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nsize=N/A time=01:26:51.44 bitrate=N/A speed= 131x elapsed=0:00:39.63    \n",
       "output_bytes": 61043077,
       "output_sha256": "35a19560a107c6d29a9f6b6a955c63b6b8399ba416417728877ea7f4938c6565",
-      "station": "comedy",
+      "station": "musicals",
       "review": "Full decode and duration check passed. No full perceptual listening review."
     },
     {
@@ -5882,7 +5927,7 @@
       "verification": "Summary:\n\n  Integrated loudness:\n    I:         -23.0 LUFS\n    Threshold: -34.7 LUFS\n\n  Loudness range:\n    LRA:        17.0 LU\n    Threshold: -44.7 LUFS\n    LRA low:   -36.4 LUFS\n    LRA high:  -19.4 LUFS\n\n  Sample peak:\n    Peak:       -3.1 dBFS\n[out#0/null @ 0x7fabc9f04140] video:0KiB audio:764256KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nsize=N/A time=01:07:56.03 bitrate=N/A speed= 121x elapsed=0:00:33.60    \n",
       "output_bytes": 38905762,
       "output_sha256": "be75fa13eff00af4a94299ee41b66298614d30b4a09f6127685ffe0c209b0fc7",
-      "station": "comedy",
+      "station": "drama",
       "review": "Full decode and duration check passed. No full perceptual listening review."
     },
     {
@@ -6194,7 +6239,7 @@
       "verification": "Summary:\n\n  Integrated loudness:\n    I:         -23.0 LUFS\n    Threshold: -33.5 LUFS\n\n  Loudness range:\n    LRA:         9.1 LU\n    Threshold: -43.5 LUFS\n    LRA low:   -29.7 LUFS\n    LRA high:  -20.6 LUFS\n\n  Sample peak:\n    Peak:       -3.9 dBFS\n[out#0/null @ 0x7fa8d0c04a80] video:0KiB audio:1114928KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nsize=N/A time=01:39:06.28 bitrate=N/A speed= 108x elapsed=0:00:54.86    \n",
       "output_bytes": 73795003,
       "output_sha256": "02be3e00a0b5aaec9d549f73553cacf0511f14e525c22174f60138d3102c8f86",
-      "station": "drama",
+      "station": "noir",
       "review": "Full decode and duration check passed. No full perceptual listening review."
     },
     {
@@ -7252,6 +7297,177 @@
       "output_integrated_lufs": -23.1,
       "output_bytes": 58252237,
       "output_sha256": "a18197fa9b533d8c71b85716ab04e7513d3b9a8838e004def0cabcd8c253c337",
+      "review": "Full output decode and duration check passed. No full perceptual audition."
+    },
+    {
+      "slug": "they-rode-west",
+      "title": "They Rode West",
+      "year": "1954",
+      "duration": 4847.624833,
+      "file": "they-rode-west.opus",
+      "station": "westerns",
+      "source_kind": "User-supplied MP3",
+      "source_reference": "https://www.youtube.com/watch?v=HQnLyIi7RXk",
+      "rights_basis": "User-supplied audio; public-domain or redistribution clearance not established.",
+      "source_duration": 4847.618333,
+      "source_sha256": "dff6c5261852c7f32cc762c5aeb0b5881676b18165cc5bc0ab4d438c9ce020db",
+      "source_integrated_lufs": -10.9,
+      "gain_db": -12.1,
+      "output_integrated_lufs": -23.0,
+      "output_bytes": 54802292,
+      "output_sha256": "d9fa45053085ce9b72ca8af3e4d5d2146166c66c2c73f57c2d71c059d2c5ade1",
+      "review": "Full output decode and duration check passed. No full perceptual audition."
+    },
+    {
+      "slug": "the-sword-and-the-sorcerer",
+      "title": "The Sword and the Sorcerer",
+      "year": "1982",
+      "duration": 5968.475271,
+      "file": "the-sword-and-the-sorcerer.opus",
+      "station": "sci-fi",
+      "source_kind": "User-supplied MP3",
+      "source_reference": "https://www.youtube.com/watch?v=XtQ_I8TXNPM",
+      "rights_basis": "User-supplied audio; public-domain or redistribution clearance not established.",
+      "source_duration": 5968.468771,
+      "source_sha256": "bb0a55f145ebcd08491ade707aa09f564a888b934385c5223253d53b521217a3",
+      "source_integrated_lufs": -19.5,
+      "gain_db": -3.5,
+      "output_integrated_lufs": -22.9,
+      "output_bytes": 53180387,
+      "output_sha256": "d78ff8c78786c5bf4402d7bd61aca1a9d0af0a67e4f919b31ea9c48588c08457",
+      "review": "Full output decode and duration check passed. No full perceptual audition."
+    },
+    {
+      "slug": "the-day-the-earth-stood-still",
+      "title": "The Day the Earth Stood Still",
+      "year": "1951",
+      "duration": 5538.164146,
+      "file": "the-day-the-earth-stood-still.opus",
+      "station": "sci-fi",
+      "source_kind": "User-supplied MP3",
+      "source_reference": "https://www.youtube.com/watch?v=Xh8P4MIaZBA",
+      "rights_basis": "User-supplied audio; public-domain or redistribution clearance not established.",
+      "source_duration": 5538.157646,
+      "source_sha256": "17455784e2b5316191af89de9cdd884d10069e0f51121e4045cd7eeb9466eb54",
+      "source_integrated_lufs": -26.3,
+      "gain_db": 3.3000000000000007,
+      "output_integrated_lufs": -23.2,
+      "output_bytes": 67682450,
+      "output_sha256": "5ff37d332e5bf20a22eba18f340a3ef941cee3627155e7b6c917ad2c5727c98a",
+      "review": "Full output decode and duration check passed. No full perceptual audition."
+    },
+    {
+      "slug": "20000-leagues-under-the-sea",
+      "title": "20,000 Leagues Under the Sea",
+      "year": "1954",
+      "duration": 7622.095938,
+      "file": "20000-leagues-under-the-sea.opus",
+      "station": "sci-fi",
+      "source_kind": "User-supplied MP3",
+      "source_reference": "https://www.youtube.com/watch?v=6sm53GpT8Fw",
+      "rights_basis": "User-supplied audio; public-domain or redistribution clearance not established.",
+      "source_duration": 7622.089438,
+      "source_sha256": "4c9f461c0ced2a958e131e74b5e67e695de3d5c00f81e73eabf8233a698d1f81",
+      "source_integrated_lufs": -16.6,
+      "gain_db": -6.399999999999999,
+      "output_integrated_lufs": -23.0,
+      "output_bytes": 94971294,
+      "output_sha256": "11fe2d11e77b359fb932ca7c4d5e1dcca27f5e658caa90f342dfb22996b89f8c",
+      "review": "Full output decode and duration check passed. No full perceptual audition."
+    },
+    {
+      "slug": "the-magic-sword",
+      "title": "The Magic Sword",
+      "year": "1962",
+      "duration": 4818.704375,
+      "file": "the-magic-sword.opus",
+      "station": "sci-fi",
+      "source_kind": "User-supplied MP3",
+      "source_reference": "https://www.youtube.com/watch?v=JFkP_0pcpjo",
+      "rights_basis": "User-supplied audio; public-domain or redistribution clearance not established.",
+      "source_duration": 4818.697875,
+      "source_sha256": "220b3223bb43c523535a10fcb817d0d264d2098ea7b809408dfdcf673e74ab31",
+      "source_integrated_lufs": -24.0,
+      "gain_db": 1.0,
+      "output_integrated_lufs": -23.0,
+      "output_bytes": 55848919,
+      "output_sha256": "3aa8838ffae26e40dbb19dec85ca45eedcf49a234954370de2255178f6c91721",
+      "review": "Full output decode and duration check passed. No full perceptual audition."
+    },
+    {
+      "slug": "gor",
+      "title": "Gor",
+      "year": "1987",
+      "duration": 5391.451854,
+      "file": "gor.opus",
+      "station": "sci-fi",
+      "source_kind": "User-supplied MP3",
+      "source_reference": "https://www.youtube.com/watch?v=LmKVpvbqXOg",
+      "rights_basis": "User-supplied audio; public-domain or redistribution clearance not established.",
+      "source_duration": 5391.445354,
+      "source_sha256": "e49175f8751ff33204bfa592e13f1bf8614d86225ce041a2dc2b80f5bd0c5ce3",
+      "source_integrated_lufs": -19.6,
+      "gain_db": -3.3999999999999986,
+      "output_integrated_lufs": -22.9,
+      "output_bytes": 59156310,
+      "output_sha256": "14843e50da843c7d72deb1743218c49476f1c9339c50e90f4c9cd586d341be0b",
+      "review": "Full output decode and duration check passed. No full perceptual audition."
+    },
+    {
+      "slug": "war-of-the-robots",
+      "title": "War of the Robots",
+      "year": "1978",
+      "duration": 5999.740938,
+      "file": "war-of-the-robots.opus",
+      "station": "sci-fi",
+      "source_kind": "User-supplied MP3",
+      "source_reference": "https://www.youtube.com/watch?v=Gb7rNA8rjCY",
+      "rights_basis": "User-supplied audio; public-domain or redistribution clearance not established.",
+      "source_duration": 5999.734438,
+      "source_sha256": "2a0098a366bee6bfc5adb7d80e6f97503c627cc639af6ee83bd05f5b4ce51839",
+      "source_integrated_lufs": -24.9,
+      "gain_db": 1.8999999999999986,
+      "output_integrated_lufs": -23.0,
+      "output_bytes": 72127059,
+      "output_sha256": "e14cab24c79a51877a8a3bbd64d279f584bfcfe6fbc65096d885099070eae859",
+      "review": "Full output decode and duration check passed. No full perceptual audition."
+    },
+    {
+      "slug": "thunderbolt",
+      "title": "Thunderbolt",
+      "year": "1929",
+      "duration": 5448.547,
+      "file": "thunderbolt.opus",
+      "station": "noir",
+      "source_kind": "User-supplied MP4",
+      "source_reference": "local-thunderbolt",
+      "rights_basis": "User-supplied audio; public-domain or redistribution clearance not established.",
+      "source_duration": 5448.5405,
+      "source_sha256": "b3730d28a0fc0c8e4d10fc5f2fcd158b4d48618d91919116efe3059d03383037",
+      "source_integrated_lufs": -28.9,
+      "gain_db": 5.899999999999999,
+      "output_integrated_lufs": -23.1,
+      "output_bytes": 49705866,
+      "output_sha256": "0143232b02754382209d4f9eb4c8952bf18ac75b740639547137e7c8c5f489d4",
+      "review": "Full output decode and duration check passed. No full perceptual audition."
+    },
+    {
+      "slug": "jungle-book",
+      "title": "Jungle Book",
+      "year": "1942",
+      "duration": 6294.611146,
+      "file": "jungle-book.opus",
+      "station": "sci-fi",
+      "source_kind": "User-supplied MP4",
+      "source_reference": "local-jungle-book",
+      "rights_basis": "User-supplied audio; public-domain or redistribution clearance not established.",
+      "source_duration": 6294.604626,
+      "source_sha256": "2780e46761d3e7a4c1ec9290188249e0e06f28907edf1b5cbb9cf9409cce4f6c",
+      "source_integrated_lufs": -24.1,
+      "gain_db": 1.1000000000000014,
+      "output_integrated_lufs": -23.0,
+      "output_bytes": 61014758,
+      "output_sha256": "7364153e00879ea36700de5c4cd0249c27d66d93c24514ac4960cb3eb40dedc7",
       "review": "Full output decode and duration check passed. No full perceptual audition."
     }
   ],

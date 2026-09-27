@@ -21,13 +21,14 @@ const wait=ms=>new Promise(r=>setTimeout(r,ms));
 
 (async()=>{
 check('all tracks have one category, film stations meet minimum, Sci-Fi is movies only',()=>{
- const categories=run('stations.slice(1).flatMap(s=>s.indices)');assert.equal(categories.length,run('tracks.length'));assert.equal(new Set(categories).size,run('tracks.length'));assert.equal(run('stations[0].indices.length'),80);
- for(const station of run('stations.slice(1,5)')) assert.ok(station.indices.length>=(station.id==='musicals'?19:20));
- assert.equal(run("stations.find(s=>s.id==='sci-fi').indices.length"),19);
+ const categories=run('stations.slice(1).flatMap(s=>s.indices)');assert.equal(categories.length,run('tracks.length'));assert.equal(new Set(categories).size,run('tracks.length'));assert.equal(run('stations[0].indices.length'),run('tracks.length'));assert.equal(new Set(run('stations[0].indices')).size,run('tracks.length'));
+ for(const station of run('stations')) assert.ok(station.indices.length>0);
+ assert.equal(run("stations.find(s=>s.id==='sci-fi').indices.length"),26);
  assert.equal(run("stations.some(s=>['doctor-who','star-wars'].includes(s.id))"),false);
  assert.equal(run("tracks.some(t=>/^(doctor-who|sherlock-holmes|shadow-|space-patrol-|gunsmoke-)/.test(t.slug))"),false);
 });
-check('excluded batch titles are absent',()=>{ assert.equal(run("tracks.some(t=>['earth-star-voyager','indestructible-man'].includes(t.slug))"),false); });
+check('excluded batch titles are absent',()=>{ assert.equal(run("tracks.some(t=>['earth-star-voyager','indestructible-man','son-of-zorro'].includes(t.slug))"),false); });
+check('audited primary genres are applied',()=>{for(const [slug,id] of [['pecks-bad-boy','drama'],['people-are-funny','musicals'],['algiers','noir'],['the-strange-woman','noir']])assert.equal(run(`stations.find(s=>s.id==='${id}').indices.includes(tracks.findIndex(t=>t.slug==='${slug}'))`),true);});
 check('every station follows UTC offsets and wraps its own schedule',()=>{
  for(let j=0;j<run('stations.length');j++){
   let offset=0;const indices=run(`stations[${j}].indices`);

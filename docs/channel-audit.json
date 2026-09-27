@@ -1,0 +1,901 @@
+{
+  "scope": "Editorial genre placement audit of all 112 catalogue entries, including the nine latest additions. Not a full listening, completeness, or rights audit.",
+  "films": [
+    {
+      "slug": "scarlet-street",
+      "title": "Scarlet Street",
+      "year": "1945",
+      "previous_station": "noir",
+      "station": "noir",
+      "decision": "retained"
+    },
+    {
+      "slug": "the-kennel-murder-case",
+      "title": "The Kennel Murder Case",
+      "year": "1933",
+      "previous_station": "noir",
+      "station": "noir",
+      "decision": "retained"
+    },
+    {
+      "slug": "kansas-city-confidential",
+      "title": "Kansas City Confidential",
+      "year": "1952",
+      "previous_station": "noir",
+      "station": "noir",
+      "decision": "retained"
+    },
+    {
+      "slug": "impact",
+      "title": "Impact",
+      "year": "1949",
+      "previous_station": "noir",
+      "station": "noir",
+      "decision": "retained"
+    },
+    {
+      "slug": "woman-on-the-run",
+      "title": "Woman on the Run",
+      "year": "1950",
+      "previous_station": "noir",
+      "station": "noir",
+      "decision": "retained"
+    },
+    {
+      "slug": "the-stranger",
+      "title": "The Stranger",
+      "year": "1946",
+      "previous_station": "noir",
+      "station": "noir",
+      "decision": "retained"
+    },
+    {
+      "slug": "he-walked-by-night",
+      "title": "He Walked by Night",
+      "year": "1948",
+      "previous_station": "noir",
+      "station": "noir",
+      "decision": "retained"
+    },
+    {
+      "slug": "the-green-glove",
+      "title": "The Green Glove",
+      "year": "1952",
+      "previous_station": "noir",
+      "station": "noir",
+      "decision": "retained"
+    },
+    {
+      "slug": "doa",
+      "title": "D.O.A.",
+      "year": "1950",
+      "previous_station": "noir",
+      "station": "noir",
+      "decision": "retained"
+    },
+    {
+      "slug": "quicksand",
+      "title": "Quicksand",
+      "year": "1950",
+      "previous_station": "noir",
+      "station": "noir",
+      "decision": "retained"
+    },
+    {
+      "slug": "lady-of-burlesque",
+      "title": "Lady of Burlesque",
+      "year": "1943",
+      "previous_station": "noir",
+      "station": "noir",
+      "decision": "retained"
+    },
+    {
+      "slug": "trapped",
+      "title": "Trapped",
+      "year": "1949",
+      "previous_station": "noir",
+      "station": "noir",
+      "decision": "retained"
+    },
+    {
+      "slug": "suddenly",
+      "title": "Suddenly",
+      "year": "1954",
+      "previous_station": "noir",
+      "station": "noir",
+      "decision": "retained"
+    },
+    {
+      "slug": "the-strange-love-of-martha-ivers",
+      "title": "The Strange Love of Martha Ivers",
+      "year": "1946",
+      "previous_station": "noir",
+      "station": "noir",
+      "decision": "retained"
+    },
+    {
+      "slug": "the-second-woman",
+      "title": "The Second Woman",
+      "year": "1950",
+      "previous_station": "noir",
+      "station": "noir",
+      "decision": "retained"
+    },
+    {
+      "slug": "detour",
+      "title": "Detour",
+      "year": "1945",
+      "previous_station": "noir",
+      "station": "noir",
+      "decision": "retained"
+    },
+    {
+      "slug": "whistle-stop",
+      "title": "Whistle Stop",
+      "year": "1946",
+      "previous_station": "noir",
+      "station": "noir",
+      "decision": "retained"
+    },
+    {
+      "slug": "borderline",
+      "title": "Borderline",
+      "year": "1950",
+      "previous_station": "noir",
+      "station": "noir",
+      "decision": "retained"
+    },
+    {
+      "slug": "hitch-hiker",
+      "title": "The Hitch-Hiker",
+      "year": "1953",
+      "previous_station": "noir",
+      "station": "noir",
+      "decision": "retained"
+    },
+    {
+      "slug": "guest-in-the-house",
+      "title": "Guest in the House",
+      "year": "1944",
+      "previous_station": "noir",
+      "station": "noir",
+      "decision": "retained"
+    },
+    {
+      "slug": "the-man-who-cheated-himself",
+      "title": "The Man Who Cheated Himself",
+      "year": "1950",
+      "previous_station": "noir",
+      "station": "noir",
+      "decision": "retained"
+    },
+    {
+      "slug": "thunderbolt",
+      "title": "Thunderbolt",
+      "year": "1929",
+      "previous_station": "noir",
+      "station": "noir",
+      "decision": "retained"
+    },
+    {
+      "slug": "algiers",
+      "title": "Algiers",
+      "year": "1938",
+      "previous_station": "drama",
+      "station": "noir",
+      "decision": "moved"
+    },
+    {
+      "slug": "the-strange-woman",
+      "title": "The Strange Woman",
+      "year": "1946",
+      "previous_station": "drama",
+      "station": "noir",
+      "decision": "moved"
+    },
+    {
+      "slug": "his-girl-friday",
+      "title": "His Girl Friday",
+      "year": "1940",
+      "previous_station": "comedy",
+      "station": "comedy",
+      "decision": "retained"
+    },
+    {
+      "slug": "the-flying-deuces",
+      "title": "The Flying Deuces",
+      "year": "1939",
+      "previous_station": "comedy",
+      "station": "comedy",
+      "decision": "retained"
+    },
+    {
+      "slug": "life-with-father",
+      "title": "Life with Father",
+      "year": "1947",
+      "previous_station": "comedy",
+      "station": "comedy",
+      "decision": "retained"
+    },
+    {
+      "slug": "animal-crackers",
+      "title": "Animal Crackers",
+      "year": "1930",
+      "previous_station": "comedy",
+      "station": "comedy",
+      "decision": "retained"
+    },
+    {
+      "slug": "my-man-godfrey",
+      "title": "My Man Godfrey",
+      "year": "1936",
+      "previous_station": "comedy",
+      "station": "comedy",
+      "decision": "retained"
+    },
+    {
+      "slug": "the-inspector-general",
+      "title": "The Inspector General",
+      "year": "1949",
+      "previous_station": "comedy",
+      "station": "comedy",
+      "decision": "retained"
+    },
+    {
+      "slug": "nothing-sacred",
+      "title": "Nothing Sacred",
+      "year": "1937",
+      "previous_station": "comedy",
+      "station": "comedy",
+      "decision": "retained"
+    },
+    {
+      "slug": "beat-the-devil",
+      "title": "Beat the Devil",
+      "year": "1953",
+      "previous_station": "comedy",
+      "station": "comedy",
+      "decision": "retained"
+    },
+    {
+      "slug": "the-amazing-adventure",
+      "title": "The Amazing Adventure",
+      "year": "1936",
+      "previous_station": "comedy",
+      "station": "comedy",
+      "decision": "retained"
+    },
+    {
+      "slug": "eternally-yours",
+      "title": "Eternally Yours",
+      "year": "1939",
+      "previous_station": "comedy",
+      "station": "comedy",
+      "decision": "retained"
+    },
+    {
+      "slug": "love-laughs-at-andy-hardy",
+      "title": "Love Laughs at Andy Hardy",
+      "year": "1946",
+      "previous_station": "comedy",
+      "station": "comedy",
+      "decision": "retained"
+    },
+    {
+      "slug": "at-war-with-the-army",
+      "title": "At War with the Army",
+      "year": "1950",
+      "previous_station": "comedy",
+      "station": "comedy",
+      "decision": "retained"
+    },
+    {
+      "slug": "the-milky-way",
+      "title": "The Milky Way",
+      "year": "1936",
+      "previous_station": "comedy",
+      "station": "comedy",
+      "decision": "retained"
+    },
+    {
+      "slug": "the-sin-of-harold-diddlebock",
+      "title": "The Sin of Harold Diddlebock",
+      "year": "1947",
+      "previous_station": "comedy",
+      "station": "comedy",
+      "decision": "retained"
+    },
+    {
+      "slug": "earthworm-tractors",
+      "title": "Earthworm Tractors",
+      "year": "1936",
+      "previous_station": "comedy",
+      "station": "comedy",
+      "decision": "retained"
+    },
+    {
+      "slug": "speak-easily",
+      "title": "Speak Easily",
+      "year": "1932",
+      "previous_station": "comedy",
+      "station": "comedy",
+      "decision": "retained"
+    },
+    {
+      "slug": "hook-line-and-sinker",
+      "title": "Hook Line and Sinker",
+      "year": "1930",
+      "previous_station": "comedy",
+      "station": "comedy",
+      "decision": "retained"
+    },
+    {
+      "slug": "the-animal-kingdom",
+      "title": "The Animal Kingdom",
+      "year": "1932",
+      "previous_station": "comedy",
+      "station": "comedy",
+      "decision": "retained"
+    },
+    {
+      "slug": "penny-serenade",
+      "title": "Penny Serenade",
+      "year": "1941",
+      "previous_station": "drama",
+      "station": "drama",
+      "decision": "retained"
+    },
+    {
+      "slug": "love-affair",
+      "title": "Love Affair",
+      "year": "1939",
+      "previous_station": "drama",
+      "station": "drama",
+      "decision": "retained"
+    },
+    {
+      "slug": "our-town",
+      "title": "Our Town",
+      "year": "1940",
+      "previous_station": "drama",
+      "station": "drama",
+      "decision": "retained"
+    },
+    {
+      "slug": "the-little-princess",
+      "title": "The Little Princess",
+      "year": "1939",
+      "previous_station": "drama",
+      "station": "drama",
+      "decision": "retained"
+    },
+    {
+      "slug": "last-time-i-saw-paris",
+      "title": "The Last Time I Saw Paris",
+      "year": "1954",
+      "previous_station": "drama",
+      "station": "drama",
+      "decision": "retained"
+    },
+    {
+      "slug": "made-for-each-other",
+      "title": "Made for Each Other",
+      "year": "1939",
+      "previous_station": "drama",
+      "station": "drama",
+      "decision": "retained"
+    },
+    {
+      "slug": "the-southerner",
+      "title": "The Southerner",
+      "year": "1945",
+      "previous_station": "drama",
+      "station": "drama",
+      "decision": "retained"
+    },
+    {
+      "slug": "anna-christie",
+      "title": "Anna Christie",
+      "year": "1930",
+      "previous_station": "drama",
+      "station": "drama",
+      "decision": "retained"
+    },
+    {
+      "slug": "a-star-is-born",
+      "title": "A Star Is Born",
+      "year": "1937",
+      "previous_station": "drama",
+      "station": "drama",
+      "decision": "retained"
+    },
+    {
+      "slug": "meet-john-doe",
+      "title": "Meet John Doe",
+      "year": "1941",
+      "previous_station": "drama",
+      "station": "drama",
+      "decision": "retained"
+    },
+    {
+      "slug": "of-human-bondage",
+      "title": "Of Human Bondage",
+      "year": "1934",
+      "previous_station": "drama",
+      "station": "drama",
+      "decision": "retained"
+    },
+    {
+      "slug": "the-scarlet-letter",
+      "title": "The Scarlet Letter",
+      "year": "1934",
+      "previous_station": "drama",
+      "station": "drama",
+      "decision": "retained"
+    },
+    {
+      "slug": "the-scarlet-pimpernel",
+      "title": "The Scarlet Pimpernel",
+      "year": "1934",
+      "previous_station": "drama",
+      "station": "drama",
+      "decision": "retained"
+    },
+    {
+      "slug": "return-of-the-scarlet-pimpernel",
+      "title": "Return of the Scarlet Pimpernel",
+      "year": "1937",
+      "previous_station": "drama",
+      "station": "drama",
+      "decision": "retained"
+    },
+    {
+      "slug": "bird-of-paradise",
+      "title": "Bird of Paradise",
+      "year": "1932",
+      "previous_station": "drama",
+      "station": "drama",
+      "decision": "retained"
+    },
+    {
+      "slug": "the-snows-of-kilimanjaro",
+      "title": "The Snows of Kilimanjaro",
+      "year": "1952",
+      "previous_station": "drama",
+      "station": "drama",
+      "decision": "retained"
+    },
+    {
+      "slug": "rain",
+      "title": "Rain",
+      "year": "1932",
+      "previous_station": "drama",
+      "station": "drama",
+      "decision": "retained"
+    },
+    {
+      "slug": "abraham-lincoln",
+      "title": "Abraham Lincoln",
+      "year": "1930",
+      "previous_station": "drama",
+      "station": "drama",
+      "decision": "retained"
+    },
+    {
+      "slug": "pecks-bad-boy",
+      "title": "Peck's Bad Boy",
+      "year": "1934",
+      "previous_station": "comedy",
+      "station": "drama",
+      "decision": "moved"
+    },
+    {
+      "slug": "royal-wedding",
+      "title": "Royal Wedding",
+      "year": "1951",
+      "previous_station": "musicals",
+      "station": "musicals",
+      "decision": "retained"
+    },
+    {
+      "slug": "second-chorus",
+      "title": "Second Chorus",
+      "year": "1940",
+      "previous_station": "musicals",
+      "station": "musicals",
+      "decision": "retained"
+    },
+    {
+      "slug": "till-the-clouds-roll-by",
+      "title": "Till the Clouds Roll By",
+      "year": "1946",
+      "previous_station": "musicals",
+      "station": "musicals",
+      "decision": "retained"
+    },
+    {
+      "slug": "pot-o-gold",
+      "title": "Pot o' Gold",
+      "year": "1941",
+      "previous_station": "musicals",
+      "station": "musicals",
+      "decision": "retained"
+    },
+    {
+      "slug": "private-buckaroo",
+      "title": "Private Buckaroo",
+      "year": "1942",
+      "previous_station": "musicals",
+      "station": "musicals",
+      "decision": "retained"
+    },
+    {
+      "slug": "delightfully-dangerous",
+      "title": "Delightfully Dangerous",
+      "year": "1945",
+      "previous_station": "musicals",
+      "station": "musicals",
+      "decision": "retained"
+    },
+    {
+      "slug": "something-to-sing-about",
+      "title": "Something to Sing About",
+      "year": "1937",
+      "previous_station": "musicals",
+      "station": "musicals",
+      "decision": "retained"
+    },
+    {
+      "slug": "the-fabulous-dorseys",
+      "title": "The Fabulous Dorseys",
+      "year": "1947",
+      "previous_station": "musicals",
+      "station": "musicals",
+      "decision": "retained"
+    },
+    {
+      "slug": "reet-petite-and-gone",
+      "title": "Reet Petite and Gone",
+      "year": "1947",
+      "previous_station": "musicals",
+      "station": "musicals",
+      "decision": "retained"
+    },
+    {
+      "slug": "hi-de-ho",
+      "title": "Hi De Ho",
+      "year": "1947",
+      "previous_station": "musicals",
+      "station": "musicals",
+      "decision": "retained"
+    },
+    {
+      "slug": "killer-diller",
+      "title": "Killer Diller",
+      "year": "1948",
+      "previous_station": "musicals",
+      "station": "musicals",
+      "decision": "retained"
+    },
+    {
+      "slug": "swing-high-swing-low",
+      "title": "Swing High Swing Low",
+      "year": "1937",
+      "previous_station": "musicals",
+      "station": "musicals",
+      "decision": "retained"
+    },
+    {
+      "slug": "the-duke-is-tops",
+      "title": "The Duke Is Tops",
+      "year": "1938",
+      "previous_station": "musicals",
+      "station": "musicals",
+      "decision": "retained"
+    },
+    {
+      "slug": "happy-go-lovely",
+      "title": "Happy Go Lovely",
+      "year": "1951",
+      "previous_station": "musicals",
+      "station": "musicals",
+      "decision": "retained"
+    },
+    {
+      "slug": "glorifying-the-american-girl",
+      "title": "Glorifying the American Girl",
+      "year": "1929",
+      "previous_station": "musicals",
+      "station": "musicals",
+      "decision": "retained"
+    },
+    {
+      "slug": "road-to-hollywood",
+      "title": "Road to Hollywood",
+      "year": "1947",
+      "previous_station": "musicals",
+      "station": "musicals",
+      "decision": "retained"
+    },
+    {
+      "slug": "swing-hostess",
+      "title": "Swing Hostess",
+      "year": "1944",
+      "previous_station": "musicals",
+      "station": "musicals",
+      "decision": "retained"
+    },
+    {
+      "slug": "all-american-co-ed",
+      "title": "All-American Co-Ed",
+      "year": "1941",
+      "previous_station": "musicals",
+      "station": "musicals",
+      "decision": "retained"
+    },
+    {
+      "slug": "minstrel-man",
+      "title": "Minstrel Man",
+      "year": "1944",
+      "previous_station": "musicals",
+      "station": "musicals",
+      "decision": "retained"
+    },
+    {
+      "slug": "people-are-funny",
+      "title": "People Are Funny",
+      "year": "1946",
+      "previous_station": "comedy",
+      "station": "musicals",
+      "decision": "moved"
+    },
+    {
+      "slug": "star-wars-1977",
+      "title": "Star Wars",
+      "year": "1977",
+      "previous_station": "sci-fi",
+      "station": "sci-fi",
+      "decision": "retained"
+    },
+    {
+      "slug": "the-empire-strikes-back",
+      "title": "The Empire Strikes Back",
+      "year": "1980",
+      "previous_station": "sci-fi",
+      "station": "sci-fi",
+      "decision": "retained"
+    },
+    {
+      "slug": "return-of-the-jedi",
+      "title": "Return of the Jedi",
+      "year": "1983",
+      "previous_station": "sci-fi",
+      "station": "sci-fi",
+      "decision": "retained"
+    },
+    {
+      "slug": "prisoners-of-the-lost-universe",
+      "title": "Prisoners of the Lost Universe",
+      "year": "1983",
+      "previous_station": "sci-fi",
+      "station": "sci-fi",
+      "decision": "retained"
+    },
+    {
+      "slug": "destination-moon",
+      "title": "Destination Moon",
+      "year": "1950",
+      "previous_station": "sci-fi",
+      "station": "sci-fi",
+      "decision": "retained"
+    },
+    {
+      "slug": "the-phantom-planet",
+      "title": "The Phantom Planet",
+      "year": "1961",
+      "previous_station": "sci-fi",
+      "station": "sci-fi",
+      "decision": "retained"
+    },
+    {
+      "slug": "hundra",
+      "title": "Hundra",
+      "year": "1983",
+      "previous_station": "sci-fi",
+      "station": "sci-fi",
+      "decision": "retained"
+    },
+    {
+      "slug": "atomic-rulers",
+      "title": "Atomic Rulers",
+      "year": "1965",
+      "previous_station": "sci-fi",
+      "station": "sci-fi",
+      "decision": "retained"
+    },
+    {
+      "slug": "destroy-all-planets",
+      "title": "Destroy All Planets",
+      "year": "1968",
+      "previous_station": "sci-fi",
+      "station": "sci-fi",
+      "decision": "retained"
+    },
+    {
+      "slug": "this-island-earth",
+      "title": "This Island Earth",
+      "year": "1955",
+      "previous_station": "sci-fi",
+      "station": "sci-fi",
+      "decision": "retained"
+    },
+    {
+      "slug": "lost-continent",
+      "title": "Lost Continent",
+      "year": "1951",
+      "previous_station": "sci-fi",
+      "station": "sci-fi",
+      "decision": "retained"
+    },
+    {
+      "slug": "ator-the-fighting-eagle",
+      "title": "Ator: The Fighting Eagle",
+      "year": "1982",
+      "previous_station": "sci-fi",
+      "station": "sci-fi",
+      "decision": "retained"
+    },
+    {
+      "slug": "cat-women-of-the-moon",
+      "title": "Cat-Women of the Moon",
+      "year": "1953",
+      "previous_station": "sci-fi",
+      "station": "sci-fi",
+      "decision": "retained"
+    },
+    {
+      "slug": "conan-the-destroyer",
+      "title": "Conan the Destroyer",
+      "year": "1984",
+      "previous_station": "sci-fi",
+      "station": "sci-fi",
+      "decision": "retained"
+    },
+    {
+      "slug": "red-sonja",
+      "title": "Red Sonja",
+      "year": "1985",
+      "previous_station": "sci-fi",
+      "station": "sci-fi",
+      "decision": "retained"
+    },
+    {
+      "slug": "unknown-world",
+      "title": "Unknown World",
+      "year": "1951",
+      "previous_station": "sci-fi",
+      "station": "sci-fi",
+      "decision": "retained"
+    },
+    {
+      "slug": "hercules",
+      "title": "Hercules",
+      "year": "1958",
+      "previous_station": "sci-fi",
+      "station": "sci-fi",
+      "decision": "retained"
+    },
+    {
+      "slug": "the-golden-voyage-of-sinbad",
+      "title": "The Golden Voyage of Sinbad",
+      "year": "1973",
+      "previous_station": "sci-fi",
+      "station": "sci-fi",
+      "decision": "retained"
+    },
+    {
+      "slug": "the-beastmaster",
+      "title": "The Beastmaster",
+      "year": "1982",
+      "previous_station": "sci-fi",
+      "station": "sci-fi",
+      "decision": "retained"
+    },
+    {
+      "slug": "the-sword-and-the-sorcerer",
+      "title": "The Sword and the Sorcerer",
+      "year": "1982",
+      "previous_station": "sci-fi",
+      "station": "sci-fi",
+      "decision": "retained"
+    },
+    {
+      "slug": "the-day-the-earth-stood-still",
+      "title": "The Day the Earth Stood Still",
+      "year": "1951",
+      "previous_station": "sci-fi",
+      "station": "sci-fi",
+      "decision": "retained"
+    },
+    {
+      "slug": "20000-leagues-under-the-sea",
+      "title": "20,000 Leagues Under the Sea",
+      "year": "1954",
+      "previous_station": "sci-fi",
+      "station": "sci-fi",
+      "decision": "retained"
+    },
+    {
+      "slug": "the-magic-sword",
+      "title": "The Magic Sword",
+      "year": "1962",
+      "previous_station": "sci-fi",
+      "station": "sci-fi",
+      "decision": "retained"
+    },
+    {
+      "slug": "gor",
+      "title": "Gor",
+      "year": "1987",
+      "previous_station": "sci-fi",
+      "station": "sci-fi",
+      "decision": "retained"
+    },
+    {
+      "slug": "war-of-the-robots",
+      "title": "War of the Robots",
+      "year": "1978",
+      "previous_station": "sci-fi",
+      "station": "sci-fi",
+      "decision": "retained"
+    },
+    {
+      "slug": "jungle-book",
+      "title": "Jungle Book",
+      "year": "1942",
+      "previous_station": "sci-fi",
+      "station": "sci-fi",
+      "decision": "retained"
+    },
+    {
+      "slug": "nevada-smith",
+      "title": "Nevada Smith",
+      "year": "1975",
+      "previous_station": "westerns",
+      "station": "westerns",
+      "decision": "retained"
+    },
+    {
+      "slug": "siege-at-red-river",
+      "title": "Siege at Red River",
+      "year": "1954",
+      "previous_station": "westerns",
+      "station": "westerns",
+      "decision": "retained"
+    },
+    {
+      "slug": "springtime-in-the-rockies",
+      "title": "Springtime in the Rockies",
+      "year": "1937",
+      "previous_station": "westerns",
+      "station": "westerns",
+      "decision": "retained"
+    },
+    {
+      "slug": "tulsa",
+      "title": "Tulsa",
+      "year": "1949",
+      "previous_station": "westerns",
+      "station": "westerns",
+      "decision": "retained"
+    },
+    {
+      "slug": "they-rode-west",
+      "title": "They Rode West",
+      "year": "1954",
+      "previous_station": "westerns",
+      "station": "westerns",
+      "decision": "retained"
+    }
+  ]
+}
