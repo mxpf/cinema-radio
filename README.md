@@ -6,7 +6,7 @@ An ambient, always-on English-language cinema-as-radio service: film soundtracks
 
 Open `index.html` in a browser, or serve this folder with a static file server. There is no build step, database, or application server.
 
-The interface and metadata are included. **Audio is not stored in Git.** Place the 84 Opus files listed in `programme.json` into `audio/`, or set `CINEMA_RADIO_MEDIA_BASE_URL` in `config.js` to their object-storage URL prefix. Keep the exact filenames from the catalogue. A clone will display the radio without media, but playback needs those files.
+The interface and metadata are included. **Audio is not stored in Git.** Place the 85 Opus files listed in `programme.json` into `audio/`, or set `CINEMA_RADIO_MEDIA_BASE_URL` in `config.js` to their object-storage URL prefix. Keep the exact filenames from the catalogue. A clone will display the radio without media, but playback needs those files.
 
 ## Stations and controls
 
@@ -15,7 +15,7 @@ The interface and metadata are included. **Audio is not stored in Git.** Place t
 - **Comedy** — 20 films.
 - **Drama & Romance** — 20 films.
 - **Musicals** — 19 films.
-- **Sci-Fi** — 4 films: Star Wars, The Empire Strikes Back, Return of the Jedi, and Prisoners of the Lost Universe.
+- **Sci-Fi** — 5 films: Star Wars, The Empire Strikes Back, Return of the Jedi, Prisoners of the Lost Universe, and Destination Moon.
 
 The right-hand wheel changes stations: drag up/down, scroll, tap for the next station, or use keyboard arrows. Each station has its own continuously repeating schedule anchored to 26 September 2026 at 00:00 UTC. Listeners join the current scheduled position. The selected station is remembered locally when browser storage is available.
 

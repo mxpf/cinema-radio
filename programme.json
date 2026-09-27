@@ -1,7 +1,7 @@
 {
   "updated": "2026-09-26",
   "epoch_utc": "2026-09-26T00:00:00Z",
-  "total_seconds": 445030.382337,
+  "total_seconds": 450499.326712,
   "tracks": [
     {
       "slug": "his-girl-friday",
@@ -590,6 +590,13 @@
       "year": "1977",
       "duration": 7267.3345,
       "file": "star-wars-1977.opus"
+    },
+    {
+      "slug": "destination-moon",
+      "title": "Destination Moon",
+      "year": "1950",
+      "duration": 5468.944375,
+      "file": "destination-moon.opus"
     }
   ],
   "mode": "multi-station",

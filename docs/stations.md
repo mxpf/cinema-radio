@@ -189,9 +189,10 @@ Movies only.
 
 ## Sci-Fi
 
-4 films · 7.9 hours
+5 films · 9.4 hours
 
 - Star Wars (1977)
 - The Empire Strikes Back (1980)
 - Return of the Jedi (1983)
 - Prisoners of the Lost Universe (1983)
+- Destination Moon (1950)

@@ -6891,6 +6891,26 @@
       "output_bytes": 83730104,
       "output_sha256": "5a1189f8daecd1347b404e18d717cae0c8dd08fa2002b6963df24b7d3c03a5ce",
       "review": "Full output decode and duration check passed; no full perceptual audition."
+    },
+    {
+      "slug": "destination-moon",
+      "title": "Destination Moon",
+      "year": "1950",
+      "duration": 5468.944375,
+      "file": "destination-moon.opus",
+      "station": "sci-fi",
+      "source_kind": "User-supplied MP3",
+      "source_audio_stream": 0,
+      "source_audio_language": "eng",
+      "source_audio_channels": 2,
+      "source_duration": 5468.937875,
+      "rights_basis": "User-supplied film; no public-domain or redistribution clearance established.",
+      "source_integrated_lufs": -26.8,
+      "gain_db": 3.8000000000000007,
+      "output_integrated_lufs": -23.1,
+      "output_bytes": 47127345,
+      "output_sha256": "11181e37aeae6b872b03355276b06ea3560dd4f7e25def2d447e4080ab3d2c2c",
+      "review": "Full output decode and duration check passed; no full perceptual audition."
     }
   ],
   "programme_order": [
