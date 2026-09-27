@@ -267,13 +267,31 @@ for(const track of tracks)track.file=mediaBase+track.file;
 // Each station follows its own shared, continuously repeating UTC schedule.
 const epoch=Date.UTC(2026,8,26);
 const stations=[{"id": "repertory", "name": "Repertory", "indices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79], "duration": 416703.507358}, {"id": "noir", "name": "Noir & Mystery", "indices": [2, 5, 6, 8, 11, 12, 17, 20, 21, 23, 26, 29, 30, 32, 35, 36, 38, 41, 42, 43, 44], "duration": 109144.744439}, {"id": "comedy", "name": "Comedy", "indices": [0, 7, 9, 15, 24, 31, 33, 37, 53, 54, 55, 56, 64, 65, 66, 67, 68, 69, 70, 71], "duration": 102392.80925}, {"id": "drama", "name": "Drama & Romance", "indices": [3, 4, 10, 14, 16, 18, 19, 25, 27, 28, 39, 40, 72, 73, 74, 75, 76, 77, 78, 79], "duration": 113916.70748}, {"id": "musicals", "name": "Musicals", "indices": [1, 13, 22, 34, 45, 46, 47, 48, 49, 50, 51, 52, 57, 58, 59, 60, 61, 62, 63], "duration": 91249.246189}, {"id": "sci-fi", "name": "Sci-Fi & Fantasy", "indices": [83, 80, 81, 82, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 95, 96, 98, 99, 100], "duration": 107304.639022}, {"id": "westerns", "name": "Westerns", "indices": [94, 97, 101, 102], "duration": 19607.234396}];
+// Skip ranges use source-file seconds; the original recordings remain intact.
+function playbackSegments(track){
+ const ranges=(track.skip||[]).map(range=>{
+  if(!Array.isArray(range)||range.length!==2||!range.every(Number.isFinite)||range[0]<0||range[1]<=range[0]||range[1]>track.duration)throw new Error('Invalid skip range: '+track.slug);
+  return range.slice();
+ }).sort((a,b)=>a[0]-b[0]);
+ const segments=[];let cursor=0;
+ for(const [start,end] of ranges){if(start>cursor)segments.push([cursor,start]);cursor=Math.max(cursor,end);}
+ if(cursor<track.duration)segments.push([cursor,track.duration]);
+ if(!segments.length)throw new Error('Skip ranges remove entire film: '+track.slug);
+ return segments;
+}
+function sourceOffset(track,offset){
+ for(const [start,end] of track.segments){const duration=end-start;if(offset<duration)return start+Math.max(0,offset);offset-=duration;}
+ return track.segments.at(-1)[1];
+}
+for(const track of tracks){track.segments=playbackSegments(track);track.broadcastDuration=track.segments.reduce((sum,[a,b])=>sum+b-a,0);}
+for(const station of stations)station.duration=station.indices.reduce((sum,i)=>sum+tracks[i].broadcastDuration,0);
 let stationIndex=0;
 try{const previous=localStorage.getItem('cinema-radio-station');const saved=['doctor-who','star-wars'].includes(previous)?'sci-fi':previous;const found=stations.findIndex(s=>s.id===saved);if(found>=0)stationIndex=found;}catch{}
 function programme(now=Date.now(),selected=stationIndex){
  const station=stations[selected];
  let offset=(((now-epoch)/1000)%station.duration+station.duration)%station.duration;
- for(const index of station.indices){if(offset<tracks[index].duration)return {index,offset,track:tracks[index]};offset-=tracks[index].duration;}
- const index=station.indices[0];return {index,offset:0,track:tracks[index]};
+ for(const index of station.indices){const track=tracks[index];if(offset<track.broadcastDuration)return {index,offset,mediaOffset:sourceOffset(track,offset),track};offset-=track.broadcastDuration;}
+ const index=station.indices[0];return {index,offset:0,mediaOffset:sourceOffset(tracks[index],0),track:tracks[index]};
 }
 const audio=document.getElementById('audio'),button=document.getElementById('toggle'),status=document.getElementById('status');
 let listening=false,loaded=-1,generation=0,loading=false;
@@ -377,7 +395,7 @@ async function join(){
   if(token!==generation||!listening)return;
   const current=programme();
   if(current.index!==loaded){loading=false;return join();}
-  audio.currentTime=Math.min(current.offset,Math.max(0,audio.duration-.05));
+  audio.currentTime=Math.min(current.mediaOffset,Math.max(0,audio.duration-.05));
   await audio.play();
   if(token!==generation||!listening)return;
   status.textContent='';
@@ -386,7 +404,8 @@ async function join(){
 }
 button.addEventListener('click',()=>{if(listening){stop();}else{startListening();}});
 
-function tick(){updateSleep();const p=programme();display(p);if(listening&&!tuning&&!loading&&(p.index!==loaded||Math.abs(audio.currentTime-p.offset)>3||audio.ended))join();}
+function tick(){updateSleep();const p=programme();display(p);if(listening&&!tuning&&!loading&&(p.index!==loaded||Math.abs(audio.currentTime-p.mediaOffset)>3||!p.track.segments.some(([a,b])=>audio.currentTime>=a&&audio.currentTime<b&&p.mediaOffset>=a&&p.mediaOffset<b)||audio.ended))join();}
+audio.addEventListener('timeupdate',()=>{if(listening&&!tuning&&!loading&&loaded>=0&&tracks[loaded].skip?.length)tick();});
 audio.addEventListener('waiting',()=>{if(listening)status.textContent='';});
 audio.addEventListener('playing',()=>{if(listening&&!tuning){document.body.classList.add('playing');if(powerFadePending){powerFadePending=false;fadePower(1,350);}status.textContent='';}});
 audio.addEventListener('error',()=>{if(listening&&!tuning&&!loading){loaded=-1;stop('Audio unavailable. Press Listen to try again.');}});

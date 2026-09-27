@@ -31,7 +31,7 @@ check('excluded batch titles are absent',()=>{ assert.equal(run("tracks.some(t=>
 check('every station follows UTC offsets and wraps its own schedule',()=>{
  for(let j=0;j<run('stations.length');j++){
   let offset=0;const indices=run(`stations[${j}].indices`);
-  for(const i of indices){assert.equal(run(`programme(epoch+${(offset+.1)*1000},${j}).index`),i);offset+=run(`tracks[${i}].duration`)}
+  for(const i of indices){assert.equal(run(`programme(epoch+${(offset+.1)*1000},${j}).index`),i);offset+=run(`tracks[${i}].broadcastDuration`)}
   assert.equal(run(`programme(epoch+${(offset+.1)*1000},${j}).index`),indices[0]);
   assert.equal(run(`programme(epoch-1000,${j}).index`),indices.at(-1));
  }
@@ -43,7 +43,7 @@ const deadline=run('sleepDeadline');run('setStation(1)');
 check('tuning pauses the old programme without static',()=>{assert.equal(get('audio').paused,true);assert.equal(run('tuning'),true);assert.equal(noiseStarts,0);assert.equal(get('audio').volume,0)});
 run('tick()');check('clock tick does not interrupt tuning',()=>assert.equal(get('audio').paused,true));
 await wait(680);
-check('new station joins its live position and restores selected volume',()=>{assert.equal(get('audio').src,run('programme().track.file'));assert.ok(Math.abs(get('audio').currentTime-run('programme().offset'))<.01);assert.equal(get('audio').volume,.4);assert.equal(run('sleepDeadline'),deadline)});
+check('new station joins its live position and restores selected volume',()=>{assert.equal(get('audio').src,run('programme().track.file'));assert.ok(Math.abs(get('audio').currentTime-run('programme().mediaOffset'))<.01);assert.equal(get('audio').volume,.4);assert.equal(run('sleepDeadline'),deadline)});
 run('setStation(3)');await wait(50);run('setStation(4)');await wait(680);
 check('rapid changes settle on the last station',()=>{assert.equal(get('station-name').textContent,'Musicals');assert.equal(get('audio').src,run('programme().track.file'));assert.equal(run('tuning'),false)});
 run('setStation(2);stop()');await wait(650);

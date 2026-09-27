@@ -65,3 +65,7 @@ The radio uses the listener’s device time: daytime is 07:00–18:59, night is 
 The sunrise button beside GitHub optionally requests browser location permission. Only a coarse location (rounded to 0.1°) is saved in local storage, and SunCalc 2.0.2 calculates daylight locally. No coordinates are sent to an application server or third-party solar API. Click again to forget the location and restore fixed clock hours. Saved coordinates remain until disabled; turn off and re-enable after travelling to refresh them. Polar daylight/night is supported. Permission denial, timeout and unavailable location preserve the clock-based fallback.
 
 SunCalc is bundled under its BSD-2-Clause license in `assets/vendor/suncalc/LICENSE`; upstream: https://github.com/mourner/suncalc.
+
+## Curated intro skips
+
+Optional per-film skip ranges preserve the full recordings while omitting reviewed studio bumpers or uploader intros during playback. Fanfares and opening scores are preserved. See [skip-range instructions and review status](docs/skip-ranges.md).
