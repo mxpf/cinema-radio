@@ -1,71 +1,79 @@
 # Cinema Radio
 
-An ambient, always-on English-language cinema-as-radio service: film soundtracks, no visible video, and no seek, skip, or rewind. Movies only; no television episodes or radio dramas. Quiet passages belong in the programme. Thrillers, noir, mystery and suspense are welcome; straight horror is excluded.
+An app for listening to films as you work. Online and for Mac.
 
-## Run locally
+Cinema Radio plays movie soundtracks through a small, radio-like player. Choose a station and tune into whatever is playing. There's no video to watch, and you don't need to follow every scene. Dialogue, music, and quiet passages are all part of the experience.
 
-Open `index.html` in a browser, or serve this folder with a static file server. There is no build step, database, or application server.
+**[Listen online](https://radio.maxpfennig.haus/)** · **[Download for Mac](https://github.com/mxpf/cinema-radio/releases/tag/v0.1.2)**
 
-The interface and metadata are included. **Audio is not stored in Git.** Place the 112 Opus files listed in `programme.json` into `audio/`, or set `CINEMA_RADIO_MEDIA_BASE_URL` in `config.js` to their object-storage URL prefix. Keep the exact filenames from the catalogue. A clone will display the radio without media, but playback needs those files.
+## Listening
 
-## Stations and controls
+Press the centre button to turn the radio on. The inner dial controls volume; the outer ring sets a sleep timer of up to an hour. The wheel on the right changes stations—drag it, scroll over it, or tap to move to the next one. The controls also work with a keyboard.
 
-- **Repertory** — 112 films, mixing the full catalogue.
-- **Noir & Mystery** — 24 films.
-- **Comedy** — 18 films.
-- **Drama & Romance** — 19 films.
-- **Musicals** — 20 films.
-- **Westerns** — 5 films.
-- **Sci-Fi & Fantasy** — 26 films.
+Everyone on the same station joins the same point in its schedule, like a broadcast. Films crossfade over three seconds. Sleep gently fades the sound during the final ten seconds, then turns the radio off. Turning it off yourself pauses the sleep countdown until you turn it back on.
 
-The right-hand wheel changes stations: drag up/down, scroll, tap for the next station, or use keyboard arrows. Each station has its own continuously repeating schedule anchored to 26 September 2026 at 00:00 UTC. Listeners join the current scheduled position. The selected station is remembered locally when browser storage is available.
+The catalogue currently has 112 films across seven stations:
 
-The outer ring sets sleep from 0–60 minutes; its marker counts down. The inner cone controls volume. The centre button switches power with a short audio fade. Manual power-off freezes sleep; power-on resumes it. Sleep fades during the final 30 seconds. Station changes are silent, followed by a gentle audio fade-in.
+| Station | Films |
+| --- | ---: |
+| Repertory — the whole collection | 112 |
+| Noir & Mystery | 24 |
+| Comedy | 18 |
+| Drama & Romance | 19 |
+| Musicals | 20 |
+| Sci-Fi & Fantasy | 26 |
+| Westerns | 5 |
 
-The amber screen has a fixed height. Long titles loop left, pausing two seconds at the start of each loop; short titles stay still. Reduced-motion preferences disable the marquee. The film year appears at the bottom right. Fonts are bundled locally.
+The radio switches between day and night appearances using your local time. The sunrise button can use your location to follow local sunrise and sunset instead. This is optional: daylight is calculated on your device, and only a rounded location is saved in your browser. Press the button again to forget it. Without location, daytime runs from 7 a.m. to 7 p.m.
 
-## Files
+## Mac app
 
-- `index.html` — the self-contained radio interface and playback logic.
-- `config.js` — audio location.
-- `programme.json` — shared catalogue and Repertory order.
-- `stations.json` — station membership and durations.
-- `manifest.json` — source URLs, working rights basis, hashes and audio measurements.
-- `docs/stations.md` — station catalogue.
-- `assets/fonts/` — IBM Plex Mono Regular and Medium, with its license.
+The menu bar app keeps playing when you close its panel. Click its icon to bring the radio back, or right-click for power, reload, and quit. It loads the live website, so changes to the radio and catalogue appear without downloading a new app; changes to the Mac app itself need a new build.
 
-Schedules and track metadata are embedded in the HTML so local file playback does not require fetching JSON. Keep the embedded records and JSON files aligned when adding films.
+It supports Apple silicon and Intel Macs running macOS 15.4 or later and needs an internet connection. The current download is a prerelease and isn't notarized, so macOS may ask you to approve it in Privacy & Security.
 
-## Audio and hosting
+See the [Mac app README](macos/README.md) for build instructions.
 
-Soundtracks use Opus at 96 kbps VBR with static gain toward −23 LUFS and a −2 dBFS sample limiter. Silence is preserved. The complete selected transfers were decoded and duration-checked. Sources have working public-domain listing evidence; this is not a worldwide rights-clearance determination. Full perceptual auditions and scene-by-scene completeness reviews have not been performed.
+## Run it locally
 
-The deployment uses GitHub Pages and Cloudflare R2 through a read-only streaming Worker. Storage should serve the Opus files with the correct content type and support byte-range requests. The current prototype uses device clocks and can have short loading gaps; it is not sample-accurate or guaranteed gapless. The public destination is https://radio.maxpfennig.haus; the manual GitHub Pages workflow publishes the interface.
+Clone this repository and open `index.html` in a browser. You can also serve the folder with any static file server. There's no build step or dependency installation for the website.
 
-## Checks
+`config.js` already points to the hosted audio, so a clone can play with an internet connection. The audio files themselves aren't included in Git. To use your own hosting, change `CINEMA_RADIO_MEDIA_BASE_URL`; to use local files, set it to `audio/` and put the files there using the names in `programme.json`.
 
-Run `npm test` (Node.js required; no dependencies to install). The tests cover all station boundaries, tuning, rapid changes, power and sleep fades, keyboard/pointer input, and marquee behavior. These use a lightweight DOM/audio model; they do not replace browser playback or visual testing.
+## How it's built
 
-IBM Plex is provided under the license in `assets/fonts/IBM-Plex-LICENSE.txt`. No license is granted here for other project code or media.
+The website is plain HTML, CSS, and JavaScript, hosted on GitHub Pages. Audio lives in Cloudflare R2 and streams through a read-only Worker. There is no database or continuously running application server.
 
-## Keepinghaus page
+Each station has a repeating schedule calculated from a shared UTC start time and the films' durations. Two audio players overlap at film boundaries, with Web Audio controlling the fades. Playback depends on the device clock and network connection; it isn't sample-accurate, and slow loading can still cause a gap.
 
-The interface is prepared for `/cinema-radio/` on Keepinghaus, with an unobtrusive inspiration credit and source link. Inspired by [Cinema Radio by Hiran Venugopalan and Arun Sajeev](https://hiran.in/projects/cinema-radio/). The source link points to this repository.
+The main files are:
 
-Copy `index.html`, `config.js`, and `assets/` together into the site's `cinema-radio/` directory. Configure the media URL before publication; local audio symlinks are not a deployment. The Keepinghaus bounded release must explicitly admit this new page and its assets before deploying it.
+| File | Purpose |
+| --- | --- |
+| `index.html` | Radio interface, controls, and playback |
+| `theme.js` | Day/night appearance and optional sunrise/sunset timing |
+| `config.js` | Audio host address |
+| `programme.json` | Film titles, audio filenames, durations, and playback order |
+| `stations.json` | Station membership and schedule durations |
+| `manifest.json` | Source records, hashes, and audio measurements |
+| `media-worker/` | Audio streaming Worker |
+| `macos/` | Mac app source and build script |
 
-## Mac menu bar app
+The player embeds the catalogue so it can also open directly from a local file. After editing the catalogue or station membership, regenerate that embedded data and run the checks:
 
-See [macos/README.md](macos/README.md). The universal Mac app loads the live radio and keeps its player alive when the popover closes. Initial builds are ad-hoc signed, not notarized.
+```sh
+python3 scripts/sync-catalogue.py
+npm test
+```
 
-## Local day and night appearance
+Python 3 is needed for the catalogue script and Node.js for the tests. The tests cover schedules, controls, fades, title scrolling, themes, audio streaming, and optional skip ranges. Browser playback and visual checks are still useful alongside them.
 
-The radio uses the listener’s device time: daytime is 07:00–18:59, night is 19:00–06:59. It checks once per minute and when returning to the page. No location permission, location service, or clock data collection is needed. The station schedule still uses UTC.
+The **Publish radio** GitHub Actions workflow deploys the website manually. Audio is uploaded separately. For more detail, see [audio transitions](docs/audio-transitions.md) and [optional intro skips](docs/skip-ranges.md). No intro skips are currently active.
 
-The sunrise button beside GitHub optionally requests browser location permission. Only a coarse location (rounded to 0.1°) is saved in local storage, and SunCalc 2.0.2 calculates daylight locally. No coordinates are sent to an application server or third-party solar API. Click again to forget the location and restore fixed clock hours. Saved coordinates remain until disabled; turn off and re-enable after travelling to refresh them. Polar daylight/night is supported. Permission denial, timeout and unavailable location preserve the clock-based fallback.
+## Credits and licenses
 
-SunCalc is bundled under its BSD-2-Clause license in `assets/vendor/suncalc/LICENSE`; upstream: https://github.com/mourner/suncalc.
+Inspired by [Cinema Radio by Hiran Venugopalan](https://hiran.in/projects/cinema-radio/).
 
-## Curated intro skips
+The display uses Bitcount Grid Single. Font files and their licenses are in [assets/fonts](assets/fonts/), including the IBM Plex Mono files retained in the repository. Sunrise and sunset calculations use [SunCalc](https://github.com/mourner/suncalc), bundled with its [BSD-2-Clause license](assets/vendor/suncalc/LICENSE).
 
-Optional per-film skip ranges preserve the full recordings while omitting reviewed studio bumpers or uploader intros during playback. Fanfares and opening scores are preserved. See [skip-range instructions and review status](docs/skip-ranges.md).
+The repository does not currently include a license for the application code. Film audio has separate rights; source records in the manifest are not a grant of permission to redistribute it.
