@@ -1,7 +1,7 @@
 {
   "updated": "2026-09-26",
   "epoch_utc": "2026-09-26T00:00:00Z",
-  "total_seconds": 435608.578191,
+  "total_seconds": 443100.776691,
   "tracks": [
     {
       "slug": "his-girl-friday",
@@ -597,6 +597,13 @@
       "year": "2010",
       "duration": 2921.0625,
       "file": "doctor-who-the-pandorica-opens.opus"
+    },
+    {
+      "slug": "the-empire-strikes-back",
+      "title": "The Empire Strikes Back",
+      "year": "1980",
+      "duration": 7492.1985,
+      "file": "the-empire-strikes-back.opus"
     }
   ],
   "mode": "multi-station",

@@ -1,6 +1,6 @@
 # Cinema Radio stations
 
-The side wheel selects six synchronized, repeating stations. Doctor Who is separate from the film mix.
+The side wheel selects seven synchronized, repeating stations. Doctor Who and Star Wars are separate from the Repertory mix.
 
 ## Repertory
 
@@ -197,3 +197,9 @@ The side wheel selects six synchronized, repeating stations. Doctor Who is separ
 - The Lodger (2010)
 - Voyage of the Damned (2007)
 - The Pandorica Opens (2010)
+
+## Star Wars
+
+1 titles · 2.1 hours
+
+- The Empire Strikes Back (1980)

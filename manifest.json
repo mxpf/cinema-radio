@@ -1,6 +1,6 @@
 {
   "updated": "2026-09-26",
-  "scope": "Working public-domain film catalogue with source evidence, not an assertion of worldwide clearance. Doctor Who is a separate user-supplied channel, with no public-domain or redistribution clearance established.",
+  "scope": "Working public-domain film catalogue with source evidence, not an assertion of worldwide clearance. Doctor Who and Star Wars are separate user-supplied channels, with no public-domain or redistribution clearance established.",
   "encoding": "Opus, 96 kbps target VBR, source channels retained, gain aligned toward -23 LUFS with a -2 dBFS sample-peak limiter; no denoising or speed correction.",
   "files": [
     {
@@ -6774,6 +6774,17 @@
       "station": "doctor-who",
       "rights_basis": "User-supplied episode; no public-domain or redistribution clearance established.",
       "source_integrated_lufs": -22.0,
+      "output_integrated_lufs": -23.0
+    },
+    {
+      "slug": "the-empire-strikes-back",
+      "title": "The Empire Strikes Back",
+      "year": "1980",
+      "duration": 7492.1985,
+      "file": "the-empire-strikes-back.opus",
+      "station": "star-wars",
+      "rights_basis": "User-supplied film; no public-domain or redistribution clearance established.",
+      "source_integrated_lufs": -17.3,
       "output_integrated_lufs": -23.0
     }
   ],

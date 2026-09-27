@@ -21,12 +21,13 @@ const wait=ms=>new Promise(r=>setTimeout(r,ms));
 
 (async()=>{
 check('all tracks have one category, film stations meet minimum, Doctor Who stays separate',()=>{
- const categories=run('stations.slice(1).flatMap(s=>s.indices)');assert.equal(categories.length,85);assert.equal(new Set(categories).size,85);assert.equal(run('stations[0].indices.length'),81);
+ const categories=run('stations.slice(1).flatMap(s=>s.indices)');assert.equal(categories.length,86);assert.equal(new Set(categories).size,86);assert.equal(run('stations[0].indices.length'),81);
  for(const station of run('stations.slice(1,5)')) assert.ok(station.indices.length>=20);
  assert.equal(run("stations.find(s=>s.id==='doctor-who').indices.length"),4);
+ assert.equal(run("stations.find(s=>s.id==='star-wars').indices.length"),1);
 });
 check('every station follows UTC offsets and wraps its own schedule',()=>{
- for(let j=0;j<6;j++){
+ for(let j=0;j<7;j++){
   let offset=0;const indices=run(`stations[${j}].indices`);
   for(const i of indices){assert.equal(run(`programme(epoch+${(offset+.1)*1000},${j}).index`),i);offset+=run(`tracks[${i}].duration`)}
   assert.equal(run(`programme(epoch+${(offset+.1)*1000},${j}).index`),indices[0]);
@@ -46,7 +47,7 @@ check('rapid changes settle on the last station',()=>{assert.equal(get('station-
 run('setStation(2);stop()');await wait(650);
 check('power off during tuning cancels the pending join',()=>{assert.equal(run('listening'),false);assert.equal(get('audio').paused,true);assert.equal(run('tuning'),false);assert.equal(run('noiseSource'),null)});
 const key=k=>get('station-tuner').dispatch('keydown',{key:k,preventDefault(){}});
-key('Home');assert.equal(run('stationIndex'),0);key('ArrowUp');assert.equal(run('stationIndex'),1);key('End');assert.equal(run('stationIndex'),5);key(' ');assert.equal(run('stationIndex'),0);
+key('Home');assert.equal(run('stationIndex'),0);key('ArrowUp');assert.equal(run('stationIndex'),1);key('End');assert.equal(run('stationIndex'),6);key(' ');assert.equal(run('stationIndex'),0);
 check('keyboard tunes and Home/End reach either end',()=>assert.equal(get('station-tuner').attrs['aria-valuenow'],'1'));
 const t=get('station-tuner');t.dispatch('pointerdown',{button:0,clientY:100,pointerId:1,preventDefault(){}});t.dispatch('pointermove',{clientY:48});t.dispatch('pointerup');
 check('dragging moves through detents without a duplicate tap change',()=>assert.equal(run('stationIndex'),2));
