@@ -1,7 +1,7 @@
 {
   "updated": "2026-09-26",
   "epoch_utc": "2026-09-26T00:00:00Z",
-  "total_seconds": 479847.020587,
+  "total_seconds": 543615.380776,
   "tracks": [
     {
       "slug": "his-girl-friday",
@@ -639,6 +639,90 @@
       "year": "1951",
       "duration": 5022.9825,
       "file": "lost-continent.opus"
+    },
+    {
+      "slug": "ator-the-fighting-eagle",
+      "title": "Ator: The Fighting Eagle",
+      "year": "1982",
+      "duration": 5515.80225,
+      "file": "ator-the-fighting-eagle.opus"
+    },
+    {
+      "slug": "cat-women-of-the-moon",
+      "title": "Cat-Women of the Moon",
+      "year": "1953",
+      "duration": 3818.388729,
+      "file": "cat-women-of-the-moon.opus"
+    },
+    {
+      "slug": "conan-the-destroyer",
+      "title": "Conan the Destroyer",
+      "year": "1984",
+      "duration": 6076.053313,
+      "file": "conan-the-destroyer.opus"
+    },
+    {
+      "slug": "nevada-smith",
+      "title": "Nevada Smith",
+      "year": "1975",
+      "duration": 4217.725521,
+      "file": "nevada-smith.opus"
+    },
+    {
+      "slug": "red-sonja",
+      "title": "Red Sonja",
+      "year": "1985",
+      "duration": 5345.820563,
+      "file": "red-sonja.opus"
+    },
+    {
+      "slug": "unknown-world",
+      "title": "Unknown World",
+      "year": "1951",
+      "duration": 4437.850688,
+      "file": "unknown-world.opus"
+    },
+    {
+      "slug": "siege-at-red-river",
+      "title": "Siege at Red River",
+      "year": "1954",
+      "duration": 6809.536854,
+      "file": "siege-at-red-river.opus"
+    },
+    {
+      "slug": "hercules",
+      "title": "Hercules",
+      "year": "1958",
+      "duration": 5559.74,
+      "file": "hercules.opus"
+    },
+    {
+      "slug": "the-golden-voyage-of-sinbad",
+      "title": "The Golden Voyage of Sinbad",
+      "year": "1973",
+      "duration": 6299.4525,
+      "file": "the-golden-voyage-of-sinbad.opus"
+    },
+    {
+      "slug": "the-beastmaster",
+      "title": "The Beastmaster",
+      "year": "1982",
+      "duration": 7108.01775,
+      "file": "the-beastmaster.opus"
+    },
+    {
+      "slug": "springtime-in-the-rockies",
+      "title": "Springtime in the Rockies",
+      "year": "1937",
+      "duration": 3319.984021,
+      "file": "springtime-in-the-rockies.opus"
+    },
+    {
+      "slug": "tulsa",
+      "title": "Tulsa",
+      "year": "1949",
+      "duration": 5259.988,
+      "file": "tulsa.opus"
     }
   ],
   "mode": "multi-station",

@@ -1,4 +1,4 @@
-# Sci-Fi
+# Sci-Fi & Fantasy
 
 - Star Wars (1977)
 - The Empire Strikes Back (1980)
@@ -11,7 +11,13 @@
 - Destroy All Planets (1968)
 - This Island Earth (1955)
 - Lost Continent (1951)
+- Ator: The Fighting Eagle (1982)
+- Cat-Women of the Moon (1953)
+- Conan the Destroyer (1984)
+- Red Sonja (1985)
+- Unknown World (1951)
+- Hercules (1958)
+- The Golden Voyage of Sinbad (1973)
+- The Beastmaster (1982)
 
-Indestructible Man and Earth Star Voyager excluded at user request.
-
-All conversions preserve the complete supplied recordings and were decoded end to end, duration checked, and level matched to approximately −23 LUFS. Source completeness and perceptual quality have not been independently reviewed. See manifest.json for provenance and per-title rights status.
+Indestructible Man and Earth Star Voyager remain excluded at user request. See manifest.json for provenance and per-title rights status.

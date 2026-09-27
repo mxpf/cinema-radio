@@ -199,7 +199,7 @@
     },
     {
       "id": "sci-fi",
-      "name": "Sci-Fi",
+      "name": "Sci-Fi & Fantasy",
       "tracks": [
         "star-wars-1977",
         "the-empire-strikes-back",
@@ -211,9 +211,28 @@
         "atomic-rulers",
         "destroy-all-planets",
         "this-island-earth",
-        "lost-continent"
+        "lost-continent",
+        "ator-the-fighting-eagle",
+        "cat-women-of-the-moon",
+        "conan-the-destroyer",
+        "red-sonja",
+        "unknown-world",
+        "hercules",
+        "the-golden-voyage-of-sinbad",
+        "the-beastmaster"
       ],
-      "total_seconds": 63143.513229000004
+      "total_seconds": 107304.639022
+    },
+    {
+      "id": "westerns",
+      "name": "Westerns",
+      "tracks": [
+        "nevada-smith",
+        "siege-at-red-river",
+        "springtime-in-the-rockies",
+        "tulsa"
+      ],
+      "total_seconds": 19607.234396
     }
   ]
 }

@@ -187,9 +187,9 @@ Movies only.
 - All-American Co-Ed (1941)
 - Minstrel Man (1944)
 
-## Sci-Fi
+## Sci-Fi & Fantasy
 
-11 films · 17.5 hours
+19 films · 29.8 hours
 
 - Star Wars (1977)
 - The Empire Strikes Back (1980)
@@ -202,3 +202,20 @@ Movies only.
 - Destroy All Planets (1968)
 - This Island Earth (1955)
 - Lost Continent (1951)
+- Ator: The Fighting Eagle (1982)
+- Cat-Women of the Moon (1953)
+- Conan the Destroyer (1984)
+- Red Sonja (1985)
+- Unknown World (1951)
+- Hercules (1958)
+- The Golden Voyage of Sinbad (1973)
+- The Beastmaster (1982)
+
+## Westerns
+
+4 films · 5.4 hours
+
+- Nevada Smith (1975)
+- Siege at Red River (1954)
+- Springtime in the Rockies (1937)
+- Tulsa (1949)
