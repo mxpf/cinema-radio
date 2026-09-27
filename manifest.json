@@ -5413,7 +5413,8 @@
       "output_bytes": 53990784,
       "output_sha256": "063a9661ef03617b00dc552a87308dd6dd49256b361581742e9b2b0c8616d037",
       "station": "musicals",
-      "review": "Full decode and duration check passed. No full perceptual listening review."
+      "review": "Full decode and duration check passed. No full perceptual listening review.",
+      "status": "Removed from playback at user request: poor audio quality; backup retained."
     },
     {
       "slug": "minstrel-man",
@@ -6863,7 +6864,6 @@
     "road-to-hollywood",
     "swing-hostess",
     "all-american-co-ed",
-    "breakfast-in-hollywood",
     "minstrel-man",
     "people-are-funny",
     "the-milky-way",

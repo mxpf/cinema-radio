@@ -6,15 +6,15 @@ An ambient, always-on English-language cinema-as-radio service: film soundtracks
 
 Open `index.html` in a browser, or serve this folder with a static file server. There is no build step, database, or application server.
 
-The interface and metadata are included. **Audio is not stored in Git.** Place the 87 Opus files listed in `programme.json` into `audio/`, or set `CINEMA_RADIO_MEDIA_BASE_URL` in `config.js` to their object-storage URL prefix. Keep the exact filenames from the catalogue. A clone will display the radio without media, but playback needs those files.
+The interface and metadata are included. **Audio is not stored in Git.** Place the 86 Opus files listed in `programme.json` into `audio/`, or set `CINEMA_RADIO_MEDIA_BASE_URL` in `config.js` to their object-storage URL prefix. Keep the exact filenames from the catalogue. A clone will display the radio without media, but playback needs those files.
 
 ## Stations and controls
 
-- **Repertory** — all 81 films.
+- **Repertory** — all 80 films.
 - **Noir & Mystery** — 21 films.
 - **Comedy** — 20 films.
 - **Drama & Romance** — 20 films.
-- **Musicals** — 20 films.
+- **Musicals** — 19 films.
 - **Star Wars** — The Empire Strikes Back (1980) and Return of the Jedi (1983).
 - **Doctor Who** — 4 user-supplied episodes: “The Eleventh Hour”, “The Lodger”, “Voyage of the Damned”, and “The Pandorica Opens”.
 

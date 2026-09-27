@@ -4,7 +4,7 @@ The side wheel selects seven synchronized, repeating stations. Doctor Who and St
 
 ## Repertory
 
-81 titles · 117.2 hours
+80 titles · 117.2 hours
 
 - His Girl Friday (1940)
 - Royal Wedding (1951)
@@ -69,7 +69,6 @@ The side wheel selects seven synchronized, repeating stations. Doctor Who and St
 - Road to Hollywood (1947)
 - Swing Hostess (1944)
 - All-American Co-Ed (1941)
-- Breakfast in Hollywood (1946)
 - Minstrel Man (1944)
 - People Are Funny (1946)
 - The Milky Way (1936)
@@ -186,7 +185,6 @@ The side wheel selects seven synchronized, repeating stations. Doctor Who and St
 - Road to Hollywood (1947)
 - Swing Hostess (1944)
 - All-American Co-Ed (1941)
-- Breakfast in Hollywood (1946)
 - Minstrel Man (1944)
 
 ## Doctor Who

@@ -5,7 +5,7 @@
     {
       "id": "repertory",
       "name": "Repertory",
-      "total_seconds": 421952.946858,
+      "total_seconds": 416703.507358,
       "tracks": [
         "his-girl-friday",
         "royal-wedding",
@@ -70,7 +70,6 @@
         "road-to-hollywood",
         "swing-hostess",
         "all-american-co-ed",
-        "breakfast-in-hollywood",
         "minstrel-man",
         "people-are-funny",
         "the-milky-way",
@@ -175,7 +174,7 @@
     {
       "id": "musicals",
       "name": "Musicals",
-      "total_seconds": 96498.685689,
+      "total_seconds": 91249.246189,
       "tracks": [
         "royal-wedding",
         "second-chorus",
@@ -195,7 +194,6 @@
         "road-to-hollywood",
         "swing-hostess",
         "all-american-co-ed",
-        "breakfast-in-hollywood",
         "minstrel-man"
       ]
     },

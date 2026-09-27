@@ -1,7 +1,7 @@
 {
   "updated": "2026-09-26",
   "epoch_utc": "2026-09-26T00:00:00Z",
-  "total_seconds": 451003.663191,
+  "total_seconds": 445754.223691,
   "tracks": [
     {
       "slug": "his-girl-friday",
@@ -450,13 +450,6 @@
       "year": "1941",
       "duration": 2914.435917,
       "file": "all-american-co-ed.opus"
-    },
-    {
-      "slug": "breakfast-in-hollywood",
-      "title": "Breakfast in Hollywood",
-      "year": "1946",
-      "duration": 5249.4395,
-      "file": "breakfast-in-hollywood.opus"
     },
     {
       "slug": "minstrel-man",
