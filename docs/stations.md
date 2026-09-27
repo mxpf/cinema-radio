@@ -189,10 +189,16 @@ Movies only.
 
 ## Sci-Fi
 
-5 films · 9.4 hours
+11 films · 17.5 hours
 
 - Star Wars (1977)
 - The Empire Strikes Back (1980)
 - Return of the Jedi (1983)
 - Prisoners of the Lost Universe (1983)
 - Destination Moon (1950)
+- The Phantom Planet (1961)
+- Hundra (1983)
+- Atomic Rulers (1965)
+- Destroy All Planets (1968)
+- This Island Earth (1955)
+- Lost Continent (1951)

@@ -1,7 +1,7 @@
 {
   "updated": "2026-09-26",
   "epoch_utc": "2026-09-26T00:00:00Z",
-  "total_seconds": 450499.326712,
+  "total_seconds": 479847.020587,
   "tracks": [
     {
       "slug": "his-girl-friday",
@@ -597,6 +597,48 @@
       "year": "1950",
       "duration": 5468.944375,
       "file": "destination-moon.opus"
+    },
+    {
+      "slug": "the-phantom-planet",
+      "title": "The Phantom Planet",
+      "year": "1961",
+      "duration": 4939.691958,
+      "file": "the-phantom-planet.opus"
+    },
+    {
+      "slug": "hundra",
+      "title": "Hundra",
+      "year": "1983",
+      "duration": 5752.320708,
+      "file": "hundra.opus"
+    },
+    {
+      "slug": "atomic-rulers",
+      "title": "Atomic Rulers",
+      "year": "1965",
+      "duration": 4456.496313,
+      "file": "atomic-rulers.opus"
+    },
+    {
+      "slug": "destroy-all-planets",
+      "title": "Destroy All Planets",
+      "year": "1968",
+      "duration": 4876.069271,
+      "file": "destroy-all-planets.opus"
+    },
+    {
+      "slug": "this-island-earth",
+      "title": "This Island Earth",
+      "year": "1955",
+      "duration": 4300.133125,
+      "file": "this-island-earth.opus"
+    },
+    {
+      "slug": "lost-continent",
+      "title": "Lost Continent",
+      "year": "1951",
+      "duration": 5022.9825,
+      "file": "lost-continent.opus"
     }
   ],
   "mode": "multi-station",
