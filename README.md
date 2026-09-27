@@ -20,7 +20,7 @@ The interface and metadata are included. **Audio is not stored in Git.** Place t
 
 The right-hand wheel changes stations: drag up/down, scroll, tap for the next station, or use keyboard arrows. Each station has its own continuously repeating schedule anchored to 26 September 2026 at 00:00 UTC. Listeners join the current scheduled position. The selected station is remembered locally when browser storage is available.
 
-The outer ring sets sleep from 0–60 minutes; its marker counts down. The inner cone controls volume. The centre button switches power with a short audio fade. Manual power-off freezes sleep; power-on resumes it. Sleep fades during the final 30 seconds. Station changes use a brief, soft synthesized tuning sound.
+The outer ring sets sleep from 0–60 minutes; its marker counts down. The inner cone controls volume. The centre button switches power with a short audio fade. Manual power-off freezes sleep; power-on resumes it. Sleep fades during the final 30 seconds. Station changes are silent, followed by a gentle audio fade-in.
 
 The amber screen has a fixed height. Long titles loop left, pausing two seconds at the start of each loop; short titles stay still. Reduced-motion preferences disable the marquee. The film year appears at the bottom right. Fonts are bundled locally.
 

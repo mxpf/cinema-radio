@@ -315,11 +315,11 @@ function updateSleep(){
  volumeControl.setAttribute('aria-valuenow',String(Math.round(baseVolume*100)/10));
  volumeControl.setAttribute('aria-valuetext',Math.round(baseVolume*100)+' percent');
 }
-function startListening(){prepareTuningAudio();cancelPowerFade();powerGain=0;powerFadePending=true;applyAudioLevel();listening=true;document.body.classList.add('powered');button.setAttribute('aria-label','Turn radio off');button.setAttribute('aria-pressed','true');if(sleepMinutes&&!sleepDeadline)sleepDeadline=Date.now()+sleepMinutes*60000;updateSleep();join();}
+function startListening(){cancelPowerFade();powerGain=0;powerFadePending=true;applyAudioLevel();listening=true;document.body.classList.add('powered');button.setAttribute('aria-label','Turn radio off');button.setAttribute('aria-pressed','true');if(sleepMinutes&&!sleepDeadline)sleepDeadline=Date.now()+sleepMinutes*60000;updateSleep();join();}
 function setRing(control,fraction){
  fraction=Math.max(0,Math.min(1,fraction));
  if(control===sleepButton){sleepMinutes=Math.round(fraction*60);sleepDeadline=sleepMinutes&&listening ? Date.now()+sleepMinutes*60000 : 0;}
- else {baseVolume=Math.round(fraction*100)/100;if(baseVolume===0)silenceTuningNoise();}
+ else {baseVolume=Math.round(fraction*100)/100;}
  updateSleep();
 }
 for(const control of [sleepButton,volumeControl]){
@@ -425,7 +425,7 @@ if(typeof ResizeObserver!=='undefined'){
  requestAnimationFrame(alignSpeaker);
 }
 const tuner=document.getElementById('station-tuner');
-let tuning=false,tuneTimer=null,noiseContext=null,noiseSource=null,noiseGain=null;
+let tuning=false,tuneTimer=null;
 function updateStation(){
  const station=stations[stationIndex];
  document.getElementById('station-name').textContent=station.name;
@@ -434,39 +434,7 @@ function updateStation(){
  tuner.setAttribute('aria-valuetext',station.name);
  tuner.style.setProperty('--station-angle',(stationIndex*9)+'deg');
 }
-function silenceTuningNoise(){
- if(noiseSource){try{noiseSource.stop();}catch{}noiseSource.disconnect();noiseSource=null;}
- if(noiseGain){noiseGain.disconnect();noiseGain=null;}
-}
-function cancelTuning(){clearTimeout(tuneTimer);tuneTimer=null;tuning=false;silenceTuningNoise();}
-function prepareTuningAudio(){
- try{
-  const AudioContext=window.AudioContext||window.webkitAudioContext;
-  if(!AudioContext)return null;
-  if(!noiseContext)noiseContext=new AudioContext();
-  if(noiseContext.state==='suspended')noiseContext.resume().catch(()=>{});
-  return noiseContext;
- }catch{return null;}
-}
-function playTuningNoise(){
- silenceTuningNoise();
- if(!listening||baseVolume===0||sleepGain===0)return;
- try{
-  const context=prepareTuningAudio();if(!context)return;
-  const length=Math.ceil(context.sampleRate*.24),buffer=context.createBuffer(1,length,context.sampleRate);
-  const data=buffer.getChannelData(0);
-  for(let i=0;i<length;i++)data[i]=(Math.random()*2-1);
-  const source=context.createBufferSource(),filter=context.createBiquadFilter(),gain=context.createGain();
-  source.buffer=buffer;filter.type='bandpass';filter.frequency.value=1200;filter.Q.value=.65;
-  const now=context.currentTime,level=baseVolume*sleepGain*.12;
-  gain.gain.setValueAtTime(0,now);gain.gain.linearRampToValueAtTime(level,now+.015);
-  gain.gain.linearRampToValueAtTime(level*.6,now+.1);gain.gain.linearRampToValueAtTime(0,now+.24);
-  source.connect(filter);filter.connect(gain);gain.connect(context.destination);
-  noiseSource=source;noiseGain=gain;
-  source.onended=()=>{source.disconnect();filter.disconnect();gain.disconnect();if(noiseSource===source){noiseSource=null;noiseGain=null;}};
-  source.start();source.stop(now+.245);
- }catch{silenceTuningNoise();}
-}
+function cancelTuning(){clearTimeout(tuneTimer);tuneTimer=null;tuning=false;}
 function setStation(index){
  index=Math.max(0,Math.min(stations.length-1,index));
  if(index===stationIndex)return;
@@ -475,7 +443,7 @@ function setStation(index){
  generation++;loading=false;loaded=-1;updateStation();display(programme());status.textContent='';
  if(!listening)return;
  cancelPowerFade();powerGain=0;powerFadePending=true;applyAudioLevel();audio.pause();
- document.body.classList.remove('playing');tuning=true;playTuningNoise();
+ document.body.classList.remove('playing');tuning=true;
  tuneTimer=setTimeout(()=>{tuneTimer=null;tuning=false;if(listening)join();},260);
 }
 // The narrow visible rim has a larger transparent pointer/touch target.
