@@ -44,6 +44,6 @@ body.powered.buffering .power-light::after{animation:buffer-pulse 1.5s ease-in-o
 body.powered .lcd::before{animation:screen-startup .85s ease-out both}
 body.powered .power-light{animation:lamp-startup .85s ease-out both}
 body.powered .power-light::after{opacity:1;transition:opacity .25s ease-out}
-@keyframes screen-startup{0%{filter:brightness(1)}30%{filter:brightness(1.09)}100%{filter:brightness(1)}}
+@keyframes screen-startup{0%{filter:brightness(1)}30%{filter:brightness(1.22)}100%{filter:brightness(1)}}
 @keyframes lamp-startup{0%{filter:brightness(1)}30%{filter:brightness(1.16)}100%{filter:brightness(1)}}
 @media(prefers-reduced-motion:reduce){body.powered .lcd::before,body.powered .power-light{animation:none}}
