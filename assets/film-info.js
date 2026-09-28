@@ -46,7 +46,7 @@
  new MutationObserver(refresh).observe(document.getElementById('title-text'),{childList:true,characterData:true,subtree:true});
  new MutationObserver(refresh).observe(document.getElementById('year'),{childList:true});
  let powered=document.body.classList.contains('powered');
- new MutationObserver(()=>{const next=document.body.classList.contains('powered');if(next!==powered){powered=next;layout();}}).observe(document.body,{attributes:true,attributeFilter:['class']});
+ new MutationObserver(()=>{const next=document.body.classList.contains('powered');if(next!==powered){powered=next;if(!next){open=false;button.setAttribute('aria-pressed','false');button.setAttribute('aria-label','Show film synopsis');screen.classList.remove('info-open');view.setAttribute('aria-hidden','true');fadeOut();}else layout();}}).observe(document.body,{attributes:true,attributeFilter:['class']});
 
  new ResizeObserver(layout).observe(screen);motion.addEventListener('change',layout);
  document.fonts.ready.then(layout);refresh();
