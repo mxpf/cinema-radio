@@ -24,6 +24,8 @@ The catalogue currently has 112 films across seven stations:
 | Sci-Fi & Fantasy | 26 |
 | Westerns | 5 |
 
+Read the [film catalogue](docs/film-catalogue.md) for a brief synopsis of every film.
+
 The radio switches between day and night appearances using your local time. The sunrise button can use your location to follow local sunrise and sunset instead. This is optional: daylight is calculated on your device, and only a rounded location is saved in your browser. Press the button again to forget it. Without location, daytime runs from 7 a.m. to 7 p.m.
 
 ## Mac app
