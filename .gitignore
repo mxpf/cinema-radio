@@ -21,3 +21,12 @@ _site/
 *.zip
 macos/build/
 media-worker/worker-configuration.d.ts
+
+android/.gradle/
+android/.kotlin/
+android/**/build/
+android/local.properties
+*.apk
+*.aab
+*.jks
+*.keystore

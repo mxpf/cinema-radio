@@ -76,4 +76,4 @@ Inspired by [Cinema Radio by Hiran Venugopalan](https://hiran.in/projects/cinema
 
 The display uses Bitcount Grid Single. Font files and their licenses are in [assets/fonts](assets/fonts/), including the IBM Plex Mono files retained in the repository. Sunrise and sunset calculations use [SunCalc](https://github.com/mourner/suncalc), bundled with its [BSD-2-Clause license](assets/vendor/suncalc/LICENSE).
 
-The repository does not currently include a license for the application code. Film audio has separate rights; source records in the manifest are not a grant of permission to redistribute it.
+The application code is licensed under [GPLv3](LICENSE). See [license notes](NOTICE.md) for artwork and third-party components. Film audio has separate rights; source records in the manifest are not a grant of permission to redistribute it.
