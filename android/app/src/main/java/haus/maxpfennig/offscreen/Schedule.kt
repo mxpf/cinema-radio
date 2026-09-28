@@ -1,4 +1,4 @@
-package haus.maxpfennig.radio
+package haus.maxpfennig.offscreen
 
 import org.json.JSONObject
 import kotlin.math.min

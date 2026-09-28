@@ -1,5 +1,4 @@
-@file:OptIn(androidx.media3.common.util.UnstableApi::class)
-package haus.maxpfennig.radio
+package haus.maxpfennig.offscreen
 
 import android.app.PendingIntent
 import android.content.Intent
@@ -16,6 +15,7 @@ import com.google.common.util.concurrent.Futures
 import com.google.common.util.concurrent.ListenableFuture
 import org.json.JSONObject
 
+@androidx.annotation.OptIn(markerClass = [androidx.media3.common.util.UnstableApi::class])
 class RadioService : MediaSessionService() {
     private lateinit var schedule: Schedule
     private lateinit var session: MediaSession
@@ -40,7 +40,6 @@ class RadioService : MediaSessionService() {
     private var powerFrom = 0f
     private var powerTo = 0f
     private var powerGain = 0f
-    private var retryAt = 0L
     private var resumeAfterFocus = false
     private val ticker = object : Runnable {
         override fun run() { tick(); handler.postDelayed(this, if (powered || powerGain > 0) 40 else 1000) }
@@ -89,7 +88,7 @@ class RadioService : MediaSessionService() {
                     return MediaSession.ConnectionResult.AcceptedResultBuilder(s).setAvailableSessionCommands(commands.build()).build()
                 }
                 override fun onCustomCommand(s: MediaSession, controller: MediaSession.ControllerInfo, command: SessionCommand, args: Bundle): ListenableFuture<SessionResult> {
-                    if (controller.uid != android.os.Process.myUid() || command.customAction != COMMAND) return Futures.immediateFuture(SessionResult(SessionResult.RESULT_ERROR_PERMISSION_DENIED))
+                    if (controller.uid != android.os.Process.myUid() || command.customAction != COMMAND) return Futures.immediateFuture(SessionResult(SessionError.ERROR_PERMISSION_DENIED))
                     handle(args.getString("message") ?: "{}")
                     return Futures.immediateFuture(SessionResult(SessionResult.RESULT_SUCCESS, Bundle().apply { putString("state", state().toString()) }))
                 }
@@ -194,5 +193,5 @@ class RadioService : MediaSessionService() {
         session.release();decks.forEach { it.release() };audioManager.abandonAudioFocusRequest(focus)
         super.onDestroy()
     }
-    companion object { const val COMMAND = "haus.maxpfennig.radio.CONTROL" }
+    companion object { const val COMMAND = "haus.maxpfennig.offscreen.CONTROL" }
 }

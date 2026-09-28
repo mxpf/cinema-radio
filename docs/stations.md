@@ -1,4 +1,4 @@
-# Cinema Radio stations
+# Offscreen stations
 
 Movies only. Repertory mixes all films; each film also has one primary genre station. Hybrids are assigned by their strongest programming fit, not every possible genre label.
 

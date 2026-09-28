@@ -1,4 +1,4 @@
-# Publishing Cinema Radio
+# Publishing Offscreen
 
 Destination: https://radio.maxpfennig.haus
 

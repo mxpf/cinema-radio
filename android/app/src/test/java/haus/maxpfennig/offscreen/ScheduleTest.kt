@@ -1,4 +1,4 @@
-package haus.maxpfennig.radio
+package haus.maxpfennig.offscreen
 
 import org.junit.Assert.*
 import org.junit.Test

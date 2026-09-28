@@ -3,10 +3,10 @@ plugins {
     id("org.jetbrains.kotlin.android")
 }
 android {
-    namespace = "haus.maxpfennig.radio"
+    namespace = "haus.maxpfennig.offscreen"
     compileSdk = 36
     defaultConfig {
-        applicationId = "haus.maxpfennig.radio"
+        applicationId = "haus.maxpfennig.offscreen"
         minSdk = 26
         targetSdk = 36
         versionCode = 1
@@ -32,6 +32,10 @@ dependencies {
     implementation("androidx.media3:media3-session:1.9.3")
     implementation("androidx.webkit:webkit:1.14.0")
     implementation("androidx.core:core-ktx:1.17.0")
+    androidTestImplementation("androidx.test:runner:1.6.2")
+    androidTestImplementation("androidx.test.ext:junit:1.2.1")
+    androidTestImplementation("androidx.test:core-ktx:1.6.1")
+    androidTestImplementation("androidx.test.uiautomator:uiautomator:2.3.0")
     testImplementation("junit:junit:4.13.2")
     testImplementation("org.json:json:20250517")
 }

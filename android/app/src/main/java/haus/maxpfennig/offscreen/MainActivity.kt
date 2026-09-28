@@ -1,5 +1,4 @@
-@file:OptIn(androidx.media3.common.util.UnstableApi::class)
-package haus.maxpfennig.radio
+package haus.maxpfennig.offscreen
 
 import android.app.Activity
 import android.content.ComponentName
@@ -17,6 +16,7 @@ import com.google.common.util.concurrent.ListenableFuture
 import org.json.JSONObject
 import java.io.ByteArrayInputStream
 
+@androidx.annotation.OptIn(markerClass = [androidx.media3.common.util.UnstableApi::class])
 class MainActivity : Activity() {
     private lateinit var web: WebView
     private var controller: MediaController? = null

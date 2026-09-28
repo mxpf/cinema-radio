@@ -1,4 +1,4 @@
-# Cinema Radio for the menu bar
+# Offscreen for the menu bar
 
 A small macOS AppKit app containing the live radio in a persistent WKWebView. Requires macOS 15.4 or later and an internet connection. Apple silicon and Intel are supported.
 
@@ -8,6 +8,6 @@ Build with `./macos/build.sh` on a Mac with Apple's command-line developer tools
 
 The app loads https://radio.maxpfennig.haus and receives future radio interface/catalogue changes from that site. It does not download or bundle the soundtracks, start at login, or install a background service.
 
-The app icon is a miniature of the radio, with an ivory case, speaker grille, amber screen, and concentric dial. The build converts `assets/CinemaRadio.png` into all standard macOS icon sizes.
+The app icon is a miniature of the radio, with an ivory case, speaker grille, amber screen, and concentric dial. The build converts `assets/Offscreen.png` into all standard macOS icon sizes.
 
 The radio floats in a transparent borderless panel, with no webpage backdrop or native popover frame. Click outside or press Escape to hide it. The web view remains alive for playback.

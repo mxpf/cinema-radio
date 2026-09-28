@@ -1,6 +1,6 @@
 # Licenses
 
-Cinema Radio application code is licensed under the GNU General Public License,
+Offscreen application code is licensed under the GNU General Public License,
 version 3 only (GPL-3.0-only). Copyright 2026 Max Pfennig.
 See LICENSE for the full terms. This covers the web, Mac, and Android application
 code and project scripts. Project-created interface artwork is also provided

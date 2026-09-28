@@ -4,7 +4,7 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
-    <application android:label="Cinema Radio" android:icon="@drawable/radio_icon"
+    <application android:label="Offscreen" android:icon="@drawable/radio_icon"
         android:theme="@style/AppTheme" android:allowBackup="false" android:usesCleartextTraffic="false"
         android:supportsRtl="true">
         <activity android:name=".MainActivity" android:exported="true">

@@ -22,9 +22,9 @@ final class RadioApp: NSObject, NSApplicationDelegate, WKNavigationDelegate, WKS
         NSApp.setActivationPolicy(.accessory)
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.squareLength)
         if let button = statusItem.button {
-            button.image = NSImage(systemSymbolName: "radio", accessibilityDescription: "Cinema Radio")
+            button.image = NSImage(systemSymbolName: "radio", accessibilityDescription: "Offscreen")
             button.image?.isTemplate = true
-            button.toolTip = "Cinema Radio — click to open, right-click for options"
+            button.toolTip = "Offscreen — click to open, right-click for options"
             button.target = self
             button.action = #selector(statusClicked)
             button.sendAction(on: [.leftMouseUp, .rightMouseUp])
@@ -39,7 +39,7 @@ final class RadioApp: NSObject, NSApplicationDelegate, WKNavigationDelegate, WKS
         document.head.appendChild(style);
         const report = () => window.webkit.messageHandlers.radioState.postMessage({
           playing:document.body.classList.contains('playing'),
-          title:document.getElementById('title-text')?.textContent || 'Cinema Radio',
+          title:document.getElementById('title-text')?.textContent || 'Offscreen',
           station:document.getElementById('station-name')?.textContent || ''
         });
         new MutationObserver(report).observe(document.body,{attributes:true,attributeFilter:['class']});
@@ -91,7 +91,7 @@ final class RadioApp: NSObject, NSApplicationDelegate, WKNavigationDelegate, WKS
             (isPlaying ? "Power Off" : "Power On", #selector(togglePower), ""),
             ("Open Website", #selector(openWebsite), ""),
             ("Reload Radio", #selector(reloadRadio), ""),
-            ("Quit Cinema Radio", #selector(quit), "q")
+            ("Quit Offscreen", #selector(quit), "q")
         ]
         for (title, action, key) in actions {
             let item = NSMenuItem(title: title, action: action, keyEquivalent: key)
@@ -116,7 +116,7 @@ final class RadioApp: NSObject, NSApplicationDelegate, WKNavigationDelegate, WKS
         isPlaying = value
         statusItem.button?.contentTintColor = value ? .systemOrange : nil
         if value && activity == nil {
-            activity = ProcessInfo.processInfo.beginActivity(options: [.userInitiatedAllowingIdleSystemSleep], reason: "Cinema Radio playback")
+            activity = ProcessInfo.processInfo.beginActivity(options: [.userInitiatedAllowingIdleSystemSleep], reason: "Offscreen playback")
         } else if !value, let current = activity {
             ProcessInfo.processInfo.endActivity(current); activity = nil
         }
@@ -125,9 +125,9 @@ final class RadioApp: NSObject, NSApplicationDelegate, WKNavigationDelegate, WKS
         guard message.frameInfo.isMainFrame, message.frameInfo.securityOrigin.host == site.host,
               let state = message.body as? [String: Any] else { return }
         setPlaying(state["playing"] as? Bool ?? false)
-        let title = state["title"] as? String ?? "Cinema Radio"
+        let title = state["title"] as? String ?? "Offscreen"
         let station = state["station"] as? String ?? ""
-        statusItem.button?.toolTip = isPlaying ? "\(title) · \(station)" : "Cinema Radio — off"
+        statusItem.button?.toolTip = isPlaying ? "\(title) · \(station)" : "Offscreen — off"
     }
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) { loaded = webView.url?.host == site.host }
     func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
@@ -140,7 +140,7 @@ final class RadioApp: NSObject, NSApplicationDelegate, WKNavigationDelegate, WKS
     }
     func webView(_ webView: WKWebView, didFailProvisionalNavigation navigation: WKNavigation!, withError error: Error) {
         loaded = false
-        statusItem.button?.toolTip = "Cinema Radio could not connect. Right-click → Reload Radio."
+        statusItem.button?.toolTip = "Offscreen could not connect. Right-click → Reload Radio."
     }
     func webViewWebContentProcessDidTerminate(_ webView: WKWebView) { setPlaying(false); loaded = false; webView.reload() }
     func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool { false }

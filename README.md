@@ -1,10 +1,10 @@
-# Cinema Radio
+# Offscreen
 
 An app for listening to films as you work. Online and for Mac.
 
-Cinema Radio plays movie soundtracks through a small, radio-like player. Choose a station and tune into whatever is playing. There's no video to watch, and you don't need to follow every scene. Dialogue, music, and quiet passages are all part of the experience.
+Offscreen plays movie soundtracks through a small, radio-like player. Choose a station and tune into whatever is playing. There's no video to watch, and you don't need to follow every scene. Dialogue, music, and quiet passages are all part of the experience.
 
-**[Listen online](https://radio.maxpfennig.haus/)** · **[Download for Mac](https://github.com/mxpf/cinema-radio/releases/tag/v0.1.2)**
+**[Listen online](https://radio.maxpfennig.haus/)** · **[Download for Mac](https://github.com/mxpf/offscreen/releases/tag/v0.2.0)**
 
 ## Listening
 
