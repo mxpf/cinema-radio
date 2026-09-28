@@ -47,3 +47,7 @@ body.powered .power-light::after{opacity:1;transition:opacity .25s ease-out}
 @keyframes screen-startup{0%{filter:brightness(1)}30%{filter:brightness(1.22)}100%{filter:brightness(1)}}
 @keyframes lamp-startup{0%{filter:brightness(1)}30%{filter:brightness(1.16)}100%{filter:brightness(1)}}
 @media(prefers-reduced-motion:reduce){body.powered .lcd::before,body.powered .power-light{animation:none}}
+/* Opaque display ink during startup; only the backlight blooms. */
+body.powered .lcd:not(.info-open)>.eyebrow,
+body.powered .lcd:not(.info-open)>.display,
+body.powered .lcd:not(.info-open)>.station-label{opacity:1;transition:none}
