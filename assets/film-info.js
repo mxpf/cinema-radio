@@ -5,6 +5,10 @@
  let open=false,key='',animation=null;
  function cancel(){if(animation)animation.cancel();animation=null;}
  function layout(){
+  const housing=document.querySelector('.radio'),unit=document.querySelector('.screen-unit');
+  const scale=housing.getBoundingClientRect().width/housing.offsetWidth;
+  const gap=(housing.getBoundingClientRect().right-unit.getBoundingClientRect().right)/scale;
+  button.style.top=`calc(100% + ${Math.max(0,gap)}px)`;
   cancel();view.scrollTop=0;copy.hidden=true;
   paragraph.style.minHeight=copy.style.minHeight='';
   if(!open||!document.body.classList.contains('powered')||motion.matches)return;
@@ -14,7 +18,7 @@
   const words=paragraph.textContent.trim().split(/\s+/).length;
   const visibleWords=words*Math.min(1,view.clientHeight/(height-18));
   const pause=Math.max(3,visibleWords/200*60),travel=distance/9;
-  animation=track.animate([{transform:'translateY(0)',offset:0},{transform:'translateY(0)',offset:pause/(pause+travel),easing:`steps(${Math.ceil(distance/1.5)}, end)`},{transform:`translateY(-${distance}px)`,offset:1}],{duration:(pause+travel)*1000,delay:440,iterations:Infinity,easing:'linear'});
+  animation=track.animate([{transform:'translateY(0)'},{transform:`translateY(-${distance}px)`}],{duration:travel*1000,delay:440+pause*1000,iterations:Infinity,easing:`steps(${Math.ceil(distance/1.5)}, end)`});
  }
  function refresh(){
   const next=document.getElementById('title-text').textContent+' ('+document.getElementById('year').textContent+')';
