@@ -34,6 +34,10 @@ It supports Apple silicon and Intel Macs running macOS 15.4 or later and needs a
 
 See the [Mac app README](macos/README.md) for build instructions.
 
+## Android prototype
+
+An Android version is in development with native background playback and the same radio interface. See the [Android README](android/README.md) for builds, testing, and F-Droid preparation. It is not yet listed on F-Droid.
+
 ## Run it locally
 
 Clone this repository and open `index.html` in a browser. You can also serve the folder with any static file server. There's no build step or dependency installation for the website.

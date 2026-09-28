@@ -2,7 +2,7 @@
 
 Destination: https://radio.maxpfennig.haus
 
-GitHub Pages serves the interface. The 45 Opus soundtracks remain outside Git and require HTTPS object storage with byte-range support.
+GitHub Pages serves the interface. The Opus soundtracks remain outside Git and require HTTPS object storage with byte-range support.
 
 ## Launch sequence
 
@@ -13,12 +13,12 @@ GitHub Pages serves the interface. The 45 Opus soundtracks remain outside Git an
 5. Run the manual Publish radio workflow. It tests behavior and publishes only the interface, config, fonts and CNAME. It refuses publication without an HTTPS media location.
 6. Confirm DNS and TLS, enforce HTTPS, and test live playback and controls.
 
-The Keepinghaus credit remains on the page. This is an independent subdomain deployment, not a release of the Keepinghaus site.
+The site credits Cinema Radio by Hiran Venugopalan as its inspiration.
 
 ## Current deployment
 
 - DNS: `radio.maxpfennig.haus` CNAME → `mxpf.github.io` (Porkbun).
-- Media bucket: `cinema-radio-audio` (45 Opus files).
+- Media bucket: `cinema-radio-audio` (the bucket name is retained for compatibility).
 - Read-only media Worker: `https://cinema-radio-media.maxpfennighaus.workers.dev/`.
 - Deploy the media Worker with `npx wrangler deploy --config media-worker/wrangler.jsonc`.
 - The Worker streams byte ranges from R2 and supports cross-origin audio requests. No public upload or listing endpoint exists.
