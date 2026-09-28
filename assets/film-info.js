@@ -12,9 +12,12 @@
   button.style.top=`calc(100% + ${Math.max(0,gap*.66)}px)`;
   const available=screen.clientHeight-22,line=parseFloat(getComputedStyle(track).lineHeight);
   view.style.bottom='auto';
-  view.style.height=(Math.max(1,Math.floor((available-4)/line))*line+4)+'px';
   cancel();view.scrollTop=0;copy.hidden=true;
   paragraph.style.minHeight=copy.style.minHeight='';
+  const visibleHeight=Math.min(Math.max(1,Math.floor((available-4)/line))*line,paragraph.offsetHeight-18)+4;
+  view.style.height=visibleHeight+'px';
+  // Optical centering accounts for the font's high-set pixel glyphs.
+  view.style.top=((screen.clientHeight-visibleHeight)/2+2)+'px';
   if(!open||!document.body.classList.contains('powered')||motion.matches)return;
   const height=paragraph.offsetHeight,distance=height;
   if(height-18<=view.clientHeight+1)return;
