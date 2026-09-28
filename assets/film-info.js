@@ -5,14 +5,16 @@
  let open=false,key='',animation=null;
  function cancel(){if(animation)animation.cancel();animation=null;}
  function layout(){
-  cancel();view.scrollTop=0;
+  cancel();view.scrollTop=0;copy.hidden=true;
+  paragraph.style.minHeight=copy.style.minHeight='';
   if(!open||!document.body.classList.contains('powered')||motion.matches)return;
-  paragraph.style.minHeight=copy.style.minHeight=(view.clientHeight+18)+'px';
   const height=paragraph.offsetHeight,distance=height;
+  if(height-18<=view.clientHeight+1)return;
+  copy.hidden=false;
   const words=paragraph.textContent.trim().split(/\s+/).length;
   const visibleWords=words*Math.min(1,view.clientHeight/(height-18));
   const pause=Math.max(3,visibleWords/200*60),travel=distance/9;
-  animation=track.animate([{transform:'translateY(0)',offset:0},{transform:'translateY(0)',offset:pause/(pause+travel)},{transform:`translateY(-${distance}px)`,offset:1}],{duration:(pause+travel)*1000,delay:440,iterations:Infinity,easing:'linear'});
+  animation=track.animate([{transform:'translateY(0)',offset:0},{transform:'translateY(0)',offset:pause/(pause+travel),easing:`steps(${Math.ceil(distance/1.5)}, end)`},{transform:`translateY(-${distance}px)`,offset:1}],{duration:(pause+travel)*1000,delay:440,iterations:Infinity,easing:'linear'});
  }
  function refresh(){
   const next=document.getElementById('title-text').textContent+' ('+document.getElementById('year').textContent+')';
