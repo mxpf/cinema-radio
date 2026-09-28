@@ -34,6 +34,11 @@
   open=!open;button.setAttribute('aria-pressed',String(open));button.setAttribute('aria-label',open?'Show film title':'Show film synopsis');
   screen.classList.toggle('info-open',open);view.setAttribute('aria-hidden',String(!open));refresh();layout();
  });
+ let station=document.getElementById('station-number').textContent;
+ new MutationObserver(()=>{
+  const next=document.getElementById('station-number').textContent;if(next===station)return;station=next;
+  open=false;cancel();button.setAttribute('aria-pressed','false');button.setAttribute('aria-label','Show film synopsis');screen.classList.remove('info-open');view.setAttribute('aria-hidden','true');
+ }).observe(document.getElementById('station-number'),{childList:true,characterData:true,subtree:true});
  new MutationObserver(refresh).observe(document.getElementById('title-text'),{childList:true,characterData:true,subtree:true});
  new MutationObserver(refresh).observe(document.getElementById('year'),{childList:true});
  let powered=document.body.classList.contains('powered');
