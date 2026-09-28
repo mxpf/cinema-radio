@@ -9,7 +9,7 @@
   setRing = (control, fraction) => {
     fraction = Math.max(0, Math.min(1, fraction));
     if (control === sleepButton) send('sleep', Math.round(fraction * 60));
-    else send('volume', Math.round(fraction * 100) / 100);
+    else send('volume', Math.round(fraction * 20) / 20);
   };
   // Some shared listeners retain the original tick callback. Never let those
   // start a second, browser-owned player after a native state update.
