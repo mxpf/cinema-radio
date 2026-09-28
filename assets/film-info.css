@@ -3,10 +3,10 @@
 #film-info{position:absolute;right:0;top:calc(100% + 26.4px);width:32px;height:32px;min-width:0;min-height:0;padding:3px;border:0;border-radius:50%;background:linear-gradient(135deg,#a9b09f,#fbfcf7);box-shadow:none;display:grid;place-items:center;z-index:5;transform:none;color:#737c68}
 #film-info span{display:grid;place-items:center;width:100%;height:100%;border-radius:50%;background:#edf0e7;box-shadow:inset 1px 1px 2px #56604422;font:600 19px/1 Georgia,serif;transition:color .25s,text-shadow .25s}
 #film-info:active span{box-shadow:inset 1px 2px 3px #26321e44}
-body.powered:not(.buffering) #film-info[aria-pressed="true"] span{color:#eda436;text-shadow:0 0 5px #f4ac5280}
+body.powered:not(.buffering):not(.awaiting-audio) #film-info[aria-pressed="true"] span{color:#eda436;text-shadow:0 0 5px #f4ac5280}
 html[data-time-theme="night"] #film-info{background:linear-gradient(135deg,#1e291b,#738167);color:#9ca78e}
 html[data-time-theme="night"] #film-info span{background:#384033;box-shadow:inset 1px 1px 2px #11190d44}
-html[data-time-theme="night"] body.powered:not(.buffering) #film-info[aria-pressed="true"] span{color:#f2b454;text-shadow:0 0 5px #f4ac5280}
+html[data-time-theme="night"] body.powered:not(.buffering):not(.awaiting-audio) #film-info[aria-pressed="true"] span{color:#f2b454;text-shadow:0 0 5px #f4ac5280}
 .lcd .film-synopsis{position:absolute;inset:11px 13px;overflow:hidden;opacity:0;pointer-events:none;transition:opacity .24s ease;visibility:visible}
 .synopsis-track{font:400 15px/20px "Bitcount Grid Single",monospace;letter-spacing:.01em}
 .synopsis-track p{margin:0;padding:0 0 18px}

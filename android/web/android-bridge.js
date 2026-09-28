@@ -24,7 +24,7 @@
     sleepMinutes = state.sleepSeconds / 60;
     document.body.classList.toggle('powered', state.powered);
     document.body.classList.toggle('playing', state.playing);
-    document.body.classList.toggle('buffering', state.powered && !state.playing && !state.error);
+    setBuffering(state.powered && !state.playing && !state.error);
     button.setAttribute('aria-pressed', String(state.powered));
     button.setAttribute('aria-label', state.powered ? 'Turn radio off' : 'Turn radio on');
     updateStation();

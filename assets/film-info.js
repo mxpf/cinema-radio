@@ -31,7 +31,7 @@
   view.setAttribute('aria-label','Synopsis: '+key);layout();
  }
  button.addEventListener('click',()=>{
-  if(!document.body.classList.contains('powered')||document.body.classList.contains('buffering'))return;
+  if(!document.body.classList.contains('powered')||document.body.classList.contains('buffering')||document.body.classList.contains('awaiting-audio'))return;
   open=!open;button.setAttribute('aria-pressed',String(open));button.setAttribute('aria-label',open?'Show film title':'Show film synopsis');
   screen.classList.toggle('info-open',open);view.setAttribute('aria-hidden',String(!open));if(open){refresh();layout();}else fadeOut();
  });

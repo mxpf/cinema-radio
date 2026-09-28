@@ -347,6 +347,21 @@ function programme(now=Date.now(),selected=stationIndex){
 }
 let audio=document.getElementById('audio'),button=document.getElementById('toggle'),status=document.getElementById('status');
 let listening=false,loaded=-1,generation=0,loading=false;
+let bufferingTimer=null,bufferingExitTimer=null,bufferingShownAt=0;
+function setBuffering(waiting){
+ clearTimeout(bufferingExitTimer);bufferingExitTimer=null;
+ if(waiting){
+  document.body.classList.add('awaiting-audio');
+  if(bufferingTimer||bufferingShownAt)return;
+  bufferingTimer=setTimeout(()=>{bufferingTimer=null;if(!listening)return;bufferingShownAt=Date.now();document.body.classList.add('buffering');},500);
+ }else{
+  clearTimeout(bufferingTimer);bufferingTimer=null;document.body.classList.remove('awaiting-audio');
+  const clear=()=>{bufferingShownAt=0;document.body.classList.remove('buffering');};
+  const remaining=listening&&bufferingShownAt ? Math.max(0,600-(Date.now()-bufferingShownAt)):0;
+  if(remaining)bufferingExitTimer=setTimeout(clear,remaining);else clear();
+ }
+}
+
 let baseVolume=.65,sleepMinutes=0,sleepDeadline=0;
 let powerGain=0,sleepGain=1,powerFadeTimer=null,powerFadeSerial=0,powerFadePending=false;
 // Two persistent decks let the outgoing film finish beneath the incoming one.
@@ -444,7 +459,7 @@ function updateSleep(){
  volumeControl.setAttribute('aria-valuenow',String(Math.round(baseVolume*100)/10));
  volumeControl.setAttribute('aria-valuetext',Math.round(baseVolume*100)+' percent');
 }
-function startListening(){cancelPowerFade();powerGain=0;powerFadePending=true;ensureAudioClock();resetCrossfade();scheduledSleepDeadline=null;applyAudioLevel();listening=true;document.body.classList.add('powered');document.body.classList.add('buffering');button.setAttribute('aria-label','Turn radio off');button.setAttribute('aria-pressed','true');if(sleepMinutes&&!sleepDeadline)sleepDeadline=Date.now()+sleepMinutes*60000;updateSleep();join();}
+function startListening(){cancelPowerFade();powerGain=0;powerFadePending=true;ensureAudioClock();resetCrossfade();scheduledSleepDeadline=null;applyAudioLevel();listening=true;document.body.classList.add('powered');setBuffering(true);button.setAttribute('aria-label','Turn radio off');button.setAttribute('aria-pressed','true');if(sleepMinutes&&!sleepDeadline)sleepDeadline=Date.now()+sleepMinutes*60000;updateSleep();join();}
 function setRing(control,fraction){
  fraction=Math.max(0,Math.min(1,fraction));
  if(control===sleepButton){sleepMinutes=Math.round(fraction*60);sleepDeadline=sleepMinutes&&listening ? Date.now()+sleepMinutes*60000 : 0;}
@@ -487,12 +502,12 @@ applyAudioLevel();
 function display(p){if(titleText.textContent!==p.track.title){titleText.textContent=p.track.title;titleWindow.setAttribute('aria-label',p.track.title);titleWindow.setAttribute('title',p.track.title);}document.getElementById('year').textContent=p.track.year;fitTitle();}
 function stop(message=''){
  cancelTuning();
- listening=false;document.body.classList.remove('buffering');document.body.classList.remove('powered');document.body.classList.remove('playing');generation++;loading=false;powerFadePending=false;if(sleepDeadline)sleepMinutes=Math.max(0,(sleepDeadline-Date.now())/60000);sleepDeadline=0;updateSleep();button.setAttribute('aria-label','Turn radio on');button.setAttribute('aria-pressed','false');status.textContent=message;
+ listening=false;setBuffering(false);document.body.classList.remove('powered');document.body.classList.remove('playing');generation++;loading=false;powerFadePending=false;if(sleepDeadline)sleepMinutes=Math.max(0,(sleepDeadline-Date.now())/60000);sleepDeadline=0;updateSleep();button.setAttribute('aria-label','Turn radio on');button.setAttribute('aria-pressed','false');status.textContent=message;
  if(audio.paused){cancelPowerFade();powerGain=0;pauseDecks();resetCrossfade();applyAudioLevel();}
  else fadePower(0,350,()=>{if(!listening){pauseDecks();resetCrossfade();}});
 }
 async function join(){
- const token=++generation,p=programme();loading=true;display(p);status.textContent='';if(listening&&(audio.paused||audio.ended||loaded<0))document.body.classList.add('buffering');
+ const token=++generation,p=programme();loading=true;display(p);status.textContent='';if(listening&&(audio.paused||audio.ended||loaded<0))setBuffering(true);
  updateCrossfade();
  const outgoing=decks.find(d=>d.element===audio);
  const switching=loaded>=0&&loaded!==p.index;
@@ -514,7 +529,7 @@ async function join(){
   audio=incoming.element;loaded=p.index;
   if(switching)beginCrossfade(outgoing,incoming,Math.max(.35,CROSSFADE_SECONDS-live.offset));
   else setMix(incoming,1);
-  document.body.classList.add('playing');document.body.classList.remove('buffering');
+  document.body.classList.add('playing');setBuffering(false);
   if(powerFadePending){powerFadePending=false;fadePower(1,350);}
   status.textContent='';
  }catch(error){if(token===generation){incoming.index=-1;loaded=-1;stop('Could not start the audio. Press Listen to try again.');}}
@@ -532,8 +547,8 @@ function tick(){
 for(const deck of decks){
  deck.element.addEventListener('timeupdate',()=>{if(deck.element===audio&&listening&&!tuning&&!loading)tick();});
  deck.element.addEventListener('ended',()=>{if(deck.element===audio&&listening&&!tuning&&!loading)tick();});
- deck.element.addEventListener('waiting',()=>{if(deck.element===audio&&listening){status.textContent='';document.body.classList.add('buffering');}});
- deck.element.addEventListener('playing',()=>{if(deck.element===audio&&listening&&!loading){document.body.classList.remove('buffering');document.body.classList.add('playing');}});
+ deck.element.addEventListener('waiting',()=>{if(deck.element===audio&&listening){status.textContent='';setBuffering(true);}});
+ deck.element.addEventListener('playing',()=>{if(deck.element===audio&&listening&&!loading){setBuffering(false);document.body.classList.add('playing');}});
  deck.element.addEventListener('error',()=>{if(deck.element===audio&&listening&&!tuning&&!loading){loaded=-1;stop('Audio unavailable. Press Listen to try again.');}});
 }
 document.addEventListener('visibilitychange',()=>{if(!document.hidden)tick();});
@@ -590,7 +605,7 @@ function setStation(index){
  generation++;loading=false;loaded=-1;updateStation();display(programme());status.textContent='';
  if(!listening)return;
  cancelPowerFade();powerGain=0;powerFadePending=true;applyAudioLevel();pauseDecks();resetCrossfade();
- document.body.classList.remove('playing');document.body.classList.add('buffering');tuning=true;
+ document.body.classList.remove('playing');setBuffering(true);tuning=true;
  tuneTimer=setTimeout(()=>{tuneTimer=null;tuning=false;if(listening)join();},260);
 }
 // The narrow visible rim has a larger transparent pointer/touch target.
