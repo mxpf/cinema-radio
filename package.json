@@ -4,6 +4,6 @@
   "private": true,
   "description": "An ambient English-language cinema radio with synchronized stations.",
   "scripts": {
-    "test": "node tests/stations.cjs && node tests/power-fade.cjs && node tests/marquee.cjs && node tests/media-worker.cjs && node tests/theme.cjs && node tests/skip-ranges.cjs && node tests/audio-clock.cjs"
+    "test": "node tests/stations.cjs && node tests/power-fade.cjs && node tests/marquee.cjs && node tests/media-worker.cjs && node tests/theme.cjs && node tests/skip-ranges.cjs && node tests/audio-clock.cjs && node tests/android-bridge.cjs"
   }
 }

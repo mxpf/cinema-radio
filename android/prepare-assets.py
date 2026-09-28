@@ -4,6 +4,7 @@ root = pathlib.Path(__file__).resolve().parent.parent
 out = pathlib.Path(sys.argv[1]); out.mkdir(parents=True, exist_ok=True)
 html = (root / 'index.html').read_text()
 # Android owns playback. The shared UI still provides all drawing and dial gestures.
+html = html.replace('setInterval(tick,500);tick();', 'tick();')
 html = html.replace('</body>', '<script src="android-bridge.js"></script></body>')
 html = html.replace('<head>', '<head><meta http-equiv="Content-Security-Policy" content="default-src \'self\'; script-src \'self\' \'unsafe-inline\'; style-src \'self\' \'unsafe-inline\'; img-src \'self\' data:; font-src \'self\'; media-src \'none\'; connect-src \'none\'; frame-src \'none\'; object-src \'none\'">')
 (out / 'index.html').write_text(html)

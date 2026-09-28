@@ -11,6 +11,10 @@
     if (control === sleepButton) send('sleep', Math.round(fraction * 60));
     else send('volume', Math.round(fraction * 100) / 100);
   };
+  // Some shared listeners retain the original tick callback. Never let those
+  // start a second, browser-owned player after a native state update.
+  join = async () => {};
+  prepareNext = () => {};
   tick = () => send('state');
   window.renderNativeRadio = state => {
     listening = state.powered;
@@ -35,5 +39,6 @@
   document.querySelectorAll('a[href*="/releases/"]').forEach(a => a.remove());
   // Drop any browser audio. The original script never powers itself on.
   pauseDecks();
+  setInterval(tick, 500);
   tick();
 })();
