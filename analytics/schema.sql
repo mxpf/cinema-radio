@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS daily (
+ day TEXT NOT NULL, metric TEXT NOT NULL, station TEXT NOT NULL DEFAULT '', source TEXT NOT NULL DEFAULT '',
+ value INTEGER NOT NULL DEFAULT 0, PRIMARY KEY(day,metric,station,source)
+);

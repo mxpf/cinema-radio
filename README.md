@@ -29,6 +29,10 @@ Read the [film catalogue](docs/film-catalogue.md) for a brief synopsis of every 
 
 The radio switches between day and night appearances using your local time. The sunrise button can use your location to follow local sunrise and sunset instead. This is optional: daylight is calculated on your device, and only a rounded location is saved in your browser. Press the button again to forget it. Without location, daytime runs from 7 a.m. to 7 p.m.
 
+## Aggregate analytics
+
+[Offscreen’s Trackinghaus report](https://offscreen-trackinghaus.maxpfennighaus.workers.dev/) shows visits, play starts, listening hours by station, and Mac download clicks. It stores daily totals, without cookies or visitor profiles, and respects Do Not Track and Global Privacy Control. Listening totals are approximate. See [what is counted](analytics/README.md) for the details.
+
 ## Mac app
 
 The menu bar app keeps playing when you close its panel. Click its icon to bring the radio back, or right-click for power, reload, and quit. It loads the live website, so changes to the radio and catalogue appear without downloading a new app; changes to the Mac app itself need a new build.
