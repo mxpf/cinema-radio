@@ -8,7 +8,10 @@
   const housing=document.querySelector('.radio'),unit=document.querySelector('.screen-unit');
   const scale=housing.getBoundingClientRect().width/housing.offsetWidth;
   const gap=(housing.getBoundingClientRect().right-unit.getBoundingClientRect().right)/scale;
-  button.style.top=`calc(100% + ${Math.max(0,gap)}px)`;
+  button.style.top=`calc(100% + ${Math.max(0,gap*.66)}px)`;
+  const available=screen.clientHeight-22,line=parseFloat(getComputedStyle(track).lineHeight);
+  view.style.bottom='auto';
+  view.style.height=(Math.max(1,Math.floor((available-4)/line))*line+4)+'px';
   cancel();view.scrollTop=0;copy.hidden=true;
   paragraph.style.minHeight=copy.style.minHeight='';
   if(!open||!document.body.classList.contains('powered')||motion.matches)return;
@@ -36,6 +39,6 @@
  let powered=document.body.classList.contains('powered');
  new MutationObserver(()=>{const next=document.body.classList.contains('powered');if(next!==powered){powered=next;button.disabled=!next;layout();}}).observe(document.body,{attributes:true,attributeFilter:['class']});
  button.disabled=!powered;
- new ResizeObserver(layout).observe(view);motion.addEventListener('change',layout);
+ new ResizeObserver(layout).observe(screen);motion.addEventListener('change',layout);
  document.fonts.ready.then(layout);refresh();
 })();
