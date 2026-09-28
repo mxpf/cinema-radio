@@ -302,11 +302,10 @@ html[data-time-theme="night"] .case-wear{opacity:.28;filter:brightness(.55);mix-
 html[data-time-theme="night"] .volume-face::after{opacity:.25;mix-blend-mode:multiply}
 /* Clean housing and controls pending the new finish reference. */
 .radio::after,.case-wear,.volume-face::after{display:none!important}
-/* Shallow molded sleep groove, softly lit from upper left. */
-.outer-arc{background:#a6af9c;filter:none;box-shadow:inset 0 0 2px 1px #56644a55;mask:conic-gradient(from 205deg,#000 0deg 310deg,transparent 310deg),radial-gradient(farthest-side,transparent calc(100% - 8px),#000 calc(100% - 7px));mask-composite:intersect;-webkit-mask:conic-gradient(from 205deg,#000 0deg 310deg,transparent 310deg),radial-gradient(farthest-side,transparent calc(100% - 8px),#000 calc(100% - 7px));-webkit-mask-composite:source-in}
-.outer-arc::after{content:"";position:absolute;inset:5.5px;border-radius:50%;border:0;background:#eef2e433;mask:radial-gradient(farthest-side,transparent calc(100% - 1.5px),#000 calc(100% - .7px));-webkit-mask:radial-gradient(farthest-side,transparent calc(100% - 1.5px),#000 calc(100% - .7px));filter:blur(.35px)}
-html[data-time-theme="night"] .outer-arc{background:#29312a;filter:none;box-shadow:inset 0 0 2px 1px #0e150d66}
-html[data-time-theme="night"] .outer-arc::after{border:0;background:#87927b22}
+/* Rounded, concave channel cut into the housing. */
+.outer-arc{--groove-lip:#dbe0d2;--groove-wall:#85917a;--groove-floor:#a7b29b;--groove-inner:#c7d0bc;background:radial-gradient(farthest-side,transparent calc(100% - 9px),var(--groove-inner) calc(100% - 8px),var(--groove-floor) calc(100% - 5px),var(--groove-wall) calc(100% - 1.5px),var(--groove-lip) 100%);filter:none;box-shadow:none;mask:conic-gradient(from 205deg,#000 0deg 310deg,transparent 310deg);-webkit-mask:conic-gradient(from 205deg,#000 0deg 310deg,transparent 310deg)}
+.outer-arc::after{content:none}
+html[data-time-theme="night"] .outer-arc{--groove-lip:#434d40;--groove-wall:#1b251c;--groove-floor:#2b362b;--groove-inner:#414b3d;background:radial-gradient(farthest-side,transparent calc(100% - 9px),var(--groove-inner) calc(100% - 8px),var(--groove-floor) calc(100% - 5px),var(--groove-wall) calc(100% - 1.5px),var(--groove-lip) 100%);filter:none;box-shadow:none}
 #sleep-readout{display:inline-block;width:13ch;flex:0 0 13ch;white-space:pre;text-align:left;font-variant-numeric:tabular-nums}
 body::before{display:none}
 </style><link rel="stylesheet" href="assets/film-info.css"><script defer src="assets/synopses.js"></script><script defer src="assets/film-info.js"></script></head><body>
