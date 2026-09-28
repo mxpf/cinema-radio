@@ -29,3 +29,5 @@ npm test
 ```
 
 Deploy the collector before publishing a changed website. Add new station IDs to the collector's allowlist when expanding the catalogue. The endpoint accepts collection only from the production site origin. A manual smoke-test counter must be subtracted after verification so it does not enter the report.
+
+The report reuses the Trackinghaus page style and its licensed Untitled Sans webfonts. The fonts are proprietary and are not covered by the application's GPL license; retain the same font-license restrictions documented in `NOTICE.md`.

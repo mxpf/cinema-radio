@@ -1,8 +1,21 @@
 {
- "name":"offscreen-trackinghaus",
- "main":"worker.mjs",
- "compatibility_date":"2026-09-28",
- "workers_dev":true,
- "observability":{"enabled":false},
- "d1_databases":[{"binding":"DB","database_name":"offscreen-analytics","database_id":"9b330324-712e-4969-8a06-44b138050ebd"}]
+  "name": "offscreen-trackinghaus",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-09-28",
+  "workers_dev": true,
+  "observability": {
+    "enabled": false
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "offscreen-analytics",
+      "database_id": "9b330324-712e-4969-8a06-44b138050ebd"
+    }
+  ],
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": true
+  }
 }

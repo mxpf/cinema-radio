@@ -28,11 +28,12 @@ export default {async fetch(request,env){
   }catch{return json({error:'unavailable'},503);}
  }
  if(request.method!=='GET')return json({error:'method'},405);
+ if(url.pathname==='/styles.css'||url.pathname.startsWith('/fonts/'))return env.ASSETS.fetch(request);
  if(url.pathname==='/api/stats'){
   const today=day(),start=new Date(today+'T12:00:00Z');start.setUTCDate(start.getUTCDate()-13);
   const {results}=await env.DB.prepare('SELECT day,metric,station,source,value FROM daily WHERE day>=? AND day<=? ORDER BY day').bind(start.toISOString().slice(0,10),today).all();
   return json({today,timeZone:'America/New_York',stations,rows:results});
  }
- if(url.pathname==='/')return new Response(dashboard,{headers:{...headers,'Content-Type':'text/html;charset=utf-8','Content-Security-Policy':"default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; connect-src 'self'; base-uri 'none'; frame-ancestors 'none'"}});
+ if(url.pathname==='/')return new Response(dashboard,{headers:{...headers,'Content-Type':'text/html;charset=utf-8','Content-Security-Policy':"default-src 'none'; script-src 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self'; connect-src 'self'; base-uri 'none'; frame-ancestors 'none'"}});
  return json({error:'not_found'},404);
 }};
