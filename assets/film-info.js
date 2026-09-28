@@ -4,6 +4,7 @@
  const motion=matchMedia('(prefers-reduced-motion: reduce)');
  let open=false,key='',animation=null;
  function cancel(){if(animation)animation.cancel();animation=null;}
+ function fadeOut(){if(animation)animation.pause();setTimeout(()=>{if(!open)cancel();},200);}
  function layout(){
   const housing=document.querySelector('.radio'),unit=document.querySelector('.screen-unit');
   const scale=housing.getBoundingClientRect().width/housing.offsetWidth;
@@ -32,18 +33,18 @@
  button.addEventListener('click',()=>{
   if(!document.body.classList.contains('powered'))return;
   open=!open;button.setAttribute('aria-pressed',String(open));button.setAttribute('aria-label',open?'Show film title':'Show film synopsis');
-  screen.classList.toggle('info-open',open);view.setAttribute('aria-hidden',String(!open));refresh();layout();
+  screen.classList.toggle('info-open',open);view.setAttribute('aria-hidden',String(!open));if(open){refresh();layout();}else fadeOut();
  });
  let station=document.getElementById('station-number').textContent;
  new MutationObserver(()=>{
   const next=document.getElementById('station-number').textContent;if(next===station)return;station=next;
-  open=false;cancel();button.setAttribute('aria-pressed','false');button.setAttribute('aria-label','Show film synopsis');screen.classList.remove('info-open');view.setAttribute('aria-hidden','true');
+  open=false;fadeOut();button.setAttribute('aria-pressed','false');button.setAttribute('aria-label','Show film synopsis');screen.classList.remove('info-open');view.setAttribute('aria-hidden','true');
  }).observe(document.getElementById('station-number'),{childList:true,characterData:true,subtree:true});
  new MutationObserver(refresh).observe(document.getElementById('title-text'),{childList:true,characterData:true,subtree:true});
  new MutationObserver(refresh).observe(document.getElementById('year'),{childList:true});
  let powered=document.body.classList.contains('powered');
- new MutationObserver(()=>{const next=document.body.classList.contains('powered');if(next!==powered){powered=next;button.disabled=!next;layout();}}).observe(document.body,{attributes:true,attributeFilter:['class']});
- button.disabled=!powered;
+ new MutationObserver(()=>{const next=document.body.classList.contains('powered');if(next!==powered){powered=next;layout();}}).observe(document.body,{attributes:true,attributeFilter:['class']});
+
  new ResizeObserver(layout).observe(screen);motion.addEventListener('change',layout);
  document.fonts.ready.then(layout);refresh();
 })();
