@@ -7,3 +7,7 @@ collect() {
 }
 trap collect EXIT
 (cd android && ./gradlew --no-daemon connectedDebugAndroidTest)
+adb install -r android/app/build/outputs/apk/debug/app-debug.apk
+adb shell am start -n haus.maxpfennig.offscreen/.MainActivity
+sleep 12
+adb exec-out screencap -p > android/emulator-output/offscreen.png

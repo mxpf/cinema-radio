@@ -1,0 +1,7 @@
+Offscreen is an app for listening to films as you work. Choose a station and tune into whatever is playing. Dialogue, music, and quiet passages are all part of the experience.
+
+The radio has volume and sleep dials, genre stations, and day and night appearances. Playback continues in the background, with Android media controls available from the notification and lock screen. Films crossfade, and the sleep timer gently fades the sound before switching off.
+
+An internet connection is required. There are no accounts, ads, analytics, or Google Play Services. Audio streams from the project's media host. The app does not request location access.
+
+This is an early Android prototype. It is not yet listed on F-Droid.

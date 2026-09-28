@@ -45,6 +45,14 @@ media URLs. Only controllers with the app's UID can use those custom commands.
 Android may stop a foreground service under device-specific battery policies;
 real-device background and Bluetooth checks are still required before release.
 
+## Checks completed
+
+The Android 15 emulator check passed native playback, background playback, system
+play/pause, station changes, and a full one-minute sleep countdown through shutdown.
+Unit tests cover schedule boundaries and retained-audio positions, plus sleep
+countdown pause/resume and cancellation. Build and Android lint checks pass.
+Physical-device, Bluetooth, and real film-boundary crossfade checks remain.
+
 ## F-Droid preparation
 
 Application code is GPL-3.0-only; see the root LICENSE and NOTICE.md. The build

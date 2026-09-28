@@ -1,0 +1,1 @@
+First Android prototype: native background playback, synchronized stations, radio controls, three-second film crossfades, and a ten-second sleep fade. Interface and catalogue are bundled in the app.

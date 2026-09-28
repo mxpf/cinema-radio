@@ -9,7 +9,7 @@ html = html.replace('</body>', '<script src="android-bridge.js"></script></body>
 html = html.replace('<head>', '<head><meta http-equiv="Content-Security-Policy" content="default-src \'self\'; script-src \'self\' \'unsafe-inline\'; style-src \'self\' \'unsafe-inline\'; img-src \'self\' data:; font-src \'self\'; media-src \'none\'; connect-src \'none\'; frame-src \'none\'; object-src \'none\'">')
 (out / 'index.html').write_text(html)
 (out / 'config.js').write_text('window.CINEMA_RADIO_MEDIA_BASE_URL="https://cinema-radio-media.maxpfennighaus.workers.dev/";\n')
-for name in ['theme.js', 'programme.json', 'stations.json']:
+for name in ['theme.js', 'programme.json', 'stations.json', 'LICENSE', 'NOTICE.md']:
     shutil.copyfile(root / name, out / name)
 for name in ['fonts', 'vendor']:
     shutil.copytree(root / 'assets' / name, out / 'assets' / name, dirs_exist_ok=True)
