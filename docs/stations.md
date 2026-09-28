@@ -1,10 +1,10 @@
 # Offscreen stations
 
-Movies only. Repertory mixes all films; each film also has one primary genre station. Hybrids are assigned by their strongest programming fit, not every possible genre label.
+Repertory contains all films; each film also has one primary genre station. Late Night Talk is a separate experimental collection of vintage broadcasts.
 
 ## Repertory
 
-112 films · 165.4 hours
+112 recordings · 165.3 hours
 
 - Scarlet Street (1945)
 - His Girl Friday (1940)
@@ -121,7 +121,7 @@ Movies only. Repertory mixes all films; each film also has one primary genre sta
 
 ## Noir & Mystery
 
-24 films · 35.1 hours
+24 recordings · 35.1 hours
 
 - Scarlet Street (1945)
 - The Kennel Murder Case (1933)
@@ -150,7 +150,7 @@ Movies only. Repertory mixes all films; each film also has one primary genre sta
 
 ## Comedy
 
-18 films · 25.9 hours
+18 recordings · 25.8 hours
 
 - His Girl Friday (1940)
 - The Flying Deuces (1939)
@@ -173,7 +173,7 @@ Movies only. Repertory mixes all films; each film also has one primary genre sta
 
 ## Drama & Romance
 
-19 films · 29.5 hours
+19 recordings · 29.5 hours
 
 - Penny Serenade (1941)
 - Love Affair (1939)
@@ -197,7 +197,7 @@ Movies only. Repertory mixes all films; each film also has one primary genre sta
 
 ## Musicals
 
-20 films · 26.8 hours
+20 recordings · 26.8 hours
 
 - Royal Wedding (1951)
 - Second Chorus (1940)
@@ -222,7 +222,7 @@ Movies only. Repertory mixes all films; each film also has one primary genre sta
 
 ## Sci-Fi & Fantasy
 
-26 films · 41.4 hours
+26 recordings · 41.3 hours
 
 - Star Wars (1977)
 - The Empire Strikes Back (1980)
@@ -253,10 +253,35 @@ Movies only. Repertory mixes all films; each film also has one primary genre sta
 
 ## Westerns
 
-5 films · 6.8 hours
+5 recordings · 6.8 hours
 
 - Nevada Smith (1975)
 - Siege at Red River (1954)
 - Springtime in the Rockies (1937)
 - Tulsa (1949)
 - They Rode West (1954)
+
+## Late Night Talk
+
+20 recordings · 15.8 hours
+
+- Norm Nathan — Episode 01 (1995)
+- Norm Nathan — Episode 02 (1995)
+- Norm Nathan — Episode 03 (1992)
+- Norm Nathan — Episode 04 (1993)
+- Norm Nathan — Episode 05 (1993)
+- Norm Nathan — Episode 06 (1994)
+- Norm Nathan — Episode 07 (1994)
+- Norm Nathan — Episode 08 (1991)
+- Norm Nathan — Episode 09 (1993)
+- Norm Nathan — Episode 10 (1991)
+- Norm Nathan — Episode 11 (1995)
+- Norm Nathan — Episode 12 (1995)
+- Norm Nathan — Episode 12A (1990)
+- Norm Nathan — Episode 13 (1991)
+- Norm Nathan — Episode 14 (1991)
+- Norm Nathan — Episode 15 (1994)
+- Norm Nathan — Episode 16 (1992)
+- Norm Nathan — Episode 17 (1993)
+- Norm Nathan — Episode 18 (1993)
+- Norm Nathan — Episode 19 (1993)

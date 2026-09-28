@@ -12,19 +12,20 @@ Press the centre button to turn the radio on. The inner dial controls volume; th
 
 Everyone on the same station joins the same point in its schedule, like a broadcast. Films crossfade over three seconds. Sleep gently fades the sound during the final ten seconds, then turns the radio off. Turning it off yourself pauses the sleep countdown until you turn it back on.
 
-The catalogue currently has 112 films across seven stations:
+The catalogue has 112 films plus 20 vintage Norm Nathan broadcasts across eight stations:
 
-| Station | Films |
+| Station | Recordings |
 | --- | ---: |
-| Repertory — the whole collection | 112 |
+| Repertory — all films | 112 |
 | Noir & Mystery | 24 |
 | Comedy | 18 |
 | Drama & Romance | 19 |
 | Musicals | 20 |
 | Sci-Fi & Fantasy | 26 |
 | Westerns | 5 |
+| Late Night Talk | 20 |
 
-Read the [film catalogue](docs/film-catalogue.md) for a brief synopsis of every film.
+Read the [film catalogue](docs/film-catalogue.md) for a brief synopsis of every film, or explore [Late Night Talk](docs/late-night-talk.md), an experimental station of Norm Nathan’s WBZ broadcasts.
 
 The radio switches between day and night appearances using your local time. The sunrise button can use your location to follow local sunrise and sunset instead. This is optional: daylight is calculated on your device, and only a rounded location is saved in your browser. Press the button again to forget it. Without location, daytime runs from 7 a.m. to 7 p.m.
 
@@ -50,7 +51,7 @@ Clone this repository and open `index.html` in a browser. You can also serve the
 
 The website is plain HTML, CSS, and JavaScript, hosted on GitHub Pages. Audio lives in Cloudflare R2 and streams through a read-only Worker. There is no database or continuously running application server.
 
-Each station has a repeating schedule calculated from a shared UTC start time and the films' durations. Two audio players overlap at film boundaries, with Web Audio controlling the fades. Playback depends on the device clock and network connection; it isn't sample-accurate, and slow loading can still cause a gap.
+Each station has a repeating schedule calculated from a shared UTC start time and the recordings' durations. Two audio players overlap at film boundaries, with Web Audio controlling the fades. Playback depends on the device clock and network connection; it isn't sample-accurate, and slow loading can still cause a gap.
 
 The main files are:
 
@@ -59,7 +60,7 @@ The main files are:
 | `index.html` | Radio interface, controls, and playback |
 | `theme.js` | Day/night appearance and optional sunrise/sunset timing |
 | `config.js` | Audio host address |
-| `programme.json` | Film titles, audio filenames, durations, and playback order |
+| `programme.json` | Recording titles, audio filenames, durations, and playback order |
 | `stations.json` | Station membership and schedule durations |
 | `manifest.json` | Source records, hashes, and audio measurements |
 | `media-worker/` | Audio streaming Worker |
@@ -69,6 +70,7 @@ The player embeds the catalogue so it can also open directly from a local file. 
 
 ```sh
 python3 scripts/sync-catalogue.py
+python3 scripts/sync-synopses.py
 npm test
 ```
 
@@ -82,4 +84,4 @@ Inspired by [Cinema Radio by Hiran Venugopalan](https://hiran.in/projects/cinema
 
 The display uses Bitcount Grid Single. Font files and their licenses are in [assets/fonts](assets/fonts/), including the IBM Plex Mono files retained in the repository. Sunrise and sunset calculations use [SunCalc](https://github.com/mourner/suncalc), bundled with its [BSD-2-Clause license](assets/vendor/suncalc/LICENSE).
 
-The application code is licensed under [GPLv3](LICENSE). See [license notes](NOTICE.md) for artwork and third-party components. Film audio has separate rights; source records in the manifest are not a grant of permission to redistribute it.
+The application code is licensed under [GPLv3](LICENSE). See [license notes](NOTICE.md) for artwork and third-party components. Film and broadcast audio have separate rights; source records in the manifest are not a grant of permission to redistribute it.

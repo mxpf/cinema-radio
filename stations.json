@@ -274,6 +274,33 @@
         "they-rode-west"
       ],
       "total_seconds": 24439.859229
+    },
+    {
+      "id": "late-night-talk",
+      "name": "Late Night Talk",
+      "tracks": [
+        "norm-nathan-ep-01",
+        "norm-nathan-ep-02",
+        "norm-nathan-ep-03",
+        "norm-nathan-ep-04",
+        "norm-nathan-ep-05",
+        "norm-nathan-ep-06",
+        "norm-nathan-ep-07",
+        "norm-nathan-ep-08",
+        "norm-nathan-ep-09",
+        "norm-nathan-ep-10",
+        "norm-nathan-ep-11",
+        "norm-nathan-ep-12",
+        "norm-nathan-ep-12a",
+        "norm-nathan-ep-13",
+        "norm-nathan-ep-14",
+        "norm-nathan-ep-15",
+        "norm-nathan-ep-16",
+        "norm-nathan-ep-17",
+        "norm-nathan-ep-18",
+        "norm-nathan-ep-19"
+      ],
+      "total_seconds": 57028.18
     }
   ]
 }

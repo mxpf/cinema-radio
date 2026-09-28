@@ -20,8 +20,11 @@ const run=s=>vm.runInContext(s,ctx);const results=[];function check(name,fn){fn(
 const wait=ms=>new Promise(r=>setTimeout(r,ms));
 
 (async()=>{
-check('all tracks have one category, film stations meet minimum, Sci-Fi is movies only',()=>{
- const categories=run('stations.slice(1).flatMap(s=>s.indices)');assert.equal(categories.length,run('tracks.length'));assert.equal(new Set(categories).size,run('tracks.length'));assert.equal(run('stations[0].indices.length'),run('tracks.length'));assert.equal(new Set(run('stations[0].indices')).size,run('tracks.length'));
+check('all tracks have one category, Repertory stays film-only and Late Night Talk is separate',()=>{
+ const categories=run('stations.slice(1).flatMap(s=>s.indices)');assert.equal(categories.length,run('tracks.length'));assert.equal(new Set(categories).size,run('tracks.length'));const films=run("tracks.filter(t=>t.kind!=='radio-broadcast').length");assert.equal(run('stations[0].indices.length'),films);assert.equal(new Set(run('stations[0].indices')).size,films);
+ assert.equal(run("stations.find(s=>s.id==='late-night-talk').indices.length"),20);
+ assert.equal(run("stations[0].indices.some(i=>tracks[i].kind==='radio-broadcast')"),false);
+ assert.equal(run("stations.find(s=>s.id==='late-night-talk').indices.every(i=>tracks[i].kind==='radio-broadcast')"),true);
  for(const station of run('stations')) assert.ok(station.indices.length>0);
  assert.equal(run("stations.find(s=>s.id==='sci-fi').indices.length"),26);
  assert.equal(run("stations.some(s=>['doctor-who','star-wars'].includes(s.id))"),false);

@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-26",
+  "updated": "2026-09-27",
   "epoch_utc": "2026-09-26T00:00:00Z",
-  "total_seconds": 595544.796277,
+  "total_seconds": 652632.976277,
   "tracks": [
     {
       "slug": "his-girl-friday",
@@ -1010,6 +1010,206 @@
       "file": "jungle-book.opus",
       "broadcastDuration": 6294.611146,
       "slotDuration": 6291.611146
+    },
+    {
+      "slug": "norm-nathan-ep-01",
+      "title": "Norm Nathan \u2014 Episode 01",
+      "year": "1995",
+      "duration": 2992.5065,
+      "file": "norm-nathan-ep-01.opus",
+      "kind": "radio-broadcast",
+      "broadcastDuration": 2992.5065,
+      "slotDuration": 2989.5065
+    },
+    {
+      "slug": "norm-nathan-ep-02",
+      "title": "Norm Nathan \u2014 Episode 02",
+      "year": "1995",
+      "duration": 4295.1065,
+      "file": "norm-nathan-ep-02.opus",
+      "kind": "radio-broadcast",
+      "broadcastDuration": 4295.1065,
+      "slotDuration": 4292.1065
+    },
+    {
+      "slug": "norm-nathan-ep-03",
+      "title": "Norm Nathan \u2014 Episode 03",
+      "year": "1992",
+      "duration": 3351.0065,
+      "file": "norm-nathan-ep-03.opus",
+      "kind": "radio-broadcast",
+      "broadcastDuration": 3351.0065,
+      "slotDuration": 3348.0065
+    },
+    {
+      "slug": "norm-nathan-ep-04",
+      "title": "Norm Nathan \u2014 Episode 04",
+      "year": "1993",
+      "duration": 2527.0065,
+      "file": "norm-nathan-ep-04.opus",
+      "kind": "radio-broadcast",
+      "broadcastDuration": 2527.0065,
+      "slotDuration": 2524.0065
+    },
+    {
+      "slug": "norm-nathan-ep-05",
+      "title": "Norm Nathan \u2014 Episode 05",
+      "year": "1993",
+      "duration": 1914.4065,
+      "file": "norm-nathan-ep-05.opus",
+      "kind": "radio-broadcast",
+      "broadcastDuration": 1914.4065,
+      "slotDuration": 1911.4065
+    },
+    {
+      "slug": "norm-nathan-ep-06",
+      "title": "Norm Nathan \u2014 Episode 06",
+      "year": "1994",
+      "duration": 2273.7065,
+      "file": "norm-nathan-ep-06.opus",
+      "kind": "radio-broadcast",
+      "broadcastDuration": 2273.7065,
+      "slotDuration": 2270.7065
+    },
+    {
+      "slug": "norm-nathan-ep-07",
+      "title": "Norm Nathan \u2014 Episode 07",
+      "year": "1994",
+      "duration": 3397.8065,
+      "file": "norm-nathan-ep-07.opus",
+      "kind": "radio-broadcast",
+      "broadcastDuration": 3397.8065,
+      "slotDuration": 3394.8065
+    },
+    {
+      "slug": "norm-nathan-ep-08",
+      "title": "Norm Nathan \u2014 Episode 08",
+      "year": "1991",
+      "duration": 3444.5065,
+      "file": "norm-nathan-ep-08.opus",
+      "kind": "radio-broadcast",
+      "broadcastDuration": 3444.5065,
+      "slotDuration": 3441.5065
+    },
+    {
+      "slug": "norm-nathan-ep-09",
+      "title": "Norm Nathan \u2014 Episode 09",
+      "year": "1993",
+      "duration": 4314.9065,
+      "file": "norm-nathan-ep-09.opus",
+      "kind": "radio-broadcast",
+      "broadcastDuration": 4314.9065,
+      "slotDuration": 4311.9065
+    },
+    {
+      "slug": "norm-nathan-ep-10",
+      "title": "Norm Nathan \u2014 Episode 10",
+      "year": "1991",
+      "duration": 1995.5065,
+      "file": "norm-nathan-ep-10.opus",
+      "kind": "radio-broadcast",
+      "broadcastDuration": 1995.5065,
+      "slotDuration": 1992.5065
+    },
+    {
+      "slug": "norm-nathan-ep-11",
+      "title": "Norm Nathan \u2014 Episode 11",
+      "year": "1995",
+      "duration": 2699.7065,
+      "file": "norm-nathan-ep-11.opus",
+      "kind": "radio-broadcast",
+      "broadcastDuration": 2699.7065,
+      "slotDuration": 2696.7065
+    },
+    {
+      "slug": "norm-nathan-ep-12",
+      "title": "Norm Nathan \u2014 Episode 12",
+      "year": "1995",
+      "duration": 2021.9565,
+      "file": "norm-nathan-ep-12.opus",
+      "kind": "radio-broadcast",
+      "broadcastDuration": 2021.9565,
+      "slotDuration": 2018.9565
+    },
+    {
+      "slug": "norm-nathan-ep-12a",
+      "title": "Norm Nathan \u2014 Episode 12A",
+      "year": "1990",
+      "duration": 3473.0065,
+      "file": "norm-nathan-ep-12a.opus",
+      "kind": "radio-broadcast",
+      "broadcastDuration": 3473.0065,
+      "slotDuration": 3470.0065
+    },
+    {
+      "slug": "norm-nathan-ep-13",
+      "title": "Norm Nathan \u2014 Episode 13",
+      "year": "1991",
+      "duration": 2987.8065,
+      "file": "norm-nathan-ep-13.opus",
+      "kind": "radio-broadcast",
+      "broadcastDuration": 2987.8065,
+      "slotDuration": 2984.8065
+    },
+    {
+      "slug": "norm-nathan-ep-14",
+      "title": "Norm Nathan \u2014 Episode 14",
+      "year": "1991",
+      "duration": 2947.7065,
+      "file": "norm-nathan-ep-14.opus",
+      "kind": "radio-broadcast",
+      "broadcastDuration": 2947.7065,
+      "slotDuration": 2944.7065
+    },
+    {
+      "slug": "norm-nathan-ep-15",
+      "title": "Norm Nathan \u2014 Episode 15",
+      "year": "1994",
+      "duration": 2822.3065,
+      "file": "norm-nathan-ep-15.opus",
+      "kind": "radio-broadcast",
+      "broadcastDuration": 2822.3065,
+      "slotDuration": 2819.3065
+    },
+    {
+      "slug": "norm-nathan-ep-16",
+      "title": "Norm Nathan \u2014 Episode 16",
+      "year": "1992",
+      "duration": 2372.6065,
+      "file": "norm-nathan-ep-16.opus",
+      "kind": "radio-broadcast",
+      "broadcastDuration": 2372.6065,
+      "slotDuration": 2369.6065
+    },
+    {
+      "slug": "norm-nathan-ep-17",
+      "title": "Norm Nathan \u2014 Episode 17",
+      "year": "1993",
+      "duration": 2955.1065,
+      "file": "norm-nathan-ep-17.opus",
+      "kind": "radio-broadcast",
+      "broadcastDuration": 2955.1065,
+      "slotDuration": 2952.1065
+    },
+    {
+      "slug": "norm-nathan-ep-18",
+      "title": "Norm Nathan \u2014 Episode 18",
+      "year": "1993",
+      "duration": 1995.2065,
+      "file": "norm-nathan-ep-18.opus",
+      "kind": "radio-broadcast",
+      "broadcastDuration": 1995.2065,
+      "slotDuration": 1992.2065
+    },
+    {
+      "slug": "norm-nathan-ep-19",
+      "title": "Norm Nathan \u2014 Episode 19",
+      "year": "1993",
+      "duration": 2306.3065,
+      "file": "norm-nathan-ep-19.opus",
+      "kind": "radio-broadcast",
+      "broadcastDuration": 2306.3065,
+      "slotDuration": 2303.3065
     }
   ],
   "mode": "multi-station",
