@@ -52,14 +52,7 @@ jobs:
           arch: x86_64
           profile: pixel_2
           disable-animations: true
-          script: |
-            cd android && ./gradlew --no-daemon connectedDebugAndroidTest
-      - name: Collect screenshot and logs
-        if: always()
-        run: |
-          mkdir -p android/emulator-output
-          adb pull /sdcard/Android/data/haus.maxpfennig.offscreen/files/radio.png android/emulator-output/ || true
-          adb logcat -d > android/emulator-output/logcat.txt || true
+          script: bash android/emulator-check.sh
       - uses: actions/upload-artifact@v4
         if: always()
         with:
