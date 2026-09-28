@@ -13,7 +13,7 @@ for name in ['theme.js', 'programme.json', 'stations.json', 'LICENSE', 'NOTICE.m
     shutil.copyfile(root / name, out / name)
 for name in ['fonts', 'vendor']:
     shutil.copytree(root / 'assets' / name, out / 'assets' / name, dirs_exist_ok=True)
-for source in (root / 'assets').glob('*.svg'):
+for source in list((root / 'assets').glob('*.svg')) + [root / 'assets' / name for name in ['synopses.js', 'film-info.js', 'film-info.css']]:
     (out / 'assets').mkdir(exist_ok=True); shutil.copyfile(source, out / 'assets' / source.name)
 (out / 'assets' / 'sharing').mkdir(exist_ok=True)
 for name in ['favicon.svg', 'favicon.ico', 'icon-180.png']:
