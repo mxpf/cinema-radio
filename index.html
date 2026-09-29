@@ -677,7 +677,8 @@ function fitMobile(){
  alignSpeaker();
  const height=window.visualViewport?window.visualViewport.height:window.innerHeight;
  const footer=document.querySelector('.page-links');
- const top=18,bottom=footer?Math.min(height-18,footer.getBoundingClientRect().top-20):height-18;
+ const footerVisible=footer&&footer.getClientRects().length>0;
+ const top=18,bottom=footerVisible?Math.min(height-18,footer.getBoundingClientRect().top-20):height-18;
  const available=Math.max(1,bottom-top);
  const scale=Math.min(1,available/scene.offsetHeight);
  scene.style.setProperty('--mobile-scale',String(Math.max(.01,scale)));
