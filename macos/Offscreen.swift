@@ -20,11 +20,13 @@ final class RadioApp: NSObject, NSApplicationDelegate, WKNavigationDelegate, WKS
 
     func applicationDidFinishLaunching(_ notification: Notification) {
         NSApp.setActivationPolicy(.accessory)
-        statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.squareLength)
+        statusItem = NSStatusBar.system.statusItem(withLength: 46)
         if let button = statusItem.button {
             button.image = NSImage(systemSymbolName: "radio", accessibilityDescription: "Offscreen")
             button.image?.isTemplate = true
-            button.toolTip = "Offscreen — click to open, right-click for options"
+            button.title = " ▾"
+            button.imagePosition = .imageLeading
+            button.toolTip = "Offscreen — click the radio to open; click ▾ for options"
             button.target = self
             button.action = #selector(statusClicked)
             button.sendAction(on: [.leftMouseUp, .rightMouseUp])
@@ -70,7 +72,12 @@ final class RadioApp: NSObject, NSApplicationDelegate, WKNavigationDelegate, WKS
     }
 
     @objc private func statusClicked() {
-        if NSApp.currentEvent?.type == .rightMouseUp { showMenu(); return }
+        if let event = NSApp.currentEvent, let button = statusItem.button {
+            let point = button.convert(event.locationInWindow, from: nil)
+            if event.type == .rightMouseUp || point.x >= button.bounds.maxX - 18 {
+                showMenu(); return
+            }
+        }
         if panel.isVisible { panel.orderOut(nil) } else { showRadio() }
     }
     @objc private func showRadio() {
@@ -85,6 +92,8 @@ final class RadioApp: NSObject, NSApplicationDelegate, WKNavigationDelegate, WKS
     }
     func windowDidResignKey(_ notification: Notification) { panel.orderOut(nil) }
     private func showMenu() {
+        // Hide the floating radio before tracking the menu so it cannot cover it.
+        panel.orderOut(nil)
         let menu = NSMenu()
         let actions: [(String, Selector, String)] = [
             ("Show Radio", #selector(showRadio), ""),
@@ -127,7 +136,7 @@ final class RadioApp: NSObject, NSApplicationDelegate, WKNavigationDelegate, WKS
         setPlaying(state["playing"] as? Bool ?? false)
         let title = state["title"] as? String ?? "Offscreen"
         let station = state["station"] as? String ?? ""
-        statusItem.button?.toolTip = isPlaying ? "\(title) · \(station)" : "Offscreen — off"
+        statusItem.button?.toolTip = isPlaying ? "\(title) · \(station)" : "Offscreen — off · click ▾ for options"
     }
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) { loaded = webView.url?.host == site.host }
     func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {

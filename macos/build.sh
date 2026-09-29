@@ -24,8 +24,8 @@ cat > "$DEST/Contents/Info.plist" <<'PLIST'
 <key>CFBundleDisplayName</key><string>Offscreen</string>
 <key>CFBundleIconFile</key><string>Offscreen</string>
 <key>CFBundlePackageType</key><string>APPL</string>
-<key>CFBundleShortVersionString</key><string>0.2.0</string>
-<key>CFBundleVersion</key><string>4</string>
+<key>CFBundleShortVersionString</key><string>0.2.1</string>
+<key>CFBundleVersion</key><string>5</string>
 <key>LSMinimumSystemVersion</key><string>15.4</string>
 <key>LSUIElement</key><true/>
 <key>NSHighResolutionCapable</key><true/>
